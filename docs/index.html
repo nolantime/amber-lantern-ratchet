@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Price Tracker</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.0/chart.umd.min.js"></script>
+<style>
+  :root {
+    --bg: #0f1115;
+    --card: #1a1d24;
+    --border: #2a2e37;
+    --text: #e8e9ec;
+    --muted: #8b909c;
+    --green: #34d399;
+    --amber: #fbbf24;
+    --red: #f87171;
+    --blue: #60a5fa;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    padding: 32px 20px 60px;
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  }
+  h1 {
+    font-size: 22px;
+    font-weight: 600;
+    margin: 0 0 4px;
+  }
+  .subtitle {
+    color: var(--muted);
+    font-size: 13px;
+    margin-bottom: 20px;
+  }
+  .summary {
+    max-width: 1200px;
+    margin: 0 auto 28px;
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+  }
+  .summary .stat {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 12px 16px;
+    min-width: 140px;
+  }
+  .summary .stat .label {
+    font-size: 11px;
+    color: var(--muted);
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+  }
+  .summary .stat .value {
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 2px;
+  }
+  .category {
+    max-width: 1200px;
+    margin: 0 auto 32px;
+  }
+  .category-header {
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+    margin-bottom: 12px;
+    padding-bottom: 6px;
+    border-bottom: 1px solid var(--border);
+  }
+  .category-header h2 {
+    font-size: 15px;
+    font-weight: 700;
+    margin: 0;
+  }
+  .category-header .meta {
+    font-size: 12px;
+    color: var(--muted);
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 16px;
+  }
+  .card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 18px;
+  }
+  .card.no-options { opacity: 0.6; }
+  .card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 12px;
+    margin-bottom: 6px;
+  }
+  .name {
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 1.3;
+  }
+  .priority {
+    font-size: 10.5px;
+    padding: 2px 7px;
+    border-radius: 999px;
+    white-space: nowrap;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+  }
+  .priority.high { background: rgba(248,113,113,0.15); color: var(--red); }
+  .priority.medium { background: rgba(251,191,36,0.15); color: var(--amber); }
+  .priority.low { background: rgba(139,144,156,0.15); color: var(--muted); }
+  .recommended {
+    font-size: 12px;
+    color: var(--muted);
+    margin-bottom: 4px;
+  }
+  .notes {
+    font-size: 12px;
+    color: var(--muted);
+    font-style: italic;
+    margin-bottom: 10px;
+  }
+  .budget-row {
+    font-size: 12px;
+    color: var(--muted);
+    margin-bottom: 10px;
+  }
+  .budget-row .over { color: var(--red); }
+  .budget-row .under { color: var(--green); }
+  table.options {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 12.5px;
+    margin-bottom: 10px;
+  }
+  table.options th {
+    text-align: left;
+    color: var(--muted);
+    font-weight: 600;
+    font-size: 10.5px;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    padding: 0 8px 6px 0;
+  }
+  table.options td {
+    padding: 4px 8px 4px 0;
+    border-top: 1px solid var(--border);
+  }
+  table.options tr.cheapest td { color: var(--green); font-weight: 600; }
+  table.options a { color: inherit; text-decoration: none; }
+  table.options a:hover { text-decoration: underline; }
+  .status-tag { font-size: 10.5px; color: var(--muted); }
+  .status-tag.error, .status-tag.not_found { color: var(--red); }
+  canvas.item-chart { max-height: 110px; margin-top: 4px; }
+  .empty-options {
+    font-size: 12px;
+    color: var(--muted);
+    padding: 8px 0;
+  }
+  .empty {
+    text-align: center;
+    color: var(--muted);
+    padding: 60px 20px;
+  }
+</style>
+</head>
+<body>
+  <h1>Price Tracker</h1>
+  <div class="subtitle" id="subtitle">Loading…</div>
+  <div class="summary" id="summary"></div>
+  <div id="categories"></div>
+
+  <script>
+    const fmt = (n) => n == null ? "—" : "$" + n.toFixed(2);
+    const fmtDate = (iso) => new Date(iso).toLocaleString(undefined, {
+      month: "short", day: "numeric", hour: "numeric", minute: "2-digit"
+    });
+    const priorityRank = { High: 0, Medium: 1, Low: 2 };
+
+    function cheapestOption(options) {
+      let best = null;
+      for (const [label, opt] of Object.entries(options)) {
+        const hist = opt.history || [];
+        if (!hist.length) continue;
+        const current = hist[hist.length - 1].price;
+        if (best === null || current < best.current) {
+          best = { label, current };
+        }
+      }
+      return best;
+    }
+
+    function lowestEver(options) {
+      let low = null;
+      for (const opt of Object.values(options)) {
+        for (const h of (opt.history || [])) {
+          if (low === null || h.price < low) low = h.price;
+        }
+      }
+      return low;
+    }
+
+    async function load() {
+      const summaryEl = document.getElementById("summary");
+      const categoriesEl = document.getElementById("categories");
+      const subtitle = document.getElementById("subtitle");
+      try {
+        const res = await fetch("data.json?_=" + Date.now());
+        if (!res.ok) throw new Error("data.json not found yet");
+        const data = await res.json();
+        const names = Object.keys(data);
+
+        if (names.length === 0) {
+          categoriesEl.innerHTML = '<div class="empty">No items yet. Add items to items.yml (with at least one option URL each) and wait for the next scheduled run, or trigger it manually from the Actions tab.</div>';
+          subtitle.textContent = "";
+          return;
+        }
+
+        let mostRecent = null;
+        let totalBudget = 0, totalTracked = 0, itemsWithBudget = 0, itemsTracked = 0, itemsMissingOptions = 0;
+
+        names.forEach((name) => {
+          const item = data[name];
+          const options = item.options || {};
+          Object.values(options).forEach((opt) => {
+            (opt.history || []).forEach((h) => {
+              if (!mostRecent || h.date > mostRecent) mostRecent = h.date;
+            });
+          });
+          if (Object.keys(options).length === 0) itemsMissingOptions++;
+          const best = cheapestOption(options);
+          const qty = item.qty || 1;
+          if (item.budget != null) {
+            totalBudget += item.budget * qty;
+            itemsWithBudget++;
+          }
+          if (best) {
+            totalTracked += best.current * qty;
+            itemsTracked++;
+          }
+        });
+
+        subtitle.textContent = mostRecent
+          ? "Last updated " + fmtDate(mostRecent) + " · " + names.length + " items"
+          : "No successful price checks yet · " + names.length + " items";
+
+        summaryEl.innerHTML = `
+          <div class="stat"><div class="label">Budgeted total</div><div class="value">${fmt(totalBudget || null)}</div></div>
+          <div class="stat"><div class="label">Tracked total (cheapest)</div><div class="value">${fmt(totalTracked || null)}</div></div>
+          <div class="stat"><div class="label">Items tracked</div><div class="value">${itemsTracked} / ${names.length}</div></div>
+          <div class="stat"><div class="label">Needing options</div><div class="value">${itemsMissingOptions}</div></div>
+        `;
+
+        // Group by category
+        const byCategory = {};
+        names.forEach((name) => {
+          const cat = data[name].category || "Uncategorized";
+          (byCategory[cat] = byCategory[cat] || []).push(name);
+        });
+
+        const sortItem = (a, b) => {
+          const ia = data[a], ib = data[b];
+          const pr = (priorityRank[ia.priority] ?? 3) - (priorityRank[ib.priority] ?? 3);
+          if (pr !== 0) return pr;
+          return a.localeCompare(b);
+        };
+
+        categoriesEl.innerHTML = "";
+        Object.keys(byCategory).sort().forEach((cat) => {
+          const catNames = byCategory[cat].sort(sortItem);
+          const catSection = document.createElement("div");
+          catSection.className = "category";
+          catSection.innerHTML = `
+            <div class="category-header">
+              <h2>${cat}</h2>
+              <span class="meta">${catNames.length} item${catNames.length === 1 ? "" : "s"}</span>
+            </div>
+            <div class="grid"></div>
+          `;
+          const grid = catSection.querySelector(".grid");
+
+          catNames.forEach((name, idx) => {
+            const item = data[name];
+            const options = item.options || {};
+            const optEntries = Object.entries(options);
+            const lowest = lowestEver(options);
+            const best = cheapestOption(options);
+
+            const card = document.createElement("div");
+            card.className = "card" + (optEntries.length === 0 ? " no-options" : "");
+
+            const priorityClass = (item.priority || "").toLowerCase();
+            let budgetHtml = "";
+            if (item.budget != null) {
+              let cmp = "";
+              if (best) {
+                cmp = best.current > item.budget
+                  ? `<span class="over">+${fmt(best.current - item.budget)} over</span>`
+                  : `<span class="under">${fmt(item.budget - best.current)} under</span>`;
+              }
+              budgetHtml = `<div class="budget-row">Budget: ${fmt(item.budget)}${item.qty > 1 ? " × " + item.qty : ""} ${cmp}</div>`;
+            }
+
+            let optionsHtml;
+            if (optEntries.length === 0) {
+              optionsHtml = `<div class="empty-options">No options added yet — add retailer URLs in items.yml to start tracking.</div>`;
+            } else {
+              const rows = optEntries.map(([label, opt]) => {
+                const hist = opt.history || [];
+                const current = hist.length ? hist[hist.length - 1].price : null;
+                const isCheapest = best && label === best.label && current != null;
+                let status = "";
+                if (opt.status === "error") status = '<span class="status-tag error">error</span>';
+                else if (opt.status === "not_found") status = '<span class="status-tag not_found">not found</span>';
+                return `<tr class="${isCheapest ? "cheapest" : ""}">
+                  <td><a href="${opt.url}" target="_blank" rel="noopener">${label}</a></td>
+                  <td>${fmt(current)}</td>
+                  <td>${status}</td>
+                </tr>`;
+              }).join("");
+              optionsHtml = `
+                <table class="options">
+                  <thead><tr><th>Option</th><th>Price</th><th></th></tr></thead>
+                  <tbody>${rows}</tbody>
+                </table>
+              `;
+            }
+
+            card.innerHTML = `
+              <div class="card-header">
+                <div class="name">${name}</div>
+                ${item.priority ? `<span class="priority ${priorityClass}">${item.priority}</span>` : ""}
+              </div>
+              ${item.recommended ? `<div class="recommended">Recommended: ${item.recommended}</div>` : ""}
+              ${item.notes ? `<div class="notes">${item.notes}</div>` : ""}
+              ${budgetHtml}
+              ${optionsHtml}
+              ${lowest != null ? `<div class="status-tag">Lowest seen: ${fmt(lowest)}</div>` : ""}
+              <canvas class="item-chart" id="chart-${cat}-${idx}" style="display:none"></canvas>
+            `;
+            grid.appendChild(card);
+
+            const hasMultiReading = optEntries.some(([, opt]) => (opt.history || []).length > 1);
+            if (hasMultiReading) {
+              const canvas = card.querySelector("canvas");
+              canvas.style.display = "block";
+              const palette = ["#60a5fa", "#34d399", "#fbbf24", "#f87171", "#a78bfa", "#f472b6"];
+
+              // Shared date axis across options (a run may fail for one option
+              // but not another, so histories can have different lengths).
+              const allDates = [...new Set(
+                optEntries.flatMap(([, opt]) => (opt.history || []).map(h => h.date))
+              )].sort();
+              const labels = allDates.map(fmtDate);
+
+              const datasets = optEntries
+                .filter(([, opt]) => (opt.history || []).length > 0)
+                .map(([label, opt], i) => {
+                  const byDate = Object.fromEntries((opt.history || []).map(h => [h.date, h.price]));
+                  return {
+                    label,
+                    data: allDates.map(d => byDate[d] ?? null),
+                    spanGaps: true,
+                    borderColor: palette[i % palette.length],
+                    backgroundColor: "transparent",
+                    tension: 0.2,
+                    pointRadius: 2,
+                  };
+                });
+              new Chart(canvas.getContext("2d"), {
+                type: "line",
+                data: { labels, datasets },
+                options: {
+                  plugins: {
+                    legend: { display: datasets.length > 1, labels: { color: "#8b909c", boxWidth: 10, font: { size: 10 } } }
+                  },
+                  scales: {
+                    x: { ticks: { color: "#8b909c", maxTicksLimit: 4, font: { size: 10 } }, grid: { color: "#2a2e37" } },
+                    y: { ticks: { color: "#8b909c", font: { size: 10 } }, grid: { color: "#2a2e37" } }
+                  }
+                }
+              });
+            }
+          });
+
+          categoriesEl.appendChild(catSection);
+        });
+      } catch (e) {
+        subtitle.textContent = "";
+        categoriesEl.innerHTML = '<div class="empty">' + e.message + '</div>';
+      }
+    }
+
+    load();
+  </script>
+</body>
+</html>

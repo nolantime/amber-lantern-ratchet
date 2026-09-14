@@ -1,0 +1,465 @@
+# Generated from the CSV by csv_to_items.py (or gen_items.js) — re-run it
+# any time the CSV changes; it preserves options you've already filled in.
+#
+# Each item:
+#   name / category / priority / qty / budget / notes: from the CSV
+#   recommended: the CSV's Brand Recommendation, for reference
+#   options: retailer listings to price-check for this item —
+#     - label: short name shown on the dashboard, e.g. "ICON (Harbor Freight)"
+#       url: the product page
+#       selector: optional CSS selector override if auto-detection fails
+#   Add as many options as you want compared (recommended brand +
+#   alternatives); leave options: [] until you've found links.
+
+items:
+  - name: "3/8\" Drive Ratchet"
+    category: "Hand Tools"
+    priority: "High"
+    qty: 1
+    budget: 50
+    recommended: "ICON G2 3/8 in. Drive, 10 in. Standard Ratchet with Comfort Grip"
+    notes: "Primary ratchet"
+    options:
+      - label: "ICON G2 (Harbor Freight)"
+        url: "https://www.harborfreight.com/g2-38-in-drive-10-in-standard-ratchet-with-comfort-grip-70452.html"
+      - label: "TEKTON SRH11108 (Amazon)"
+        url: "https://www.amazon.com/TEKTON-8-Inch-Quick-Release-Ratchet-SRH11108/dp/B07GH9Q9S7"
+  - name: "3\" Extension"
+    category: "Hand Tools"
+    priority: "High"
+    qty: 1
+    budget: 40
+    recommended: "ICON 3/8 in. Drive Professional Socket Extension Set, 6-Piece"
+    notes: "3/8\" drive"
+    options:
+      - label: "ICON 6-Pc Extension Set (Harbor Freight)"
+        url: "https://www.harborfreight.com/38-in-drive-professional-socket-extension-set-6-piece-58274.html"
+      - label: "GEARWRENCH 81250 3in Locking (Amazon)"
+        url: "https://www.amazon.com/GearWrench-81250-8-Inch-Locking-Extension/dp/B003DA5Q08"
+  - name: "6\" Extension"
+    category: "Hand Tools"
+    priority: "High"
+    qty: 1
+    budget: 0
+    recommended: "ICON 3/8 in. Drive Professional Socket Extension Set, 6-Piece"
+    notes: "3/8\" drive"
+    options:
+      - label: "ICON 6-Pc Extension Set (Harbor Freight)"
+        url: "https://www.harborfreight.com/38-in-drive-professional-socket-extension-set-6-piece-58274.html"
+      - label: "GEARWRENCH 84927N 3-Pc Set (Home Depot)"
+        url: "https://www.homedepot.com/p/GEARWRENCH-3-8-in-Drive-Locking-Impact-Extension-Set-3-in-6-in-and-12-in-3-Piece-84927N/313787418"
+  - name: "SAE Socket Set (7/16\"-3/4\")"
+    category: "Hand Tools"
+    priority: "High"
+    qty: 1
+    budget: 35
+    recommended: "ICON 3/8 in. Drive SAE Professional Shallow Socket Set, 12-Piece"
+    notes: "Shallow & deep preferred"
+    options:
+      - label: "ICON 12-Pc Shallow Set (Harbor Freight)"
+        url: "https://www.harborfreight.com/38-in-drive-sae-professional-shallow-socket-set-12-piece-58103.html"
+      - label: "TEKTON SHD91104 12-Pc (Amazon)"
+        url: "https://www.amazon.com/TEKTON-Drive-12-Point-Socket-12-Piece/dp/B07RVCTNYT"
+  - name: "SAE Combination Wrench Set"
+    category: "Hand Tools"
+    priority: "High"
+    qty: 1
+    recommended: "ICON Anti-Slip Grip Professional SAE Combination Wrench Set, 14-Piece"
+    notes: "3/8\"-3/4\""
+    options:
+      - label: "ICON 14-Pc Anti-Slip (Harbor Freight)"
+        url: "https://www.harborfreight.com/anti-slip-grip-professional-sae-combination-wrench-set-14-piece-64711.html"
+      - label: "GEARWRENCH 81924 14-Pc (Home Depot)"
+        url: "https://www.homedepot.com/p/GEARWRENCH-6-Point-SAE-Combination-Wrench-Set-14-Piece-81924/313626268"
+  - name: "13/16\" Spark Plug Socket"
+    category: "Hand Tools"
+    priority: "High"
+    qty: 1
+    recommended: "Pittsburgh"
+    notes: "SBC 350"
+    options:
+      - label: "Pittsburgh Pro (Harbor Freight)"
+        url: "https://www.harborfreight.com/38-in-drive-1316-in-sparkplug-socket-67793.html"
+      - label: "OTC 6898 (Amazon)"
+        url: "https://www.amazon.com/OTC-6898-Spark-Plug-Socket/dp/B000RGYQ48"
+  - name: "1/2\" Breaker Bar"
+    category: "Hand Tools"
+    priority: "Medium"
+    qty: 1
+    budget: 28
+    recommended: "QUINN 1/2 in. Drive Extendable Breaker Bar"
+    notes: "Tire & suspension work"
+    options: []
+  - name: "Adjustable Wrench (10\")"
+    category: "Hand Tools"
+    priority: "Medium"
+    qty: 1
+    recommended: "ICON/Quinn"
+    options: []
+  - name: "Screwdriver w/ Bit Set"
+    category: "Hand Tools"
+    priority: "High"
+    qty: 1
+    recommended: "ICON/Quinn"
+    notes: "Compact preferred"
+    options:
+      - label: "QUINN 15-Pc Premium (Harbor Freight)"
+        url: "https://www.harborfreight.com/premium-screwdriver-set-15-piece-64549.html"
+      - label: "Klein Tools 80027 (Amazon)"
+        url: "https://www.amazon.com/Screwdriver-Multi-bit-Klein-Tools-80027/dp/B0912BW9HP"
+  - name: "Needle Nose Pliers"
+    category: "Hand Tools"
+    priority: "High"
+    qty: 1
+    recommended: "ICON"
+    options:
+      - label: "ICON 8in Needle Nose (Harbor Freight)"
+        url: "https://www.harborfreight.com/8-in-needle-nose-pliers-59167.html"
+      - label: "Channellock 3017 8in Long Nose (Amazon)"
+        url: "https://www.amazon.com/Channellock-3017-Long-Plier-8-Inch/dp/B000189FGQ"
+  - name: "Slip Joint Pliers"
+    category: "Hand Tools"
+    priority: "High"
+    qty: 1
+    budget: 22
+    recommended: "ICON 8 in., 3-Position Slip-Joint Pliers"
+    options:
+      - label: "ICON 8in 3-Position (Harbor Freight)"
+        url: "https://www.harborfreight.com/8-in-3-position-slip-joint-pliers-59169.html"
+      - label: "Channellock 528 8in (Amazon)"
+        url: "https://www.amazon.com/Channellock-528-8-Inch-Joint-Plier/dp/B0002FT6H6"
+  - name: "Locking Pliers"
+    category: "Hand Tools"
+    priority: "High"
+    qty: 1
+    recommended: "ICON"
+    options: []
+  - name: "Utility Knife"
+    category: "Hand Tools"
+    priority: "Medium"
+    qty: 1
+    recommended: "Any"
+    options: []
+  - name: "Small Pry Bar"
+    category: "Hand Tools"
+    priority: "Low"
+    qty: 1
+    recommended: "Pittsburgh"
+    options: []
+  - name: "12V Test Light"
+    category: "Electrical"
+    priority: "High"
+    qty: 1
+    recommended: "Pittsburgh"
+    notes: "Better than multimeter roadside — Harbor Freight's equivalent test light is house-branded CEN-TECH, not Pittsburgh"
+    options:
+      - label: "CEN-TECH 6/12V Circuit Tester (Harbor Freight)"
+        url: "https://www.harborfreight.com/612v-circuit-tester-with-5-ft-lead-63603.html"
+      - label: "Innova 3410 Test Light (Amazon)"
+        url: "https://www.amazon.com/INNOVA-3410-Light-Circuit-Tester/dp/B0014DINF6"
+  - name: "Compact Multimeter"
+    category: "Electrical"
+    priority: "Medium"
+    qty: 1
+    recommended: "Cen-Tech"
+    notes: "Optional"
+    options: []
+  - name: "Wire Stripper/Crimper"
+    category: "Electrical"
+    priority: "High"
+    qty: 1
+    recommended: "Quinn"
+    options:
+      - label: "QUINN 8in Self-Adjusting (Harbor Freight)"
+        url: "https://www.harborfreight.com/electrical/electrician-s-tools/wire-strippers-crimpers/8-in-self-adjusting-wire-stripper-56910.html"
+      - label: "Klein Tools 1019 Klein Kurve (Amazon)"
+        url: "https://www.amazon.com/Klein-Tools-1019-Connectors-Terminals/dp/B07GFYBW4V"
+  - name: "Butt Connector Kit"
+    category: "Electrical"
+    priority: "High"
+    qty: 1
+    recommended: "Assemble"
+    options:
+      - label: "Amlits 300-Pc Assortment (Amazon)"
+        url: "https://www.amazon.com/Amlits-Wire-Electrical-Connectors-Disconnect/dp/B09B4SMB1L"
+      - label: "Sopoby 1200-Pc Kit (Amazon)"
+        url: "https://www.amazon.com/Electrical-Connectors-Sopoby-Insulated-Terminals/dp/B01GAESOWA"
+  - name: "Ring Terminal Kit"
+    category: "Electrical"
+    priority: "High"
+    qty: 1
+    recommended: "Assemble"
+    options:
+      - label: "280-Pc Assortment (Amazon)"
+        url: "https://www.amazon.com/Insulated-Wire-Electrical-Connectors-Assortment/dp/B08Q37ZKM8"
+      - label: "1012-Pc Kit w/ Organizer (Amazon)"
+        url: "https://www.amazon.com/Electrical-Connector-Assortment-high-impact-compartments/dp/B0063MGEZ4"
+  - name: "Spade Terminal Kit"
+    category: "Electrical"
+    priority: "High"
+    qty: 1
+    recommended: "Assemble"
+    options:
+      - label: "Sopoby 1200-Pc Kit (Amazon)"
+        url: "https://www.amazon.com/Electrical-Connectors-Sopoby-Insulated-Terminals/dp/B01GAESOWA"
+      - label: "280-Pc Assortment (Amazon)"
+        url: "https://www.amazon.com/Insulated-Wire-Electrical-Connectors-Assortment/dp/B08Q37ZKM8"
+  - name: "Assorted Fuses"
+    category: "Electrical"
+    priority: "High"
+    qty: 1
+    recommended: "Assemble"
+    notes: "Match truck fuse style"
+    options:
+      - label: "Riseuvo 150-Pc ATO Kit (Amazon)"
+        url: "https://www.amazon.com/Car-Automotive-Standard-Fuses-Assortment/dp/B07VWRK2VD"
+      - label: "140-Pc ATC/ATO/APR/ATS Kit (Amazon)"
+        url: "https://www.amazon.com/140-Standard-Blade-Fuses-Assortment/dp/B0CHY5XJ43"
+  - name: "14 AWG Wire (10 ft)"
+    category: "Electrical"
+    priority: "High"
+    qty: 1
+    recommended: "Any"
+    options:
+      - label: "BEST CONNECTIONS 14ga Primary Wire (Amazon)"
+        url: "https://www.amazon.com/BEST-CONNECTIONS-Gauge-Automotive-Primary/dp/B0196ZHPIE"
+  - name: "12 AWG Wire (10 ft)"
+    category: "Electrical"
+    priority: "Medium"
+    qty: 1
+    recommended: "Any"
+    options: []
+  - name: "Electrical Tape"
+    category: "Electrical"
+    priority: "High"
+    qty: 2
+    recommended: "3M"
+    options:
+      - label: "3M Scotch Super 33+ (Amazon)"
+        url: "https://www.amazon.com/Scotch-Super-Electrical-Tape-75-Inch-66-Foot/dp/B0964BHNVP"
+      - label: "3M Scotch 700 (Amazon)"
+        url: "https://www.amazon.com/Scotch-Electrical-Tape-4-Inch-66-Foot/dp/B001ULCB1O"
+  - name: "Heat Shrink Assortment"
+    category: "Electrical"
+    priority: "Medium"
+    qty: 1
+    recommended: "Any"
+    options: []
+  - name: "Wire Brush"
+    category: "Electrical"
+    priority: "Medium"
+    qty: 1
+    recommended: "Any"
+    notes: "Grounds"
+    options: []
+  - name: "Sandpaper"
+    category: "Electrical"
+    priority: "Low"
+    qty: 2
+    recommended: "Any"
+    options: []
+  - name: "Spare HEI Module"
+    category: "Ignition"
+    priority: "High"
+    qty: 1
+    recommended: "MSD Streefire"
+    notes: "Keep in glove box"
+    options:
+      - label: "MSD 5596 Street Fire Module (Summit Racing)"
+        url: "https://www.summitracing.com/parts/msd-5596"
+      - label: "MSD 5596 (Amazon)"
+        url: "https://www.amazon.com/MSD-Ignition-5596-Street-Distributor/dp/B0035GQ7F8"
+  - name: "Distributor Rotor"
+    category: "Ignition"
+    priority: "Medium"
+    qty: 1
+    recommended: "MSD Streefire"
+    options: []
+  - name: "Distributor Cap"
+    category: "Ignition"
+    priority: "Medium"
+    qty: 1
+    recommended: "MSD Streefire"
+    options: []
+  - name: "Spare Spark Plug"
+    category: "Ignition"
+    priority: "Medium"
+    qty: 2
+    recommended: "AC Delco"
+    options: []
+  - name: "Fuel Filter"
+    category: "Fuel"
+    priority: "High"
+    qty: 1
+    recommended: "Wix/AC Delco"
+    options: []
+  - name: "3/8\" Fuel Hose (3 ft)"
+    category: "Fuel"
+    priority: "High"
+    qty: 1
+    recommended: "Gates"
+    options:
+      - label: "Gates Barricade Fuel Hose (O'Reilly)"
+        url: "https://www.oreillyauto.com/detail/c/barricade/gates-barricade-fuel-hose/gaty/27341"
+      - label: "Duralast Fuel Hose, by the foot (AutoZone)"
+        url: "https://www.autozone.com/p/duralast-fuel-injection-fuel-feed-hose-50088/240845"
+  - name: "Hose Clamp Assortment"
+    category: "Fuel"
+    priority: "High"
+    qty: 1
+    recommended: "Any"
+    options:
+      - label: "LOKMAN 60-Pc Stainless Kit (Amazon)"
+        url: "https://www.amazon.com/LOKMAN-Adjustable-Automotive-Mechanical-Applications/dp/B076Q7ZK19"
+      - label: "Breeze 200-Pc Assortment (Amazon)"
+        url: "https://www.amazon.com/Breeze-Assortment-Automotive-assortment-contains/dp/B009SD0IZM"
+  - name: "Vacuum Hose (3 ft)"
+    category: "Fuel"
+    priority: "Medium"
+    qty: 1
+    recommended: "Gates"
+    options: []
+  - name: "Vacuum Cap Assortment"
+    category: "Fuel"
+    priority: "Medium"
+    qty: 1
+    recommended: "Dorman"
+    options: []
+  - name: "Throttle Return Spring"
+    category: "Fuel"
+    priority: "Low"
+    qty: 1
+    recommended: "Any"
+    options: []
+  - name: "Zip Ties"
+    category: "Consumables"
+    priority: "High"
+    qty: 1
+    recommended: "Any"
+    options:
+      - label: "TEKTON 6235 200-Pc Assorted (Amazon)"
+        url: "https://www.amazon.com/TEKTON-6235-Assorted-Cable-200-Piece/dp/B000NQ16NG"
+      - label: "Cable Matters 200-Pc Assorted (Amazon)"
+        url: "https://www.amazon.com/Cable-Matters-Assorted-Self-Locking-12-Inch/dp/B00L2LGMO4"
+  - name: "Duct Tape"
+    category: "Consumables"
+    priority: "High"
+    qty: 1
+    recommended: "Any"
+    options:
+      - label: "Gorilla Tape 2-Pack (Amazon)"
+        url: "https://www.amazon.com/Gorilla-Duct-Tape-Black-1-88/dp/B01MCZCLCQ"
+      - label: "Gorilla Tape Single Roll (Amazon)"
+        url: "https://www.amazon.com/Gorilla-Tape-Black-Duct-1-88/dp/B01LYZS688"
+  - name: "RTV Silicone"
+    category: "Consumables"
+    priority: "Medium"
+    qty: 1
+    recommended: "Permatex"
+    options: []
+  - name: "JB Weld"
+    category: "Consumables"
+    priority: "Medium"
+    qty: 1
+    recommended: "JB Weld"
+    options: []
+  - name: "Shop Towels"
+    category: "Consumables"
+    priority: "Medium"
+    qty: 1
+    recommended: "Any"
+    options: []
+  - name: "Nitrile Gloves"
+    category: "Consumables"
+    priority: "Medium"
+    qty: 1
+    recommended: "Hardy"
+    options: []
+  - name: "6-Ton Bottle Jack"
+    category: "Tire & Recovery"
+    priority: "High"
+    qty: 1
+    recommended: "Pittsburgh"
+    notes: "Better for C20 weight — Harbor Freight's Pittsburgh line skips 6-ton (jumps 4-ton to 8-ton), so the 8-ton is the closest in-brand match"
+    options:
+      - label: "Pittsburgh 8-Ton (Harbor Freight)"
+        url: "https://www.harborfreight.com/8-ton-hydraulic-bottle-jack-56734.html"
+      - label: "BIG RED T90603B Torin 6-Ton (Amazon)"
+        url: "https://www.amazon.com/Torin-Hydraulic-Bottle-Jack-Capacity/dp/B000CO86EG"
+  - name: "Lug Wrench or Breaker Bar"
+    category: "Tire & Recovery"
+    priority: "High"
+    qty: 1
+    recommended: "Pittsburgh"
+    options:
+      - label: "Pittsburgh 20in 4-Way (Harbor Freight)"
+        url: "https://www.harborfreight.com/20-inch-four-way-lug-wrench-94110.html"
+  - name: "Tire Plug Kit"
+    category: "Tire & Recovery"
+    priority: "High"
+    qty: 1
+    recommended: "Any"
+    options:
+      - label: "Slime 1034-A 8-Pc T-Handle Kit (Amazon)"
+        url: "https://www.amazon.com/Slime-1034-T-Handle-Tire-Plug/dp/B000ET525K"
+      - label: "Victor Plug & Go (Amazon)"
+        url: "https://www.amazon.com/Victor-22-5-60204-8-Plug-Tire-Repair/dp/B00CRCQFPS"
+  - name: "Wheel Chock"
+    category: "Tire & Recovery"
+    priority: "Medium"
+    qty: 1
+    recommended: "Pittsburgh"
+    options: []
+  - name: "Tow Strap"
+    category: "Tire & Recovery"
+    priority: "Medium"
+    qty: 1
+    recommended: "Haul-Master"
+    notes: "20,000 lb minimum"
+    options: []
+  - name: "LED Headlamp"
+    category: "Emergency"
+    priority: "High"
+    qty: 1
+    recommended: "Braun"
+    notes: "Hands-free"
+    options:
+      - label: "BRAUN 700 Lumen (Harbor Freight)"
+        url: "https://www.harborfreight.com/700-lumen-adjustable-rechargeable-led-headlamp-59298.html"
+  - name: "Reflective Triangle Kit"
+    category: "Emergency"
+    priority: "Medium"
+    qty: 1
+    recommended: "Any"
+    options: []
+  - name: "First Aid Kit"
+    category: "Emergency"
+    priority: "Medium"
+    qty: 1
+    recommended: "Any"
+    options: []
+  - name: "ATF"
+    category: "Fluids"
+    priority: "Medium"
+    qty: 1
+    recommended: "Dexron III compatible"
+    notes: "Verify transmission spec"
+    options: []
+  - name: "Brake Fluid (DOT 3)"
+    category: "Fluids"
+    priority: "Medium"
+    qty: 1
+    recommended: "Prestone"
+    options: []
+  - name: "Power Steering Fluid"
+    category: "Fluids"
+    priority: "Medium"
+    qty: 1
+    recommended: "Prestone"
+    options: []
+  - name: "Funnel"
+    category: "Fluids"
+    priority: "Medium"
+    qty: 1
+    recommended: "Any"
+    options: []

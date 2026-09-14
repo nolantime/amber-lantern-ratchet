@@ -1,0 +1,62 @@
+Category,Item,Qty,Brand Recommendation,Priority,Price,Purchased,Notes
+Hand Tools,"3/8"" Drive Ratchet",1,"ICON G2 3/8 in. Drive, 10 in. Standard Ratchet with Comfort Grip",High,$50.00,FALSE,Primary ratchet
+Hand Tools,"3"" Extension",1,"ICON 3/8 in. Drive Professional Socket Extension Set, 6-Piece",High,$40.00,FALSE,"3/8"" drive"
+Hand Tools,"6"" Extension",1,"ICON 3/8 in. Drive Professional Socket Extension Set, 6-Piece",High,$0.00,FALSE,"3/8"" drive"
+Hand Tools,"SAE Socket Set (7/16""-3/4"")",1,"ICON 3/8 in. Drive SAE Professional Shallow Socket Set, 12-Piece",High,$35.00,FALSE,Shallow & deep preferred
+Hand Tools,SAE Combination Wrench Set,1,"ICON Anti-Slip Grip Professional SAE Combination Wrench Set, 14-Piece",High,,FALSE,"3/8""-3/4"""
+Hand Tools,"13/16"" Spark Plug Socket",1,Pittsburgh,High,,FALSE,SBC 350
+Hand Tools,"1/2"" Breaker Bar",1,QUINN 1/2 in. Drive Extendable Breaker Bar,Medium,$28.00,FALSE,Tire & suspension work
+Hand Tools,"Adjustable Wrench (10"")",1,ICON/Quinn,Medium,,FALSE,
+Hand Tools,Screwdriver w/ Bit Set,1,ICON/Quinn,High,,FALSE,Compact preferred
+Hand Tools,Needle Nose Pliers,1,ICON,High,,FALSE,
+Hand Tools,Slip Joint Pliers,1,"ICON 8 in., 3-Position Slip-Joint Pliers",High,$22.00,FALSE,
+Hand Tools,Locking Pliers,1,ICON,High,,FALSE,
+Hand Tools,Utility Knife,1,Any,Medium,,FALSE,
+Hand Tools,Small Pry Bar,1,Pittsburgh,Low,,FALSE,
+Electrical,12V Test Light,1,Pittsburgh,High,,FALSE,Better than multimeter roadside
+Electrical,Compact Multimeter,1,Cen-Tech,Medium,,FALSE,Optional
+Electrical,Wire Stripper/Crimper,1,Quinn,High,,FALSE,
+Electrical,Butt Connector Kit,1,Assemble,High,,FALSE,
+Electrical,Ring Terminal Kit,1,Assemble,High,,FALSE,
+Electrical,Spade Terminal Kit,1,Assemble,High,,FALSE,
+Electrical,Assorted Fuses,1,Assemble,High,,FALSE,Match truck fuse style
+Electrical,14 AWG Wire (10 ft),1,Any,High,,FALSE,
+Electrical,12 AWG Wire (10 ft),1,Any,Medium,,FALSE,
+Electrical,Electrical Tape,2,3M,High,,FALSE,
+Electrical,Heat Shrink Assortment,1,Any,Medium,,FALSE,
+Electrical,Wire Brush,1,Any,Medium,,FALSE,Grounds
+Electrical,Sandpaper,2,Any,Low,,FALSE,
+Ignition,Spare HEI Module,1,MSD Streefire,High,,FALSE,Keep in glove box
+Ignition,Distributor Rotor,1,MSD Streefire,Medium,,FALSE,
+Ignition,Distributor Cap,1,MSD Streefire,Medium,,FALSE,
+Ignition,Spare Spark Plug,2,AC Delco,Medium,,FALSE,
+Fuel,Fuel Filter,1,Wix/AC Delco,High,,FALSE,
+Fuel,"3/8"" Fuel Hose (3 ft)",1,Gates,High,,FALSE,
+Fuel,Hose Clamp Assortment,1,Any,High,,FALSE,
+Fuel,Vacuum Hose (3 ft),1,Gates,Medium,,FALSE,
+Fuel,Vacuum Cap Assortment,1,Dorman,Medium,,FALSE,
+Fuel,Throttle Return Spring,1,Any,Low,,FALSE,
+Consumables,Zip Ties,1,Any,High,,FALSE,
+Consumables,Duct Tape,1,Any,High,,FALSE,
+Consumables,RTV Silicone,1,Permatex,Medium,,FALSE,
+Consumables,JB Weld,1,JB Weld,Medium,,FALSE,
+Consumables,Shop Towels,1,Any,Medium,,FALSE,
+Consumables,Nitrile Gloves,1,Hardy,Medium,,FALSE,
+Tire & Recovery,6-Ton Bottle Jack,1,Pittsburgh,High,,FALSE,Better for C20 weight
+Tire & Recovery,Lug Wrench or Breaker Bar,1,Pittsburgh,High,,FALSE,
+Tire & Recovery,Tire Pressure Gauge,1,Any,High,,TRUE,
+Tire & Recovery,Tire Plug Kit,1,Any,High,,FALSE,
+Tire & Recovery,12V Air Compressor,1,Fortress,High,,TRUE,
+Tire & Recovery,Wheel Chock,1,Pittsburgh,Medium,,FALSE,
+Tire & Recovery,Tow Strap,1,Haul-Master,Medium,,FALSE,"20,000 lb minimum"
+Emergency,LED Headlamp,1,Braun,High,,FALSE,Hands-free
+Emergency,Rechargeable Work Light,1,Braun,High,,TRUE,Magnetic preferred
+Emergency,Reflective Triangle Kit,1,Any,Medium,,FALSE,
+Emergency,First Aid Kit,1,Any,Medium,,FALSE,
+Emergency,Battery Jump Pack,1,Viking,High,,TRUE,
+Emergency,USB Phone Charger Cable,1,Any,Medium,,TRUE,
+Fluids,Engine Oil,1,Your preferred oil,High,,TRUE,
+Fluids,ATF,1,Dexron III compatible,Medium,,FALSE,Verify transmission spec
+Fluids,Brake Fluid (DOT 3),1,Prestone,Medium,,FALSE,
+Fluids,Power Steering Fluid,1,Prestone,Medium,,FALSE,
+Fluids,Funnel,1,Any,Medium,,FALSE,
