@@ -22,6 +22,7 @@ via GitHub Actions (see .github/workflows/track-prices.yml).
 """
 
 import json
+import os
 import re
 import sys
 import time
@@ -175,10 +176,15 @@ def fetch_price_browser(browser, url, selector):
         page.goto(url, timeout=30000, wait_until="domcontentloaded")
         page.wait_for_timeout(1500)  # let JS-rendered price settle
         html = page.content()
+        title = page.title()
     finally:
         page.close()
     soup = BeautifulSoup(html, "lxml")
-    return run_extractors(soup, selector)
+    price = run_extractors(soup, selector)
+    if price is None and os.environ.get("SCRAPE_DEBUG"):
+        body_text = soup.get_text(" ", strip=True)[:300]
+        print(f"    [debug] title={title!r} html_len={len(html)} body_start={body_text!r}")
+    return price
 
 
 def fetch_price(browser, url, selector=None):
