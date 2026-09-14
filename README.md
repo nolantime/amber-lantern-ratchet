@@ -78,15 +78,29 @@ dashboard as still needing links.
 
 - For each option, `scrape.py` tries a plain HTTP request first, and if
   that's blocked or comes back with no price, falls back to rendering the
-  page in a real headless browser (Playwright/Chromium). This handles most
-  retailers that 403 plain requests (Harbor Freight, Home Depot, AutoZone,
-  O'Reilly all do) and sites that need JS to render price. It's slower
-  (~3-5s/page vs ~0.5s) and adds a browser-install step to the CI
-  workflow, but is necessary for this item list to work at all beyond a
-  couple of niche sites.
-- Some sites actively prohibit scraping in their terms of service, or use
-  bot-detection sophisticated enough to block a headless browser too — this
-  approach still won't work everywhere.
+  page in a real headless browser (Playwright/Chromium). This fixed most
+  sites that 403 plain requests, and sites that need JS to render price.
+  It's slower (~3-5s/page vs ~0.5s) and adds a browser-install step to the
+  CI workflow.
+- **Harbor Freight and O'Reilly are not scrapable and won't be made to
+  work here.** Both serve an active "Press & Hold" human-verification
+  challenge (PerimeterX/HUMAN Security) to automated traffic, including
+  headless browsers — this is a deliberate bot gate, not a passive block,
+  and scripting a way past it isn't something this project will do. Items
+  recommending those retailers keep the option listed (so you can click
+  through and check manually) but it'll permanently show "not found" on
+  the dashboard; rely on the Amazon/alternative option tracked alongside
+  it instead.
+- AutoZone product links may resolve to a region-selector interstitial
+  instead of the product page in a headless browser; Home Depot links can
+   404 to a generic error page if the URL has gone stale. Both show up as
+  "not found" the same way — worth spot-checking those specific links by
+  hand if you're relying on that option's price.
+- Set `debug: true` when running the workflow manually (Actions tab →
+  "Track prices" → Run workflow) to log the page title and a body snippet
+  for every option that still comes back with no price — useful for
+  telling "this site blocks bots" apart from "the price is on the page in
+  a format the extractors don't recognize yet."
 - Every run only appends a new reading if a price was successfully found,
   so a temporarily-broken site won't erase history, it'll just show a gap.
 - All history lives in `docs/data.json`, committed to your repo — you own
