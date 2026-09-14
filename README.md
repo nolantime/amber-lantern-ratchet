@@ -76,11 +76,17 @@ dashboard as still needing links.
 
 ## Notes and limitations
 
-- Some sites block automated requests entirely, require JavaScript to
-  render the price, or actively prohibit scraping in their terms of
-  service — this simple approach won't work everywhere. It works best on
-  smaller/independent retailers and sites with standard e-commerce
-  templates.
+- For each option, `scrape.py` tries a plain HTTP request first, and if
+  that's blocked or comes back with no price, falls back to rendering the
+  page in a real headless browser (Playwright/Chromium). This handles most
+  retailers that 403 plain requests (Harbor Freight, Home Depot, AutoZone,
+  O'Reilly all do) and sites that need JS to render price. It's slower
+  (~3-5s/page vs ~0.5s) and adds a browser-install step to the CI
+  workflow, but is necessary for this item list to work at all beyond a
+  couple of niche sites.
+- Some sites actively prohibit scraping in their terms of service, or use
+  bot-detection sophisticated enough to block a headless browser too — this
+  approach still won't work everywhere.
 - Every run only appends a new reading if a price was successfully found,
   so a temporarily-broken site won't erase history, it'll just show a gap.
 - All history lives in `docs/data.json`, committed to your repo — you own

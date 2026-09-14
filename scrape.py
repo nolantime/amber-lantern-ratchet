@@ -4,7 +4,13 @@ Price tracker scraper.
 
 Reads items.yml. Each item can list several `options` — different
 retailers/brands for the same tool — and this script price-checks every
-option's URL, trying (in order):
+option's URL. For each URL it first tries a plain HTTP GET (fast), and if
+that's blocked (403, no price found) it falls back to rendering the page
+in a real headless browser via Playwright — several of the retailers this
+list uses (Harbor Freight, Home Depot, AutoZone, O'Reilly) return 403 to
+plain requests, and Amazon commonly needs JS rendering to expose price.
+
+Either way, the page is searched for a price, in order:
   1. A user-supplied CSS selector (options[].selector)
   2. JSON-LD structured data (schema.org Product/Offer)
   3. Common meta tags (og:price:amount, product:price:amount, itemprop=price)
@@ -25,6 +31,8 @@ from pathlib import Path
 import requests
 import yaml
 from bs4 import BeautifulSoup
+from playwright.sync_api import Error as PlaywrightError
+from playwright.sync_api import sync_playwright
 
 ROOT = Path(__file__).parent
 ITEMS_FILE = ROOT / "items.yml"
@@ -132,11 +140,7 @@ def try_generic_fallback(soup):
     return None
 
 
-def fetch_price(url, selector=None):
-    resp = requests.get(url, headers=HEADERS, timeout=20)
-    resp.raise_for_status()
-    soup = BeautifulSoup(resp.text, "lxml")
-
+def run_extractors(soup, selector):
     for extractor in (
         lambda s: try_selector(s, selector),
         try_json_ld,
@@ -149,54 +153,94 @@ def fetch_price(url, selector=None):
     return None
 
 
+def fetch_price_requests(url, selector):
+    """Fast path: plain HTTP GET. Returns price, or None if not found/blocked."""
+    try:
+        resp = requests.get(url, headers=HEADERS, timeout=20)
+        resp.raise_for_status()
+    except requests.RequestException:
+        return None
+    soup = BeautifulSoup(resp.text, "lxml")
+    return run_extractors(soup, selector)
+
+
+def fetch_price_browser(browser, url, selector):
+    """Fallback: render with a real headless browser (defeats most bot-blocking
+    and picks up JS-rendered prices plain requests can't see)."""
+    page = browser.new_page(
+        user_agent=HEADERS["User-Agent"],
+        extra_http_headers={"Accept-Language": HEADERS["Accept-Language"]},
+    )
+    try:
+        page.goto(url, timeout=30000, wait_until="domcontentloaded")
+        page.wait_for_timeout(1500)  # let JS-rendered price settle
+        html = page.content()
+    finally:
+        page.close()
+    soup = BeautifulSoup(html, "lxml")
+    return run_extractors(soup, selector)
+
+
+def fetch_price(browser, url, selector=None):
+    price = fetch_price_requests(url, selector)
+    if price is not None:
+        return price
+    return fetch_price_browser(browser, url, selector)
+
+
 def main():
     items = load_items()
     history = load_history()
     now = datetime.now(timezone.utc).isoformat()
 
-    for item in items:
-        name = item["name"]
-        options = item.get("options") or []
+    with sync_playwright() as p:
+        browser = p.chromium.launch()
+        try:
+            for item in items:
+                name = item["name"]
+                options = item.get("options") or []
 
-        record = history.setdefault(name, {"options": {}})
-        record["category"] = item.get("category")
-        record["priority"] = item.get("priority")
-        record["qty"] = item.get("qty", 1)
-        record["budget"] = item.get("budget")
-        record["recommended"] = item.get("recommended")
-        record["notes"] = item.get("notes")
+                record = history.setdefault(name, {"options": {}})
+                record["category"] = item.get("category")
+                record["priority"] = item.get("priority")
+                record["qty"] = item.get("qty", 1)
+                record["budget"] = item.get("budget")
+                record["recommended"] = item.get("recommended")
+                record["notes"] = item.get("notes")
 
-        if not options:
-            print(f"[skip] {name}: no options configured yet")
-            continue
+                if not options:
+                    print(f"[skip] {name}: no options configured yet")
+                    continue
 
-        for opt in options:
-            label = opt["label"]
-            url = opt["url"]
-            selector = opt.get("selector")
+                for opt in options:
+                    label = opt["label"]
+                    url = opt["url"]
+                    selector = opt.get("selector")
 
-            opt_record = record["options"].setdefault(
-                label, {"url": url, "history": [], "status": "ok", "error": None}
-            )
-            opt_record["url"] = url  # keep in sync if url changes in items.yml
+                    opt_record = record["options"].setdefault(
+                        label, {"url": url, "history": [], "status": "ok", "error": None}
+                    )
+                    opt_record["url"] = url  # keep in sync if url changes in items.yml
 
-            try:
-                price = fetch_price(url, selector)
-                if price is None:
-                    opt_record["status"] = "not_found"
-                    opt_record["error"] = "Could not locate a price on the page."
-                    print(f"[warn] {name} / {label}: no price found")
-                else:
-                    opt_record["history"].append({"date": now, "price": price})
-                    opt_record["status"] = "ok"
-                    opt_record["error"] = None
-                    print(f"[ok] {name} / {label}: {price}")
-            except requests.RequestException as e:
-                opt_record["status"] = "error"
-                opt_record["error"] = str(e)
-                print(f"[error] {name} / {label}: {e}")
+                    try:
+                        price = fetch_price(browser, url, selector)
+                        if price is None:
+                            opt_record["status"] = "not_found"
+                            opt_record["error"] = "Could not locate a price on the page."
+                            print(f"[warn] {name} / {label}: no price found")
+                        else:
+                            opt_record["history"].append({"date": now, "price": price})
+                            opt_record["status"] = "ok"
+                            opt_record["error"] = None
+                            print(f"[ok] {name} / {label}: {price}")
+                    except PlaywrightError as e:
+                        opt_record["status"] = "error"
+                        opt_record["error"] = str(e)
+                        print(f"[error] {name} / {label}: {e}")
 
-            time.sleep(2)  # be polite between requests
+                    time.sleep(2)  # be polite between requests
+        finally:
+            browser.close()
 
     save_history(history)
 
