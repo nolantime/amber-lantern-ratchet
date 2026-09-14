@@ -4,14 +4,19 @@
       "ICON G2 (Harbor Freight)": {
         "url": "https://www.harborfreight.com/g2-38-in-drive-10-in-standard-ratchet-with-comfort-grip-70452.html",
         "history": [],
-        "status": "error",
-        "error": "403 Client Error: Forbidden for url: https://www.harborfreight.com/g2-38-in-drive-10-in-standard-ratchet-with-comfort-grip-70452.html"
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       },
       "TEKTON SRH11108 (Amazon)": {
         "url": "https://www.amazon.com/TEKTON-8-Inch-Quick-Release-Ratchet-SRH11108/dp/B07GH9Q9S7",
-        "history": [],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "history": [
+          {
+            "date": "2026-09-14T01:51:45.174906+00:00",
+            "price": 45.0
+          }
+        ],
+        "status": "ok",
+        "error": null
       }
     },
     "category": "Hand Tools",
@@ -26,14 +31,19 @@
       "ICON 6-Pc Extension Set (Harbor Freight)": {
         "url": "https://www.harborfreight.com/38-in-drive-professional-socket-extension-set-6-piece-58274.html",
         "history": [],
-        "status": "error",
-        "error": "403 Client Error: Forbidden for url: https://www.harborfreight.com/38-in-drive-professional-socket-extension-set-6-piece-58274.html"
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       },
       "GEARWRENCH 81250 3in Locking (Amazon)": {
         "url": "https://www.amazon.com/GearWrench-81250-8-Inch-Locking-Extension/dp/B003DA5Q08",
-        "history": [],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "history": [
+          {
+            "date": "2026-09-14T01:51:45.174906+00:00",
+            "price": 12.09
+          }
+        ],
+        "status": "ok",
+        "error": null
       }
     },
     "category": "Hand Tools",
@@ -48,14 +58,14 @@
       "ICON 6-Pc Extension Set (Harbor Freight)": {
         "url": "https://www.harborfreight.com/38-in-drive-professional-socket-extension-set-6-piece-58274.html",
         "history": [],
-        "status": "error",
-        "error": "403 Client Error: Forbidden for url: https://www.harborfreight.com/38-in-drive-professional-socket-extension-set-6-piece-58274.html"
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       },
       "GEARWRENCH 84927N 3-Pc Set (Home Depot)": {
         "url": "https://www.homedepot.com/p/GEARWRENCH-3-8-in-Drive-Locking-Impact-Extension-Set-3-in-6-in-and-12-in-3-Piece-84927N/313787418",
         "history": [],
-        "status": "error",
-        "error": "403 Client Error: Forbidden for url: https://www.homedepot.com/p/GEARWRENCH-3-8-in-Drive-Locking-Impact-Extension-Set-3-in-6-in-and-12-in-3-Piece-84927N/313787418"
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       }
     },
     "category": "Hand Tools",
@@ -70,14 +80,19 @@
       "ICON 12-Pc Shallow Set (Harbor Freight)": {
         "url": "https://www.harborfreight.com/38-in-drive-sae-professional-shallow-socket-set-12-piece-58103.html",
         "history": [],
-        "status": "error",
-        "error": "403 Client Error: Forbidden for url: https://www.harborfreight.com/38-in-drive-sae-professional-shallow-socket-set-12-piece-58103.html"
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       },
       "TEKTON SHD91104 12-Pc (Amazon)": {
         "url": "https://www.amazon.com/TEKTON-Drive-12-Point-Socket-12-Piece/dp/B07RVCTNYT",
-        "history": [],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "history": [
+          {
+            "date": "2026-09-14T01:51:45.174906+00:00",
+            "price": 36.0
+          }
+        ],
+        "status": "ok",
+        "error": null
       }
     },
     "category": "Hand Tools",
@@ -92,14 +107,14 @@
       "ICON 14-Pc Anti-Slip (Harbor Freight)": {
         "url": "https://www.harborfreight.com/anti-slip-grip-professional-sae-combination-wrench-set-14-piece-64711.html",
         "history": [],
-        "status": "error",
-        "error": "403 Client Error: Forbidden for url: https://www.harborfreight.com/anti-slip-grip-professional-sae-combination-wrench-set-14-piece-64711.html"
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       },
       "GEARWRENCH 81924 14-Pc (Home Depot)": {
         "url": "https://www.homedepot.com/p/GEARWRENCH-6-Point-SAE-Combination-Wrench-Set-14-Piece-81924/313626268",
         "history": [],
-        "status": "error",
-        "error": "403 Client Error: Forbidden for url: https://www.homedepot.com/p/GEARWRENCH-6-Point-SAE-Combination-Wrench-Set-14-Piece-81924/313626268"
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       }
     },
     "category": "Hand Tools",
@@ -114,14 +129,18 @@
       "Pittsburgh Pro (Harbor Freight)": {
         "url": "https://www.harborfreight.com/38-in-drive-1316-in-sparkplug-socket-67793.html",
         "history": [],
-        "status": "error",
-        "error": "403 Client Error: Forbidden for url: https://www.harborfreight.com/38-in-drive-1316-in-sparkplug-socket-67793.html"
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       },
       "OTC 6898 (Amazon)": {
         "url": "https://www.amazon.com/OTC-6898-Spark-Plug-Socket/dp/B000RGYQ48",
         "history": [
           {
             "date": "2026-09-14T01:44:38.720205+00:00",
+            "price": 15.99
+          },
+          {
+            "date": "2026-09-14T01:51:45.174906+00:00",
             "price": 15.99
           }
         ],
@@ -159,14 +178,19 @@
       "QUINN 15-Pc Premium (Harbor Freight)": {
         "url": "https://www.harborfreight.com/premium-screwdriver-set-15-piece-64549.html",
         "history": [],
-        "status": "error",
-        "error": "403 Client Error: Forbidden for url: https://www.harborfreight.com/premium-screwdriver-set-15-piece-64549.html"
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       },
       "Klein Tools 80027 (Amazon)": {
         "url": "https://www.amazon.com/Screwdriver-Multi-bit-Klein-Tools-80027/dp/B0912BW9HP",
-        "history": [],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "history": [
+          {
+            "date": "2026-09-14T01:51:45.174906+00:00",
+            "price": 24.99
+          }
+        ],
+        "status": "ok",
+        "error": null
       }
     },
     "category": "Hand Tools",
@@ -181,14 +205,19 @@
       "ICON 8in Needle Nose (Harbor Freight)": {
         "url": "https://www.harborfreight.com/8-in-needle-nose-pliers-59167.html",
         "history": [],
-        "status": "error",
-        "error": "403 Client Error: Forbidden for url: https://www.harborfreight.com/8-in-needle-nose-pliers-59167.html"
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       },
       "Channellock 3017 8in Long Nose (Amazon)": {
         "url": "https://www.amazon.com/Channellock-3017-Long-Plier-8-Inch/dp/B000189FGQ",
-        "history": [],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "history": [
+          {
+            "date": "2026-09-14T01:51:45.174906+00:00",
+            "price": 24.95
+          }
+        ],
+        "status": "ok",
+        "error": null
       }
     },
     "category": "Hand Tools",
@@ -203,14 +232,19 @@
       "ICON 8in 3-Position (Harbor Freight)": {
         "url": "https://www.harborfreight.com/8-in-3-position-slip-joint-pliers-59169.html",
         "history": [],
-        "status": "error",
-        "error": "403 Client Error: Forbidden for url: https://www.harborfreight.com/8-in-3-position-slip-joint-pliers-59169.html"
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       },
       "Channellock 528 8in (Amazon)": {
         "url": "https://www.amazon.com/Channellock-528-8-Inch-Joint-Plier/dp/B0002FT6H6",
-        "history": [],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "history": [
+          {
+            "date": "2026-09-14T01:51:45.174906+00:00",
+            "price": 18.0
+          }
+        ],
+        "status": "ok",
+        "error": null
       }
     },
     "category": "Hand Tools",
@@ -252,14 +286,19 @@
       "CEN-TECH 6/12V Circuit Tester (Harbor Freight)": {
         "url": "https://www.harborfreight.com/612v-circuit-tester-with-5-ft-lead-63603.html",
         "history": [],
-        "status": "error",
-        "error": "403 Client Error: Forbidden for url: https://www.harborfreight.com/612v-circuit-tester-with-5-ft-lead-63603.html"
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       },
       "Innova 3410 Test Light (Amazon)": {
         "url": "https://www.amazon.com/INNOVA-3410-Light-Circuit-Tester/dp/B0014DINF6",
-        "history": [],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "history": [
+          {
+            "date": "2026-09-14T01:51:45.174906+00:00",
+            "price": 15.7
+          }
+        ],
+        "status": "ok",
+        "error": null
       }
     },
     "category": "Electrical",
@@ -283,14 +322,19 @@
       "QUINN 8in Self-Adjusting (Harbor Freight)": {
         "url": "https://www.harborfreight.com/electrical/electrician-s-tools/wire-strippers-crimpers/8-in-self-adjusting-wire-stripper-56910.html",
         "history": [],
-        "status": "error",
-        "error": "403 Client Error: Forbidden for url: https://www.harborfreight.com/electrical/electrician-s-tools/wire-strippers-crimpers/8-in-self-adjusting-wire-stripper-56910.html"
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       },
       "Klein Tools 1019 Klein Kurve (Amazon)": {
         "url": "https://www.amazon.com/Klein-Tools-1019-Connectors-Terminals/dp/B07GFYBW4V",
-        "history": [],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "history": [
+          {
+            "date": "2026-09-14T01:51:45.174906+00:00",
+            "price": 21.97
+          }
+        ],
+        "status": "ok",
+        "error": null
       }
     },
     "category": "Electrical",
@@ -304,15 +348,25 @@
     "options": {
       "Amlits 300-Pc Assortment (Amazon)": {
         "url": "https://www.amazon.com/Amlits-Wire-Electrical-Connectors-Disconnect/dp/B09B4SMB1L",
-        "history": [],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "history": [
+          {
+            "date": "2026-09-14T01:51:45.174906+00:00",
+            "price": 9.99
+          }
+        ],
+        "status": "ok",
+        "error": null
       },
       "Sopoby 1200-Pc Kit (Amazon)": {
         "url": "https://www.amazon.com/Electrical-Connectors-Sopoby-Insulated-Terminals/dp/B01GAESOWA",
-        "history": [],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "history": [
+          {
+            "date": "2026-09-14T01:51:45.174906+00:00",
+            "price": 25.99
+          }
+        ],
+        "status": "ok",
+        "error": null
       }
     },
     "category": "Electrical",
@@ -332,9 +386,14 @@
       },
       "1012-Pc Kit w/ Organizer (Amazon)": {
         "url": "https://www.amazon.com/Electrical-Connector-Assortment-high-impact-compartments/dp/B0063MGEZ4",
-        "history": [],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "history": [
+          {
+            "date": "2026-09-14T01:51:45.174906+00:00",
+            "price": 52.9
+          }
+        ],
+        "status": "ok",
+        "error": null
       }
     },
     "category": "Electrical",
@@ -348,9 +407,14 @@
     "options": {
       "Sopoby 1200-Pc Kit (Amazon)": {
         "url": "https://www.amazon.com/Electrical-Connectors-Sopoby-Insulated-Terminals/dp/B01GAESOWA",
-        "history": [],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "history": [
+          {
+            "date": "2026-09-14T01:51:45.174906+00:00",
+            "price": 25.99
+          }
+        ],
+        "status": "ok",
+        "error": null
       },
       "280-Pc Assortment (Amazon)": {
         "url": "https://www.amazon.com/Insulated-Wire-Electrical-Connectors-Assortment/dp/B08Q37ZKM8",
@@ -370,15 +434,25 @@
     "options": {
       "Riseuvo 150-Pc ATO Kit (Amazon)": {
         "url": "https://www.amazon.com/Car-Automotive-Standard-Fuses-Assortment/dp/B07VWRK2VD",
-        "history": [],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "history": [
+          {
+            "date": "2026-09-14T01:51:45.174906+00:00",
+            "price": 9.99
+          }
+        ],
+        "status": "ok",
+        "error": null
       },
       "140-Pc ATC/ATO/APR/ATS Kit (Amazon)": {
         "url": "https://www.amazon.com/140-Standard-Blade-Fuses-Assortment/dp/B0CHY5XJ43",
-        "history": [],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "history": [
+          {
+            "date": "2026-09-14T01:51:45.174906+00:00",
+            "price": 7.99
+          }
+        ],
+        "status": "ok",
+        "error": null
       }
     },
     "category": "Electrical",
@@ -392,9 +466,14 @@
     "options": {
       "BEST CONNECTIONS 14ga Primary Wire (Amazon)": {
         "url": "https://www.amazon.com/BEST-CONNECTIONS-Gauge-Automotive-Primary/dp/B0196ZHPIE",
-        "history": [],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "history": [
+          {
+            "date": "2026-09-14T01:51:45.174906+00:00",
+            "price": 40.95
+          }
+        ],
+        "status": "ok",
+        "error": null
       }
     },
     "category": "Electrical",
@@ -421,6 +500,10 @@
           {
             "date": "2026-09-14T01:44:38.720205+00:00",
             "price": 47.5
+          },
+          {
+            "date": "2026-09-14T01:51:45.174906+00:00",
+            "price": 47.5
           }
         ],
         "status": "ok",
@@ -428,9 +511,14 @@
       },
       "3M Scotch 700 (Amazon)": {
         "url": "https://www.amazon.com/Scotch-Electrical-Tape-4-Inch-66-Foot/dp/B001ULCB1O",
-        "history": [],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "history": [
+          {
+            "date": "2026-09-14T01:51:45.174906+00:00",
+            "price": 8.99
+          }
+        ],
+        "status": "ok",
+        "error": null
       }
     },
     "category": "Electrical",
@@ -477,9 +565,14 @@
       },
       "MSD 5596 (Amazon)": {
         "url": "https://www.amazon.com/MSD-Ignition-5596-Street-Distributor/dp/B0035GQ7F8",
-        "history": [],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "history": [
+          {
+            "date": "2026-09-14T01:51:45.174906+00:00",
+            "price": 69.95
+          }
+        ],
+        "status": "ok",
+        "error": null
       }
     },
     "category": "Ignition",
@@ -530,14 +623,14 @@
       "Gates Barricade Fuel Hose (O'Reilly)": {
         "url": "https://www.oreillyauto.com/detail/c/barricade/gates-barricade-fuel-hose/gaty/27341",
         "history": [],
-        "status": "error",
-        "error": "403 Client Error: Forbidden for url: https://www.oreillyauto.com/detail/c/barricade/gates-barricade-fuel-hose/gaty/27341"
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       },
       "Duralast Fuel Hose, by the foot (AutoZone)": {
         "url": "https://www.autozone.com/p/duralast-fuel-injection-fuel-feed-hose-50088/240845",
         "history": [],
-        "status": "error",
-        "error": "403 Client Error: Forbidden for url: https://www.autozone.com/p/duralast-fuel-injection-fuel-feed-hose-50088/240845"
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       }
     },
     "category": "Fuel",
@@ -551,15 +644,25 @@
     "options": {
       "LOKMAN 60-Pc Stainless Kit (Amazon)": {
         "url": "https://www.amazon.com/LOKMAN-Adjustable-Automotive-Mechanical-Applications/dp/B076Q7ZK19",
-        "history": [],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "history": [
+          {
+            "date": "2026-09-14T01:51:45.174906+00:00",
+            "price": 16.99
+          }
+        ],
+        "status": "ok",
+        "error": null
       },
       "Breeze 200-Pc Assortment (Amazon)": {
         "url": "https://www.amazon.com/Breeze-Assortment-Automotive-assortment-contains/dp/B009SD0IZM",
-        "history": [],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "history": [
+          {
+            "date": "2026-09-14T01:51:45.174906+00:00",
+            "price": 16.99
+          }
+        ],
+        "status": "ok",
+        "error": null
       }
     },
     "category": "Fuel",
@@ -600,15 +703,25 @@
     "options": {
       "TEKTON 6235 200-Pc Assorted (Amazon)": {
         "url": "https://www.amazon.com/TEKTON-6235-Assorted-Cable-200-Piece/dp/B000NQ16NG",
-        "history": [],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "history": [
+          {
+            "date": "2026-09-14T01:51:45.174906+00:00",
+            "price": 9.99
+          }
+        ],
+        "status": "ok",
+        "error": null
       },
       "Cable Matters 200-Pc Assorted (Amazon)": {
         "url": "https://www.amazon.com/Cable-Matters-Assorted-Self-Locking-12-Inch/dp/B00L2LGMO4",
-        "history": [],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "history": [
+          {
+            "date": "2026-09-14T01:51:45.174906+00:00",
+            "price": 9.99
+          }
+        ],
+        "status": "ok",
+        "error": null
       }
     },
     "category": "Consumables",
@@ -622,15 +735,25 @@
     "options": {
       "Gorilla Tape 2-Pack (Amazon)": {
         "url": "https://www.amazon.com/Gorilla-Duct-Tape-Black-1-88/dp/B01MCZCLCQ",
-        "history": [],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "history": [
+          {
+            "date": "2026-09-14T01:51:45.174906+00:00",
+            "price": 26.98
+          }
+        ],
+        "status": "ok",
+        "error": null
       },
       "Gorilla Tape Single Roll (Amazon)": {
         "url": "https://www.amazon.com/Gorilla-Tape-Black-Duct-1-88/dp/B01LYZS688",
-        "history": [],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "history": [
+          {
+            "date": "2026-09-14T01:51:45.174906+00:00",
+            "price": 74.94
+          }
+        ],
+        "status": "ok",
+        "error": null
       }
     },
     "category": "Consumables",
@@ -681,14 +804,19 @@
       "Pittsburgh 8-Ton (Harbor Freight)": {
         "url": "https://www.harborfreight.com/8-ton-hydraulic-bottle-jack-56734.html",
         "history": [],
-        "status": "error",
-        "error": "403 Client Error: Forbidden for url: https://www.harborfreight.com/8-ton-hydraulic-bottle-jack-56734.html"
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       },
       "BIG RED T90603B Torin 6-Ton (Amazon)": {
         "url": "https://www.amazon.com/Torin-Hydraulic-Bottle-Jack-Capacity/dp/B000CO86EG",
-        "history": [],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "history": [
+          {
+            "date": "2026-09-14T01:51:45.174906+00:00",
+            "price": 29.99
+          }
+        ],
+        "status": "ok",
+        "error": null
       }
     },
     "category": "Tire & Recovery",
@@ -703,8 +831,8 @@
       "Pittsburgh 20in 4-Way (Harbor Freight)": {
         "url": "https://www.harborfreight.com/20-inch-four-way-lug-wrench-94110.html",
         "history": [],
-        "status": "error",
-        "error": "403 Client Error: Forbidden for url: https://www.harborfreight.com/20-inch-four-way-lug-wrench-94110.html"
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       }
     },
     "category": "Tire & Recovery",
@@ -718,15 +846,25 @@
     "options": {
       "Slime 1034-A 8-Pc T-Handle Kit (Amazon)": {
         "url": "https://www.amazon.com/Slime-1034-T-Handle-Tire-Plug/dp/B000ET525K",
-        "history": [],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "history": [
+          {
+            "date": "2026-09-14T01:51:45.174906+00:00",
+            "price": 7.97
+          }
+        ],
+        "status": "ok",
+        "error": null
       },
       "Victor Plug & Go (Amazon)": {
         "url": "https://www.amazon.com/Victor-22-5-60204-8-Plug-Tire-Repair/dp/B00CRCQFPS",
-        "history": [],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "history": [
+          {
+            "date": "2026-09-14T01:51:45.174906+00:00",
+            "price": 29.97
+          }
+        ],
+        "status": "ok",
+        "error": null
       }
     },
     "category": "Tire & Recovery",
@@ -759,8 +897,8 @@
       "BRAUN 700 Lumen (Harbor Freight)": {
         "url": "https://www.harborfreight.com/700-lumen-adjustable-rechargeable-led-headlamp-59298.html",
         "history": [],
-        "status": "error",
-        "error": "403 Client Error: Forbidden for url: https://www.harborfreight.com/700-lumen-adjustable-rechargeable-led-headlamp-59298.html"
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       }
     },
     "category": "Emergency",
