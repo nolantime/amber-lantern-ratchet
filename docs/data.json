@@ -1,1 +1,827 @@
-{}
+{
+  "3/8\" Drive Ratchet": {
+    "options": {
+      "ICON G2 (Harbor Freight)": {
+        "url": "https://www.harborfreight.com/g2-38-in-drive-10-in-standard-ratchet-with-comfort-grip-70452.html",
+        "history": [],
+        "status": "error",
+        "error": "403 Client Error: Forbidden for url: https://www.harborfreight.com/g2-38-in-drive-10-in-standard-ratchet-with-comfort-grip-70452.html"
+      },
+      "TEKTON SRH11108 (Amazon)": {
+        "url": "https://www.amazon.com/TEKTON-8-Inch-Quick-Release-Ratchet-SRH11108/dp/B07GH9Q9S7",
+        "history": [],
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
+      }
+    },
+    "category": "Hand Tools",
+    "priority": "High",
+    "qty": 1,
+    "budget": 50,
+    "recommended": "ICON G2 3/8 in. Drive, 10 in. Standard Ratchet with Comfort Grip",
+    "notes": "Primary ratchet"
+  },
+  "3\" Extension": {
+    "options": {
+      "ICON 6-Pc Extension Set (Harbor Freight)": {
+        "url": "https://www.harborfreight.com/38-in-drive-professional-socket-extension-set-6-piece-58274.html",
+        "history": [],
+        "status": "error",
+        "error": "403 Client Error: Forbidden for url: https://www.harborfreight.com/38-in-drive-professional-socket-extension-set-6-piece-58274.html"
+      },
+      "GEARWRENCH 81250 3in Locking (Amazon)": {
+        "url": "https://www.amazon.com/GearWrench-81250-8-Inch-Locking-Extension/dp/B003DA5Q08",
+        "history": [],
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
+      }
+    },
+    "category": "Hand Tools",
+    "priority": "High",
+    "qty": 1,
+    "budget": 40,
+    "recommended": "ICON 3/8 in. Drive Professional Socket Extension Set, 6-Piece",
+    "notes": "3/8\" drive"
+  },
+  "6\" Extension": {
+    "options": {
+      "ICON 6-Pc Extension Set (Harbor Freight)": {
+        "url": "https://www.harborfreight.com/38-in-drive-professional-socket-extension-set-6-piece-58274.html",
+        "history": [],
+        "status": "error",
+        "error": "403 Client Error: Forbidden for url: https://www.harborfreight.com/38-in-drive-professional-socket-extension-set-6-piece-58274.html"
+      },
+      "GEARWRENCH 84927N 3-Pc Set (Home Depot)": {
+        "url": "https://www.homedepot.com/p/GEARWRENCH-3-8-in-Drive-Locking-Impact-Extension-Set-3-in-6-in-and-12-in-3-Piece-84927N/313787418",
+        "history": [],
+        "status": "error",
+        "error": "403 Client Error: Forbidden for url: https://www.homedepot.com/p/GEARWRENCH-3-8-in-Drive-Locking-Impact-Extension-Set-3-in-6-in-and-12-in-3-Piece-84927N/313787418"
+      }
+    },
+    "category": "Hand Tools",
+    "priority": "High",
+    "qty": 1,
+    "budget": 0,
+    "recommended": "ICON 3/8 in. Drive Professional Socket Extension Set, 6-Piece",
+    "notes": "3/8\" drive"
+  },
+  "SAE Socket Set (7/16\"-3/4\")": {
+    "options": {
+      "ICON 12-Pc Shallow Set (Harbor Freight)": {
+        "url": "https://www.harborfreight.com/38-in-drive-sae-professional-shallow-socket-set-12-piece-58103.html",
+        "history": [],
+        "status": "error",
+        "error": "403 Client Error: Forbidden for url: https://www.harborfreight.com/38-in-drive-sae-professional-shallow-socket-set-12-piece-58103.html"
+      },
+      "TEKTON SHD91104 12-Pc (Amazon)": {
+        "url": "https://www.amazon.com/TEKTON-Drive-12-Point-Socket-12-Piece/dp/B07RVCTNYT",
+        "history": [],
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
+      }
+    },
+    "category": "Hand Tools",
+    "priority": "High",
+    "qty": 1,
+    "budget": 35,
+    "recommended": "ICON 3/8 in. Drive SAE Professional Shallow Socket Set, 12-Piece",
+    "notes": "Shallow & deep preferred"
+  },
+  "SAE Combination Wrench Set": {
+    "options": {
+      "ICON 14-Pc Anti-Slip (Harbor Freight)": {
+        "url": "https://www.harborfreight.com/anti-slip-grip-professional-sae-combination-wrench-set-14-piece-64711.html",
+        "history": [],
+        "status": "error",
+        "error": "403 Client Error: Forbidden for url: https://www.harborfreight.com/anti-slip-grip-professional-sae-combination-wrench-set-14-piece-64711.html"
+      },
+      "GEARWRENCH 81924 14-Pc (Home Depot)": {
+        "url": "https://www.homedepot.com/p/GEARWRENCH-6-Point-SAE-Combination-Wrench-Set-14-Piece-81924/313626268",
+        "history": [],
+        "status": "error",
+        "error": "403 Client Error: Forbidden for url: https://www.homedepot.com/p/GEARWRENCH-6-Point-SAE-Combination-Wrench-Set-14-Piece-81924/313626268"
+      }
+    },
+    "category": "Hand Tools",
+    "priority": "High",
+    "qty": 1,
+    "budget": null,
+    "recommended": "ICON Anti-Slip Grip Professional SAE Combination Wrench Set, 14-Piece",
+    "notes": "3/8\"-3/4\""
+  },
+  "13/16\" Spark Plug Socket": {
+    "options": {
+      "Pittsburgh Pro (Harbor Freight)": {
+        "url": "https://www.harborfreight.com/38-in-drive-1316-in-sparkplug-socket-67793.html",
+        "history": [],
+        "status": "error",
+        "error": "403 Client Error: Forbidden for url: https://www.harborfreight.com/38-in-drive-1316-in-sparkplug-socket-67793.html"
+      },
+      "OTC 6898 (Amazon)": {
+        "url": "https://www.amazon.com/OTC-6898-Spark-Plug-Socket/dp/B000RGYQ48",
+        "history": [
+          {
+            "date": "2026-09-14T01:44:38.720205+00:00",
+            "price": 15.99
+          }
+        ],
+        "status": "ok",
+        "error": null
+      }
+    },
+    "category": "Hand Tools",
+    "priority": "High",
+    "qty": 1,
+    "budget": null,
+    "recommended": "Pittsburgh",
+    "notes": "SBC 350"
+  },
+  "1/2\" Breaker Bar": {
+    "options": {},
+    "category": "Hand Tools",
+    "priority": "Medium",
+    "qty": 1,
+    "budget": 28,
+    "recommended": "QUINN 1/2 in. Drive Extendable Breaker Bar",
+    "notes": "Tire & suspension work"
+  },
+  "Adjustable Wrench (10\")": {
+    "options": {},
+    "category": "Hand Tools",
+    "priority": "Medium",
+    "qty": 1,
+    "budget": null,
+    "recommended": "ICON/Quinn",
+    "notes": null
+  },
+  "Screwdriver w/ Bit Set": {
+    "options": {
+      "QUINN 15-Pc Premium (Harbor Freight)": {
+        "url": "https://www.harborfreight.com/premium-screwdriver-set-15-piece-64549.html",
+        "history": [],
+        "status": "error",
+        "error": "403 Client Error: Forbidden for url: https://www.harborfreight.com/premium-screwdriver-set-15-piece-64549.html"
+      },
+      "Klein Tools 80027 (Amazon)": {
+        "url": "https://www.amazon.com/Screwdriver-Multi-bit-Klein-Tools-80027/dp/B0912BW9HP",
+        "history": [],
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
+      }
+    },
+    "category": "Hand Tools",
+    "priority": "High",
+    "qty": 1,
+    "budget": null,
+    "recommended": "ICON/Quinn",
+    "notes": "Compact preferred"
+  },
+  "Needle Nose Pliers": {
+    "options": {
+      "ICON 8in Needle Nose (Harbor Freight)": {
+        "url": "https://www.harborfreight.com/8-in-needle-nose-pliers-59167.html",
+        "history": [],
+        "status": "error",
+        "error": "403 Client Error: Forbidden for url: https://www.harborfreight.com/8-in-needle-nose-pliers-59167.html"
+      },
+      "Channellock 3017 8in Long Nose (Amazon)": {
+        "url": "https://www.amazon.com/Channellock-3017-Long-Plier-8-Inch/dp/B000189FGQ",
+        "history": [],
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
+      }
+    },
+    "category": "Hand Tools",
+    "priority": "High",
+    "qty": 1,
+    "budget": null,
+    "recommended": "ICON",
+    "notes": null
+  },
+  "Slip Joint Pliers": {
+    "options": {
+      "ICON 8in 3-Position (Harbor Freight)": {
+        "url": "https://www.harborfreight.com/8-in-3-position-slip-joint-pliers-59169.html",
+        "history": [],
+        "status": "error",
+        "error": "403 Client Error: Forbidden for url: https://www.harborfreight.com/8-in-3-position-slip-joint-pliers-59169.html"
+      },
+      "Channellock 528 8in (Amazon)": {
+        "url": "https://www.amazon.com/Channellock-528-8-Inch-Joint-Plier/dp/B0002FT6H6",
+        "history": [],
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
+      }
+    },
+    "category": "Hand Tools",
+    "priority": "High",
+    "qty": 1,
+    "budget": 22,
+    "recommended": "ICON 8 in., 3-Position Slip-Joint Pliers",
+    "notes": null
+  },
+  "Locking Pliers": {
+    "options": {},
+    "category": "Hand Tools",
+    "priority": "High",
+    "qty": 1,
+    "budget": null,
+    "recommended": "ICON",
+    "notes": null
+  },
+  "Utility Knife": {
+    "options": {},
+    "category": "Hand Tools",
+    "priority": "Medium",
+    "qty": 1,
+    "budget": null,
+    "recommended": "Any",
+    "notes": null
+  },
+  "Small Pry Bar": {
+    "options": {},
+    "category": "Hand Tools",
+    "priority": "Low",
+    "qty": 1,
+    "budget": null,
+    "recommended": "Pittsburgh",
+    "notes": null
+  },
+  "12V Test Light": {
+    "options": {
+      "CEN-TECH 6/12V Circuit Tester (Harbor Freight)": {
+        "url": "https://www.harborfreight.com/612v-circuit-tester-with-5-ft-lead-63603.html",
+        "history": [],
+        "status": "error",
+        "error": "403 Client Error: Forbidden for url: https://www.harborfreight.com/612v-circuit-tester-with-5-ft-lead-63603.html"
+      },
+      "Innova 3410 Test Light (Amazon)": {
+        "url": "https://www.amazon.com/INNOVA-3410-Light-Circuit-Tester/dp/B0014DINF6",
+        "history": [],
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
+      }
+    },
+    "category": "Electrical",
+    "priority": "High",
+    "qty": 1,
+    "budget": null,
+    "recommended": "Pittsburgh",
+    "notes": "Better than multimeter roadside \u2014 Harbor Freight's equivalent test light is house-branded CEN-TECH, not Pittsburgh"
+  },
+  "Compact Multimeter": {
+    "options": {},
+    "category": "Electrical",
+    "priority": "Medium",
+    "qty": 1,
+    "budget": null,
+    "recommended": "Cen-Tech",
+    "notes": "Optional"
+  },
+  "Wire Stripper/Crimper": {
+    "options": {
+      "QUINN 8in Self-Adjusting (Harbor Freight)": {
+        "url": "https://www.harborfreight.com/electrical/electrician-s-tools/wire-strippers-crimpers/8-in-self-adjusting-wire-stripper-56910.html",
+        "history": [],
+        "status": "error",
+        "error": "403 Client Error: Forbidden for url: https://www.harborfreight.com/electrical/electrician-s-tools/wire-strippers-crimpers/8-in-self-adjusting-wire-stripper-56910.html"
+      },
+      "Klein Tools 1019 Klein Kurve (Amazon)": {
+        "url": "https://www.amazon.com/Klein-Tools-1019-Connectors-Terminals/dp/B07GFYBW4V",
+        "history": [],
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
+      }
+    },
+    "category": "Electrical",
+    "priority": "High",
+    "qty": 1,
+    "budget": null,
+    "recommended": "Quinn",
+    "notes": null
+  },
+  "Butt Connector Kit": {
+    "options": {
+      "Amlits 300-Pc Assortment (Amazon)": {
+        "url": "https://www.amazon.com/Amlits-Wire-Electrical-Connectors-Disconnect/dp/B09B4SMB1L",
+        "history": [],
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
+      },
+      "Sopoby 1200-Pc Kit (Amazon)": {
+        "url": "https://www.amazon.com/Electrical-Connectors-Sopoby-Insulated-Terminals/dp/B01GAESOWA",
+        "history": [],
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
+      }
+    },
+    "category": "Electrical",
+    "priority": "High",
+    "qty": 1,
+    "budget": null,
+    "recommended": "Assemble",
+    "notes": null
+  },
+  "Ring Terminal Kit": {
+    "options": {
+      "280-Pc Assortment (Amazon)": {
+        "url": "https://www.amazon.com/Insulated-Wire-Electrical-Connectors-Assortment/dp/B08Q37ZKM8",
+        "history": [],
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
+      },
+      "1012-Pc Kit w/ Organizer (Amazon)": {
+        "url": "https://www.amazon.com/Electrical-Connector-Assortment-high-impact-compartments/dp/B0063MGEZ4",
+        "history": [],
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
+      }
+    },
+    "category": "Electrical",
+    "priority": "High",
+    "qty": 1,
+    "budget": null,
+    "recommended": "Assemble",
+    "notes": null
+  },
+  "Spade Terminal Kit": {
+    "options": {
+      "Sopoby 1200-Pc Kit (Amazon)": {
+        "url": "https://www.amazon.com/Electrical-Connectors-Sopoby-Insulated-Terminals/dp/B01GAESOWA",
+        "history": [],
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
+      },
+      "280-Pc Assortment (Amazon)": {
+        "url": "https://www.amazon.com/Insulated-Wire-Electrical-Connectors-Assortment/dp/B08Q37ZKM8",
+        "history": [],
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
+      }
+    },
+    "category": "Electrical",
+    "priority": "High",
+    "qty": 1,
+    "budget": null,
+    "recommended": "Assemble",
+    "notes": null
+  },
+  "Assorted Fuses": {
+    "options": {
+      "Riseuvo 150-Pc ATO Kit (Amazon)": {
+        "url": "https://www.amazon.com/Car-Automotive-Standard-Fuses-Assortment/dp/B07VWRK2VD",
+        "history": [],
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
+      },
+      "140-Pc ATC/ATO/APR/ATS Kit (Amazon)": {
+        "url": "https://www.amazon.com/140-Standard-Blade-Fuses-Assortment/dp/B0CHY5XJ43",
+        "history": [],
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
+      }
+    },
+    "category": "Electrical",
+    "priority": "High",
+    "qty": 1,
+    "budget": null,
+    "recommended": "Assemble",
+    "notes": "Match truck fuse style"
+  },
+  "14 AWG Wire (10 ft)": {
+    "options": {
+      "BEST CONNECTIONS 14ga Primary Wire (Amazon)": {
+        "url": "https://www.amazon.com/BEST-CONNECTIONS-Gauge-Automotive-Primary/dp/B0196ZHPIE",
+        "history": [],
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
+      }
+    },
+    "category": "Electrical",
+    "priority": "High",
+    "qty": 1,
+    "budget": null,
+    "recommended": "Any",
+    "notes": null
+  },
+  "12 AWG Wire (10 ft)": {
+    "options": {},
+    "category": "Electrical",
+    "priority": "Medium",
+    "qty": 1,
+    "budget": null,
+    "recommended": "Any",
+    "notes": null
+  },
+  "Electrical Tape": {
+    "options": {
+      "3M Scotch Super 33+ (Amazon)": {
+        "url": "https://www.amazon.com/Scotch-Super-Electrical-Tape-75-Inch-66-Foot/dp/B0964BHNVP",
+        "history": [
+          {
+            "date": "2026-09-14T01:44:38.720205+00:00",
+            "price": 47.5
+          }
+        ],
+        "status": "ok",
+        "error": null
+      },
+      "3M Scotch 700 (Amazon)": {
+        "url": "https://www.amazon.com/Scotch-Electrical-Tape-4-Inch-66-Foot/dp/B001ULCB1O",
+        "history": [],
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
+      }
+    },
+    "category": "Electrical",
+    "priority": "High",
+    "qty": 2,
+    "budget": null,
+    "recommended": "3M",
+    "notes": null
+  },
+  "Heat Shrink Assortment": {
+    "options": {},
+    "category": "Electrical",
+    "priority": "Medium",
+    "qty": 1,
+    "budget": null,
+    "recommended": "Any",
+    "notes": null
+  },
+  "Wire Brush": {
+    "options": {},
+    "category": "Electrical",
+    "priority": "Medium",
+    "qty": 1,
+    "budget": null,
+    "recommended": "Any",
+    "notes": "Grounds"
+  },
+  "Sandpaper": {
+    "options": {},
+    "category": "Electrical",
+    "priority": "Low",
+    "qty": 2,
+    "budget": null,
+    "recommended": "Any",
+    "notes": null
+  },
+  "Spare HEI Module": {
+    "options": {
+      "MSD 5596 Street Fire Module (Summit Racing)": {
+        "url": "https://www.summitracing.com/parts/msd-5596",
+        "history": [],
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
+      },
+      "MSD 5596 (Amazon)": {
+        "url": "https://www.amazon.com/MSD-Ignition-5596-Street-Distributor/dp/B0035GQ7F8",
+        "history": [],
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
+      }
+    },
+    "category": "Ignition",
+    "priority": "High",
+    "qty": 1,
+    "budget": null,
+    "recommended": "MSD Streefire",
+    "notes": "Keep in glove box"
+  },
+  "Distributor Rotor": {
+    "options": {},
+    "category": "Ignition",
+    "priority": "Medium",
+    "qty": 1,
+    "budget": null,
+    "recommended": "MSD Streefire",
+    "notes": null
+  },
+  "Distributor Cap": {
+    "options": {},
+    "category": "Ignition",
+    "priority": "Medium",
+    "qty": 1,
+    "budget": null,
+    "recommended": "MSD Streefire",
+    "notes": null
+  },
+  "Spare Spark Plug": {
+    "options": {},
+    "category": "Ignition",
+    "priority": "Medium",
+    "qty": 2,
+    "budget": null,
+    "recommended": "AC Delco",
+    "notes": null
+  },
+  "Fuel Filter": {
+    "options": {},
+    "category": "Fuel",
+    "priority": "High",
+    "qty": 1,
+    "budget": null,
+    "recommended": "Wix/AC Delco",
+    "notes": null
+  },
+  "3/8\" Fuel Hose (3 ft)": {
+    "options": {
+      "Gates Barricade Fuel Hose (O'Reilly)": {
+        "url": "https://www.oreillyauto.com/detail/c/barricade/gates-barricade-fuel-hose/gaty/27341",
+        "history": [],
+        "status": "error",
+        "error": "403 Client Error: Forbidden for url: https://www.oreillyauto.com/detail/c/barricade/gates-barricade-fuel-hose/gaty/27341"
+      },
+      "Duralast Fuel Hose, by the foot (AutoZone)": {
+        "url": "https://www.autozone.com/p/duralast-fuel-injection-fuel-feed-hose-50088/240845",
+        "history": [],
+        "status": "error",
+        "error": "403 Client Error: Forbidden for url: https://www.autozone.com/p/duralast-fuel-injection-fuel-feed-hose-50088/240845"
+      }
+    },
+    "category": "Fuel",
+    "priority": "High",
+    "qty": 1,
+    "budget": null,
+    "recommended": "Gates",
+    "notes": null
+  },
+  "Hose Clamp Assortment": {
+    "options": {
+      "LOKMAN 60-Pc Stainless Kit (Amazon)": {
+        "url": "https://www.amazon.com/LOKMAN-Adjustable-Automotive-Mechanical-Applications/dp/B076Q7ZK19",
+        "history": [],
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
+      },
+      "Breeze 200-Pc Assortment (Amazon)": {
+        "url": "https://www.amazon.com/Breeze-Assortment-Automotive-assortment-contains/dp/B009SD0IZM",
+        "history": [],
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
+      }
+    },
+    "category": "Fuel",
+    "priority": "High",
+    "qty": 1,
+    "budget": null,
+    "recommended": "Any",
+    "notes": null
+  },
+  "Vacuum Hose (3 ft)": {
+    "options": {},
+    "category": "Fuel",
+    "priority": "Medium",
+    "qty": 1,
+    "budget": null,
+    "recommended": "Gates",
+    "notes": null
+  },
+  "Vacuum Cap Assortment": {
+    "options": {},
+    "category": "Fuel",
+    "priority": "Medium",
+    "qty": 1,
+    "budget": null,
+    "recommended": "Dorman",
+    "notes": null
+  },
+  "Throttle Return Spring": {
+    "options": {},
+    "category": "Fuel",
+    "priority": "Low",
+    "qty": 1,
+    "budget": null,
+    "recommended": "Any",
+    "notes": null
+  },
+  "Zip Ties": {
+    "options": {
+      "TEKTON 6235 200-Pc Assorted (Amazon)": {
+        "url": "https://www.amazon.com/TEKTON-6235-Assorted-Cable-200-Piece/dp/B000NQ16NG",
+        "history": [],
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
+      },
+      "Cable Matters 200-Pc Assorted (Amazon)": {
+        "url": "https://www.amazon.com/Cable-Matters-Assorted-Self-Locking-12-Inch/dp/B00L2LGMO4",
+        "history": [],
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
+      }
+    },
+    "category": "Consumables",
+    "priority": "High",
+    "qty": 1,
+    "budget": null,
+    "recommended": "Any",
+    "notes": null
+  },
+  "Duct Tape": {
+    "options": {
+      "Gorilla Tape 2-Pack (Amazon)": {
+        "url": "https://www.amazon.com/Gorilla-Duct-Tape-Black-1-88/dp/B01MCZCLCQ",
+        "history": [],
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
+      },
+      "Gorilla Tape Single Roll (Amazon)": {
+        "url": "https://www.amazon.com/Gorilla-Tape-Black-Duct-1-88/dp/B01LYZS688",
+        "history": [],
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
+      }
+    },
+    "category": "Consumables",
+    "priority": "High",
+    "qty": 1,
+    "budget": null,
+    "recommended": "Any",
+    "notes": null
+  },
+  "RTV Silicone": {
+    "options": {},
+    "category": "Consumables",
+    "priority": "Medium",
+    "qty": 1,
+    "budget": null,
+    "recommended": "Permatex",
+    "notes": null
+  },
+  "JB Weld": {
+    "options": {},
+    "category": "Consumables",
+    "priority": "Medium",
+    "qty": 1,
+    "budget": null,
+    "recommended": "JB Weld",
+    "notes": null
+  },
+  "Shop Towels": {
+    "options": {},
+    "category": "Consumables",
+    "priority": "Medium",
+    "qty": 1,
+    "budget": null,
+    "recommended": "Any",
+    "notes": null
+  },
+  "Nitrile Gloves": {
+    "options": {},
+    "category": "Consumables",
+    "priority": "Medium",
+    "qty": 1,
+    "budget": null,
+    "recommended": "Hardy",
+    "notes": null
+  },
+  "6-Ton Bottle Jack": {
+    "options": {
+      "Pittsburgh 8-Ton (Harbor Freight)": {
+        "url": "https://www.harborfreight.com/8-ton-hydraulic-bottle-jack-56734.html",
+        "history": [],
+        "status": "error",
+        "error": "403 Client Error: Forbidden for url: https://www.harborfreight.com/8-ton-hydraulic-bottle-jack-56734.html"
+      },
+      "BIG RED T90603B Torin 6-Ton (Amazon)": {
+        "url": "https://www.amazon.com/Torin-Hydraulic-Bottle-Jack-Capacity/dp/B000CO86EG",
+        "history": [],
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
+      }
+    },
+    "category": "Tire & Recovery",
+    "priority": "High",
+    "qty": 1,
+    "budget": null,
+    "recommended": "Pittsburgh",
+    "notes": "Better for C20 weight \u2014 Harbor Freight's Pittsburgh line skips 6-ton (jumps 4-ton to 8-ton), so the 8-ton is the closest in-brand match"
+  },
+  "Lug Wrench or Breaker Bar": {
+    "options": {
+      "Pittsburgh 20in 4-Way (Harbor Freight)": {
+        "url": "https://www.harborfreight.com/20-inch-four-way-lug-wrench-94110.html",
+        "history": [],
+        "status": "error",
+        "error": "403 Client Error: Forbidden for url: https://www.harborfreight.com/20-inch-four-way-lug-wrench-94110.html"
+      }
+    },
+    "category": "Tire & Recovery",
+    "priority": "High",
+    "qty": 1,
+    "budget": null,
+    "recommended": "Pittsburgh",
+    "notes": null
+  },
+  "Tire Plug Kit": {
+    "options": {
+      "Slime 1034-A 8-Pc T-Handle Kit (Amazon)": {
+        "url": "https://www.amazon.com/Slime-1034-T-Handle-Tire-Plug/dp/B000ET525K",
+        "history": [],
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
+      },
+      "Victor Plug & Go (Amazon)": {
+        "url": "https://www.amazon.com/Victor-22-5-60204-8-Plug-Tire-Repair/dp/B00CRCQFPS",
+        "history": [],
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
+      }
+    },
+    "category": "Tire & Recovery",
+    "priority": "High",
+    "qty": 1,
+    "budget": null,
+    "recommended": "Any",
+    "notes": null
+  },
+  "Wheel Chock": {
+    "options": {},
+    "category": "Tire & Recovery",
+    "priority": "Medium",
+    "qty": 1,
+    "budget": null,
+    "recommended": "Pittsburgh",
+    "notes": null
+  },
+  "Tow Strap": {
+    "options": {},
+    "category": "Tire & Recovery",
+    "priority": "Medium",
+    "qty": 1,
+    "budget": null,
+    "recommended": "Haul-Master",
+    "notes": "20,000 lb minimum"
+  },
+  "LED Headlamp": {
+    "options": {
+      "BRAUN 700 Lumen (Harbor Freight)": {
+        "url": "https://www.harborfreight.com/700-lumen-adjustable-rechargeable-led-headlamp-59298.html",
+        "history": [],
+        "status": "error",
+        "error": "403 Client Error: Forbidden for url: https://www.harborfreight.com/700-lumen-adjustable-rechargeable-led-headlamp-59298.html"
+      }
+    },
+    "category": "Emergency",
+    "priority": "High",
+    "qty": 1,
+    "budget": null,
+    "recommended": "Braun",
+    "notes": "Hands-free"
+  },
+  "Reflective Triangle Kit": {
+    "options": {},
+    "category": "Emergency",
+    "priority": "Medium",
+    "qty": 1,
+    "budget": null,
+    "recommended": "Any",
+    "notes": null
+  },
+  "First Aid Kit": {
+    "options": {},
+    "category": "Emergency",
+    "priority": "Medium",
+    "qty": 1,
+    "budget": null,
+    "recommended": "Any",
+    "notes": null
+  },
+  "ATF": {
+    "options": {},
+    "category": "Fluids",
+    "priority": "Medium",
+    "qty": 1,
+    "budget": null,
+    "recommended": "Dexron III compatible",
+    "notes": "Verify transmission spec"
+  },
+  "Brake Fluid (DOT 3)": {
+    "options": {},
+    "category": "Fluids",
+    "priority": "Medium",
+    "qty": 1,
+    "budget": null,
+    "recommended": "Prestone",
+    "notes": null
+  },
+  "Power Steering Fluid": {
+    "options": {},
+    "category": "Fluids",
+    "priority": "Medium",
+    "qty": 1,
+    "budget": null,
+    "recommended": "Prestone",
+    "notes": null
+  },
+  "Funnel": {
+    "options": {},
+    "category": "Fluids",
+    "priority": "Medium",
+    "qty": 1,
+    "budget": null,
+    "recommended": "Any",
+    "notes": null
+  }
+}
