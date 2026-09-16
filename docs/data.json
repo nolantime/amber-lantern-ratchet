@@ -92,10 +92,14 @@
           {
             "date": "2026-09-16T11:28:34.723180+00:00",
             "price": 12.09
+          },
+          {
+            "date": "2026-09-16T21:16:21.842485+00:00",
+            "price": 12.09
           }
         ],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "status": "ok",
+        "error": null
       }
     },
     "category": "Hand Tools",
@@ -176,6 +180,10 @@
           },
           {
             "date": "2026-09-16T16:52:10.942760+00:00",
+            "price": 36.0
+          },
+          {
+            "date": "2026-09-16T21:16:21.842485+00:00",
             "price": 36.0
           }
         ],
@@ -264,8 +272,8 @@
             "price": 15.99
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       }
     },
     "category": "Hand Tools",
@@ -331,10 +339,14 @@
           {
             "date": "2026-09-16T11:28:34.723180+00:00",
             "price": 24.99
+          },
+          {
+            "date": "2026-09-16T21:16:21.842485+00:00",
+            "price": 24.99
           }
         ],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "status": "ok",
+        "error": null
       }
     },
     "category": "Hand Tools",
@@ -659,10 +671,14 @@
           {
             "date": "2026-09-16T11:28:34.723180+00:00",
             "price": 25.99
+          },
+          {
+            "date": "2026-09-16T21:16:21.842485+00:00",
+            "price": 25.99
           }
         ],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "status": "ok",
+        "error": null
       }
     },
     "category": "Electrical",
@@ -890,10 +906,14 @@
           {
             "date": "2026-09-16T11:28:34.723180+00:00",
             "price": 40.95
+          },
+          {
+            "date": "2026-09-16T21:16:21.842485+00:00",
+            "price": 40.95
           }
         ],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "status": "ok",
+        "error": null
       }
     },
     "category": "Electrical",
@@ -954,8 +974,8 @@
             "price": 47.8
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       },
       "3M Scotch 700 (Amazon)": {
         "url": "https://www.amazon.com/Scotch-Electrical-Tape-4-Inch-66-Foot/dp/B001ULCB1O",
@@ -987,10 +1007,14 @@
           {
             "date": "2026-09-16T11:28:34.723180+00:00",
             "price": 8.99
+          },
+          {
+            "date": "2026-09-16T21:16:21.842485+00:00",
+            "price": 7.79
           }
         ],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "status": "ok",
+        "error": null
       }
     },
     "category": "Electrical",
@@ -1293,8 +1317,8 @@
             "price": 9.99
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       },
       "Cable Matters 200-Pc Assorted (Amazon)": {
         "url": "https://www.amazon.com/Cable-Matters-Assorted-Self-Locking-12-Inch/dp/B00L2LGMO4",
@@ -1332,8 +1356,8 @@
             "price": 9.99
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       }
     },
     "category": "Consumables",
@@ -1410,10 +1434,14 @@
           {
             "date": "2026-09-16T11:28:34.723180+00:00",
             "price": 74.94
+          },
+          {
+            "date": "2026-09-16T21:16:21.842485+00:00",
+            "price": 74.94
           }
         ],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "status": "ok",
+        "error": null
       }
     },
     "category": "Consumables",
