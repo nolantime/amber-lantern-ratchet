@@ -349,8 +349,8 @@
             "price": 24.99
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       }
     },
     "category": "Hand Tools",
@@ -404,8 +404,8 @@
             "price": 24.95
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       }
     },
     "category": "Hand Tools",
@@ -926,10 +926,14 @@
           {
             "date": "2026-09-16T21:16:21.842485+00:00",
             "price": 40.95
+          },
+          {
+            "date": "2026-09-17T16:58:29.776467+00:00",
+            "price": 40.95
           }
         ],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "status": "ok",
+        "error": null
       }
     },
     "category": "Electrical",
@@ -1549,10 +1553,14 @@
           {
             "date": "2026-09-16T11:28:34.723180+00:00",
             "price": 29.99
+          },
+          {
+            "date": "2026-09-17T16:58:29.776467+00:00",
+            "price": 29.99
           }
         ],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "status": "ok",
+        "error": null
       }
     },
     "category": "Tire & Recovery",
