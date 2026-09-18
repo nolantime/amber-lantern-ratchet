@@ -41,10 +41,14 @@
           {
             "date": "2026-09-16T11:28:34.723180+00:00",
             "price": 45.0
+          },
+          {
+            "date": "2026-09-18T04:40:38.951413+00:00",
+            "price": 45.0
           }
         ],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "status": "ok",
+        "error": null
       }
     },
     "category": "Hand Tools",
@@ -102,8 +106,8 @@
             "price": 12.09
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       }
     },
     "category": "Hand Tools",
@@ -280,8 +284,8 @@
             "price": 15.99
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       }
     },
     "category": "Hand Tools",
@@ -471,8 +475,8 @@
             "price": 18.0
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       }
     },
     "category": "Hand Tools",
@@ -617,8 +621,8 @@
             "price": 21.97
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       }
     },
     "category": "Electrical",
@@ -660,10 +664,14 @@
           {
             "date": "2026-09-16T11:28:34.723180+00:00",
             "price": 9.99
+          },
+          {
+            "date": "2026-09-18T04:40:38.951413+00:00",
+            "price": 9.99
           }
         ],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "status": "ok",
+        "error": null
       },
       "Sopoby 1200-Pc Kit (Amazon)": {
         "url": "https://www.amazon.com/Electrical-Connectors-Sopoby-Insulated-Terminals/dp/B01GAESOWA",
@@ -802,6 +810,10 @@
           },
           {
             "date": "2026-09-17T21:20:07.375739+00:00",
+            "price": 25.99
+          },
+          {
+            "date": "2026-09-18T04:40:38.951413+00:00",
             "price": 25.99
           }
         ],
@@ -956,8 +968,8 @@
             "price": 40.95
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       }
     },
     "category": "Electrical",
@@ -1244,10 +1256,14 @@
           {
             "date": "2026-09-16T11:28:34.723180+00:00",
             "price": 16.99
+          },
+          {
+            "date": "2026-09-18T04:40:38.951413+00:00",
+            "price": 16.99
           }
         ],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "status": "ok",
+        "error": null
       },
       "Breeze 200-Pc Assortment (Amazon)": {
         "url": "https://www.amazon.com/Breeze-Assortment-Automotive-assortment-contains/dp/B009SD0IZM",
@@ -1283,10 +1299,14 @@
           {
             "date": "2026-09-16T11:28:34.723180+00:00",
             "price": 16.99
+          },
+          {
+            "date": "2026-09-18T04:40:38.951413+00:00",
+            "price": 16.99
           }
         ],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "status": "ok",
+        "error": null
       }
     },
     "category": "Fuel",
@@ -1451,10 +1471,14 @@
           {
             "date": "2026-09-17T04:49:52.492040+00:00",
             "price": 26.98
+          },
+          {
+            "date": "2026-09-18T04:40:38.951413+00:00",
+            "price": 26.98
           }
         ],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "status": "ok",
+        "error": null
       },
       "Gorilla Tape Single Roll (Amazon)": {
         "url": "https://www.amazon.com/Gorilla-Tape-Black-Duct-1-88/dp/B01LYZS688",
