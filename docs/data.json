@@ -81,10 +81,14 @@
           {
             "date": "2026-09-21T04:52:23.728536+00:00",
             "price": 45.0
+          },
+          {
+            "date": "2026-09-21T21:57:22.325930+00:00",
+            "price": 45.0
           }
         ],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "status": "ok",
+        "error": null
       }
     },
     "category": "Hand Tools",
@@ -176,10 +180,14 @@
           {
             "date": "2026-09-21T04:52:23.728536+00:00",
             "price": 12.09
+          },
+          {
+            "date": "2026-09-21T21:57:22.325930+00:00",
+            "price": 12.09
           }
         ],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "status": "ok",
+        "error": null
       }
     },
     "category": "Hand Tools",
@@ -432,8 +440,8 @@
             "price": 15.99
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       }
     },
     "category": "Hand Tools",
@@ -641,6 +649,10 @@
           },
           {
             "date": "2026-09-21T12:44:28.278011+00:00",
+            "price": 24.95
+          },
+          {
+            "date": "2026-09-21T21:57:22.325930+00:00",
             "price": 24.95
           }
         ],
@@ -1212,8 +1224,8 @@
             "price": 52.9
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       }
     },
     "category": "Electrical",
@@ -1566,10 +1578,14 @@
           {
             "date": "2026-09-21T04:52:23.728536+00:00",
             "price": 40.95
+          },
+          {
+            "date": "2026-09-21T21:57:22.325930+00:00",
+            "price": 40.95
           }
         ],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "status": "ok",
+        "error": null
       }
     },
     "category": "Electrical",
