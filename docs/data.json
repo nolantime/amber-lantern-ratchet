@@ -591,10 +591,14 @@
           {
             "date": "2026-09-22T11:34:32.859384+00:00",
             "price": 24.99
+          },
+          {
+            "date": "2026-09-22T21:16:27.441886+00:00",
+            "price": 24.99
           }
         ],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "status": "ok",
+        "error": null
       }
     },
     "category": "Hand Tools",
@@ -811,8 +815,8 @@
             "price": 18.0
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       }
     },
     "category": "Hand Tools",
@@ -941,8 +945,8 @@
             "price": 15.7
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       }
     },
     "category": "Electrical",
@@ -1051,10 +1055,14 @@
           {
             "date": "2026-09-22T11:34:32.859384+00:00",
             "price": 21.97
+          },
+          {
+            "date": "2026-09-22T21:16:27.441886+00:00",
+            "price": 21.97
           }
         ],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "status": "ok",
+        "error": null
       }
     },
     "category": "Electrical",
@@ -1332,8 +1340,8 @@
             "price": 52.9
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       }
     },
     "category": "Electrical",
@@ -2500,8 +2508,8 @@
             "price": 7.99
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       }
     },
     "category": "Consumables",
@@ -3005,10 +3013,14 @@
           {
             "date": "2026-09-22T11:34:32.859384+00:00",
             "price": 29.97
+          },
+          {
+            "date": "2026-09-22T21:16:27.441886+00:00",
+            "price": 29.97
           }
         ],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "status": "ok",
+        "error": null
       }
     },
     "category": "Tire & Recovery",
