@@ -353,10 +353,14 @@
           {
             "date": "2026-09-23T16:55:22.828085+00:00",
             "price": 36.0
+          },
+          {
+            "date": "2026-09-24T17:08:04.850686+00:00",
+            "price": 36.0
           }
         ],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "status": "ok",
+        "error": null
       }
     },
     "category": "Hand Tools",
@@ -1212,10 +1216,14 @@
           {
             "date": "2026-09-23T11:31:47.739671+00:00",
             "price": 9.99
+          },
+          {
+            "date": "2026-09-24T17:08:04.850686+00:00",
+            "price": 9.99
           }
         ],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "status": "ok",
+        "error": null
       },
       "Sopoby 1200-Pc Kit (Amazon)": {
         "url": "https://www.amazon.com/Electrical-Connectors-Sopoby-Insulated-Terminals/dp/B01GAESOWA",
@@ -1628,8 +1636,8 @@
             "price": 9.99
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       },
       "140-Pc ATC/ATO/APR/ATS Kit (Amazon)": {
         "url": "https://www.amazon.com/140-Standard-Blade-Fuses-Assortment/dp/B0CHY5XJ43",
@@ -1838,10 +1846,14 @@
           {
             "date": "2026-09-23T16:55:22.828085+00:00",
             "price": 40.95
+          },
+          {
+            "date": "2026-09-24T17:08:04.850686+00:00",
+            "price": 40.95
           }
         ],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "status": "ok",
+        "error": null
       }
     },
     "category": "Electrical",
@@ -2435,10 +2447,14 @@
           {
             "date": "2026-09-23T21:28:49.846017+00:00",
             "price": 16.99
+          },
+          {
+            "date": "2026-09-24T17:08:04.850686+00:00",
+            "price": 16.99
           }
         ],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "status": "ok",
+        "error": null
       }
     },
     "category": "Fuel",
@@ -2773,8 +2789,8 @@
             "price": 26.98
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       },
       "Gorilla Tape Single Roll (Amazon)": {
         "url": "https://www.amazon.com/Gorilla-Tape-Black-Duct-1-88/dp/B01LYZS688",
@@ -3011,8 +3027,8 @@
             "price": 29.99
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       }
     },
     "category": "Tire & Recovery",
@@ -3217,10 +3233,14 @@
           {
             "date": "2026-09-23T16:55:22.828085+00:00",
             "price": 29.97
+          },
+          {
+            "date": "2026-09-24T17:08:04.850686+00:00",
+            "price": 29.97
           }
         ],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "status": "ok",
+        "error": null
       }
     },
     "category": "Tire & Recovery",
