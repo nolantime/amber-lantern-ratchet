@@ -359,8 +359,8 @@
             "price": 36.0
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       }
     },
     "category": "Hand Tools",
@@ -750,10 +750,14 @@
           {
             "date": "2026-09-23T21:28:49.846017+00:00",
             "price": 24.95
+          },
+          {
+            "date": "2026-09-24T21:29:23.821350+00:00",
+            "price": 24.95
           }
         ],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "status": "ok",
+        "error": null
       }
     },
     "category": "Hand Tools",
@@ -1222,8 +1226,8 @@
             "price": 9.99
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       },
       "Sopoby 1200-Pc Kit (Amazon)": {
         "url": "https://www.amazon.com/Electrical-Connectors-Sopoby-Insulated-Terminals/dp/B01GAESOWA",
@@ -1523,10 +1527,14 @@
           {
             "date": "2026-09-23T11:31:47.739671+00:00",
             "price": 25.99
+          },
+          {
+            "date": "2026-09-24T21:29:23.821350+00:00",
+            "price": 25.99
           }
         ],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "status": "ok",
+        "error": null
       },
       "280-Pc Assortment (Amazon)": {
         "url": "https://www.amazon.com/Insulated-Wire-Electrical-Connectors-Assortment/dp/B08Q37ZKM8",
@@ -1852,8 +1860,8 @@
             "price": 40.95
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       }
     },
     "category": "Electrical",
@@ -2193,10 +2201,14 @@
           {
             "date": "2026-09-23T11:31:47.739671+00:00",
             "price": 69.95
+          },
+          {
+            "date": "2026-09-24T21:29:23.821350+00:00",
+            "price": 69.95
           }
         ],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "status": "ok",
+        "error": null
       }
     },
     "category": "Ignition",
@@ -2453,8 +2465,8 @@
             "price": 16.99
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       }
     },
     "category": "Fuel",
@@ -3239,8 +3251,8 @@
             "price": 29.97
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       }
     },
     "category": "Tire & Recovery",
