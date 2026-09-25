@@ -212,10 +212,14 @@
           {
             "date": "2026-09-23T11:31:47.739671+00:00",
             "price": 12.09
+          },
+          {
+            "date": "2026-09-25T04:54:24.113702+00:00",
+            "price": 6.18
           }
         ],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "status": "ok",
+        "error": null
       }
     },
     "category": "Hand Tools",
@@ -498,10 +502,14 @@
           {
             "date": "2026-09-23T11:31:47.739671+00:00",
             "price": 15.99
+          },
+          {
+            "date": "2026-09-25T04:54:24.113702+00:00",
+            "price": 15.99
           }
         ],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "status": "ok",
+        "error": null
       }
     },
     "category": "Hand Tools",
@@ -756,8 +764,8 @@
             "price": 24.95
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       }
     },
     "category": "Hand Tools",
@@ -1533,8 +1541,8 @@
             "price": 25.99
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       },
       "280-Pc Assortment (Amazon)": {
         "url": "https://www.amazon.com/Insulated-Wire-Electrical-Connectors-Assortment/dp/B08Q37ZKM8",
@@ -2063,10 +2071,14 @@
           {
             "date": "2026-09-23T11:31:47.739671+00:00",
             "price": 7.95
+          },
+          {
+            "date": "2026-09-25T04:54:24.113702+00:00",
+            "price": 7.95
           }
         ],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "status": "ok",
+        "error": null
       }
     },
     "category": "Electrical",
@@ -2207,8 +2219,8 @@
             "price": 69.95
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       }
     },
     "category": "Ignition",
@@ -2890,10 +2902,14 @@
           {
             "date": "2026-09-24T04:46:47.293724+00:00",
             "price": 74.93
+          },
+          {
+            "date": "2026-09-25T04:54:24.113702+00:00",
+            "price": 74.93
           }
         ],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "status": "ok",
+        "error": null
       }
     },
     "category": "Consumables",
@@ -3154,10 +3170,14 @@
           {
             "date": "2026-09-23T11:31:47.739671+00:00",
             "price": 10.28
+          },
+          {
+            "date": "2026-09-25T04:54:24.113702+00:00",
+            "price": 10.28
           }
         ],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "status": "ok",
+        "error": null
       },
       "Victor Plug & Go (Amazon)": {
         "url": "https://www.amazon.com/Victor-22-5-60204-8-Plug-Tire-Repair/dp/B00CRCQFPS",
