@@ -512,8 +512,8 @@
             "price": 15.99
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       }
     },
     "category": "Hand Tools",
@@ -1029,8 +1029,8 @@
             "price": 15.7
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       }
     },
     "category": "Electrical",
@@ -1252,10 +1252,14 @@
           {
             "date": "2026-09-24T17:08:04.850686+00:00",
             "price": 9.99
+          },
+          {
+            "date": "2026-09-25T21:33:17.417206+00:00",
+            "price": 9.99
           }
         ],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "status": "ok",
+        "error": null
       },
       "Sopoby 1200-Pc Kit (Amazon)": {
         "url": "https://www.amazon.com/Electrical-Connectors-Sopoby-Insulated-Terminals/dp/B01GAESOWA",
@@ -1768,6 +1772,10 @@
           },
           {
             "date": "2026-09-25T17:08:30.056143+00:00",
+            "price": 7.99
+          },
+          {
+            "date": "2026-09-25T21:33:17.417206+00:00",
             "price": 7.99
           }
         ],
@@ -2835,10 +2843,14 @@
           {
             "date": "2026-09-24T11:41:58.486477+00:00",
             "price": 26.98
+          },
+          {
+            "date": "2026-09-25T21:33:17.417206+00:00",
+            "price": 26.98
           }
         ],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "status": "ok",
+        "error": null
       },
       "Gorilla Tape Single Roll (Amazon)": {
         "url": "https://www.amazon.com/Gorilla-Tape-Black-Duct-1-88/dp/B01LYZS688",
@@ -2930,10 +2942,14 @@
           {
             "date": "2026-09-25T04:54:24.113702+00:00",
             "price": 74.93
+          },
+          {
+            "date": "2026-09-25T21:33:17.417206+00:00",
+            "price": 74.93
           }
         ],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "status": "ok",
+        "error": null
       }
     },
     "category": "Consumables",
@@ -3204,8 +3220,8 @@
             "price": 10.28
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       },
       "Victor Plug & Go (Amazon)": {
         "url": "https://www.amazon.com/Victor-22-5-60204-8-Plug-Tire-Repair/dp/B00CRCQFPS",
