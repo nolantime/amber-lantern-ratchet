@@ -506,10 +506,14 @@
           {
             "date": "2026-09-25T04:54:24.113702+00:00",
             "price": 15.99
+          },
+          {
+            "date": "2026-09-25T17:08:30.056143+00:00",
+            "price": 15.99
           }
         ],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "status": "ok",
+        "error": null
       }
     },
     "category": "Hand Tools",
@@ -645,8 +649,8 @@
             "price": 24.99
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       }
     },
     "category": "Hand Tools",
@@ -1019,6 +1023,10 @@
           {
             "date": "2026-09-25T11:47:54.317611+00:00",
             "price": 15.7
+          },
+          {
+            "date": "2026-09-25T17:08:30.056143+00:00",
+            "price": 15.7
           }
         ],
         "status": "ok",
@@ -1145,8 +1153,8 @@
             "price": 21.97
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       }
     },
     "category": "Electrical",
@@ -1757,10 +1765,14 @@
           {
             "date": "2026-09-23T11:31:47.739671+00:00",
             "price": 7.99
+          },
+          {
+            "date": "2026-09-25T17:08:30.056143+00:00",
+            "price": 7.99
           }
         ],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "status": "ok",
+        "error": null
       }
     },
     "category": "Electrical",
@@ -3186,10 +3198,14 @@
           {
             "date": "2026-09-25T04:54:24.113702+00:00",
             "price": 10.28
+          },
+          {
+            "date": "2026-09-25T17:08:30.056143+00:00",
+            "price": 10.28
           }
         ],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "status": "ok",
+        "error": null
       },
       "Victor Plug & Go (Amazon)": {
         "url": "https://www.amazon.com/Victor-22-5-60204-8-Plug-Tire-Repair/dp/B00CRCQFPS",
@@ -3287,8 +3303,8 @@
             "price": 29.97
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       }
     },
     "category": "Tire & Recovery",
