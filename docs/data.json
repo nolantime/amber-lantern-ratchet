@@ -123,8 +123,8 @@
             "price": 45.0
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       }
     },
     "category": "Hand Tools",
@@ -250,8 +250,8 @@
             "price": 12.09
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       }
     },
     "category": "Hand Tools",
@@ -404,6 +404,10 @@
           },
           {
             "date": "2026-09-28T05:20:22.896672+00:00",
+            "price": 36.0
+          },
+          {
+            "date": "2026-09-28T13:49:26.401091+00:00",
             "price": 36.0
           }
         ],
@@ -576,8 +580,8 @@
             "price": 15.99
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       }
     },
     "category": "Hand Tools",
@@ -727,6 +731,10 @@
           {
             "date": "2026-09-28T05:20:22.896672+00:00",
             "price": 24.99
+          },
+          {
+            "date": "2026-09-28T13:49:26.401091+00:00",
+            "price": 24.99
           }
         ],
         "status": "ok",
@@ -866,6 +874,10 @@
           {
             "date": "2026-09-28T05:20:22.896672+00:00",
             "price": 24.95
+          },
+          {
+            "date": "2026-09-28T13:49:26.401091+00:00",
+            "price": 24.95
           }
         ],
         "status": "ok",
@@ -992,6 +1004,10 @@
           },
           {
             "date": "2026-09-28T05:20:22.896672+00:00",
+            "price": 18.0
+          },
+          {
+            "date": "2026-09-28T13:49:26.401091+00:00",
             "price": 18.0
           }
         ],
@@ -1157,8 +1173,8 @@
             "price": 15.7
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       }
     },
     "category": "Electrical",
@@ -1301,8 +1317,8 @@
             "price": 21.97
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       }
     },
     "category": "Electrical",
@@ -1426,8 +1442,8 @@
             "price": 9.99
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       },
       "Sopoby 1200-Pc Kit (Amazon)": {
         "url": "https://www.amazon.com/Electrical-Connectors-Sopoby-Insulated-Terminals/dp/B01GAESOWA",
@@ -1526,6 +1542,10 @@
           },
           {
             "date": "2026-09-28T05:20:22.896672+00:00",
+            "price": 25.99
+          },
+          {
+            "date": "2026-09-28T13:49:26.401091+00:00",
             "price": 25.99
           }
         ],
@@ -1652,8 +1672,8 @@
             "price": 52.9
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       }
     },
     "category": "Electrical",
@@ -1781,8 +1801,8 @@
             "price": 25.99
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       },
       "280-Pc Assortment (Amazon)": {
         "url": "https://www.amazon.com/Insulated-Wire-Electrical-Connectors-Assortment/dp/B08Q37ZKM8",
@@ -1902,6 +1922,10 @@
           {
             "date": "2026-09-28T05:20:22.896672+00:00",
             "price": 9.99
+          },
+          {
+            "date": "2026-09-28T13:49:26.401091+00:00",
+            "price": 9.99
           }
         ],
         "status": "ok",
@@ -2016,6 +2040,10 @@
           },
           {
             "date": "2026-09-28T05:20:22.896672+00:00",
+            "price": 7.99
+          },
+          {
+            "date": "2026-09-28T13:49:26.401091+00:00",
             "price": 7.99
           }
         ],
@@ -2164,8 +2192,8 @@
             "price": 40.95
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       }
     },
     "category": "Electrical",
@@ -2294,8 +2322,8 @@
             "price": 42.91
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       },
       "3M Scotch 700 (Amazon)": {
         "url": "https://www.amazon.com/Scotch-Electrical-Tape-4-Inch-66-Foot/dp/B001ULCB1O",
@@ -2401,8 +2429,8 @@
             "price": 7.95
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       }
     },
     "category": "Electrical",
@@ -2559,8 +2587,8 @@
             "price": 69.95
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       }
     },
     "category": "Ignition",
@@ -2734,8 +2762,8 @@
             "price": 16.99
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       },
       "Breeze 200-Pc Assortment (Amazon)": {
         "url": "https://www.amazon.com/Breeze-Assortment-Automotive-assortment-contains/dp/B009SD0IZM",
@@ -2850,6 +2878,10 @@
           },
           {
             "date": "2026-09-28T05:20:22.896672+00:00",
+            "price": 16.99
+          },
+          {
+            "date": "2026-09-28T13:49:26.401091+00:00",
             "price": 16.99
           }
         ],
@@ -3003,6 +3035,10 @@
           {
             "date": "2026-09-28T05:20:22.896672+00:00",
             "price": 9.99
+          },
+          {
+            "date": "2026-09-28T13:49:26.401091+00:00",
+            "price": 9.99
           }
         ],
         "status": "ok",
@@ -3128,8 +3164,8 @@
             "price": 9.99
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       }
     },
     "category": "Consumables",
@@ -3263,6 +3299,10 @@
           {
             "date": "2026-09-28T05:20:22.896672+00:00",
             "price": 26.98
+          },
+          {
+            "date": "2026-09-28T13:49:26.401091+00:00",
+            "price": 26.98
           }
         ],
         "status": "ok",
@@ -3384,8 +3424,8 @@
             "price": 74.93
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       }
     },
     "category": "Consumables",
@@ -3553,6 +3593,10 @@
           {
             "date": "2026-09-28T05:20:22.896672+00:00",
             "price": 29.99
+          },
+          {
+            "date": "2026-09-28T13:49:26.401091+00:00",
+            "price": 29.99
           }
         ],
         "status": "ok",
@@ -3700,8 +3744,8 @@
             "price": 10.28
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       },
       "Victor Plug & Go (Amazon)": {
         "url": "https://www.amazon.com/Victor-22-5-60204-8-Plug-Tire-Repair/dp/B00CRCQFPS",
@@ -3819,8 +3863,8 @@
             "price": 29.97
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       }
     },
     "category": "Tire & Recovery",
