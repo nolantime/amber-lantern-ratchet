@@ -423,8 +423,8 @@
             "price": 36.0
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       }
     },
     "category": "Hand Tools",
@@ -1458,8 +1458,8 @@
             "price": 9.99
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       },
       "Sopoby 1200-Pc Kit (Amazon)": {
         "url": "https://www.amazon.com/Electrical-Connectors-Sopoby-Insulated-Terminals/dp/B01GAESOWA",
@@ -2206,10 +2206,14 @@
           {
             "date": "2026-09-28T05:20:22.896672+00:00",
             "price": 40.95
+          },
+          {
+            "date": "2026-09-29T22:13:10.957498+00:00",
+            "price": 40.95
           }
         ],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "status": "ok",
+        "error": null
       }
     },
     "category": "Electrical",
@@ -2605,10 +2609,14 @@
           {
             "date": "2026-09-28T05:20:22.896672+00:00",
             "price": 69.95
+          },
+          {
+            "date": "2026-09-29T22:13:10.957498+00:00",
+            "price": 69.95
           }
         ],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "status": "ok",
+        "error": null
       }
     },
     "category": "Ignition",
@@ -2780,10 +2788,14 @@
           {
             "date": "2026-09-28T05:20:22.896672+00:00",
             "price": 16.99
+          },
+          {
+            "date": "2026-09-29T22:13:10.957498+00:00",
+            "price": 16.99
           }
         ],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "status": "ok",
+        "error": null
       },
       "Breeze 200-Pc Assortment (Amazon)": {
         "url": "https://www.amazon.com/Breeze-Assortment-Automotive-assortment-contains/dp/B009SD0IZM",
