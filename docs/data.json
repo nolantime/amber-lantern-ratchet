@@ -254,8 +254,8 @@
             "price": 12.09
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       }
     },
     "category": "Hand Tools",
@@ -419,8 +419,8 @@
             "price": 36.0
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       }
     },
     "category": "Hand Tools",
@@ -2435,10 +2435,14 @@
           {
             "date": "2026-09-28T05:20:22.896672+00:00",
             "price": 7.95
+          },
+          {
+            "date": "2026-09-29T05:41:26.566499+00:00",
+            "price": 7.95
           }
         ],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "status": "ok",
+        "error": null
       }
     },
     "category": "Electrical",
@@ -3047,10 +3051,14 @@
           {
             "date": "2026-09-28T13:49:26.401091+00:00",
             "price": 9.99
+          },
+          {
+            "date": "2026-09-29T05:41:26.566499+00:00",
+            "price": 9.99
           }
         ],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "status": "ok",
+        "error": null
       },
       "Cable Matters 200-Pc Assorted (Amazon)": {
         "url": "https://www.amazon.com/Cable-Matters-Assorted-Self-Locking-12-Inch/dp/B00L2LGMO4",
@@ -3436,8 +3444,8 @@
             "price": 74.93
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       }
     },
     "category": "Consumables",
@@ -3873,10 +3881,14 @@
           {
             "date": "2026-09-28T05:20:22.896672+00:00",
             "price": 29.97
+          },
+          {
+            "date": "2026-09-29T05:41:26.566499+00:00",
+            "price": 29.97
           }
         ],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "status": "ok",
+        "error": null
       }
     },
     "category": "Tire & Recovery",
