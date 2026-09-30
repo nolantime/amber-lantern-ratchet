@@ -121,10 +121,14 @@
           {
             "date": "2026-09-28T05:20:22.896672+00:00",
             "price": 45.0
+          },
+          {
+            "date": "2026-09-30T12:31:12.938499+00:00",
+            "price": 45.0
           }
         ],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "status": "ok",
+        "error": null
       }
     },
     "category": "Hand Tools",
@@ -427,8 +431,8 @@
             "price": 36.0
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       }
     },
     "category": "Hand Tools",
@@ -900,8 +904,8 @@
             "price": 24.95
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       }
     },
     "category": "Hand Tools",
@@ -1035,8 +1039,8 @@
             "price": 13.38
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       }
     },
     "category": "Hand Tools",
@@ -1345,8 +1349,8 @@
             "price": 21.97
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       }
     },
     "category": "Electrical",
@@ -1835,6 +1839,10 @@
           {
             "date": "2026-09-30T05:29:25.419137+00:00",
             "price": 25.99
+          },
+          {
+            "date": "2026-09-30T12:31:12.938499+00:00",
+            "price": 25.99
           }
         ],
         "status": "ok",
@@ -2087,8 +2095,8 @@
             "price": 7.99
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       }
     },
     "category": "Electrical",
@@ -2475,10 +2483,14 @@
           {
             "date": "2026-09-29T05:41:26.566499+00:00",
             "price": 7.95
+          },
+          {
+            "date": "2026-09-30T12:31:12.938499+00:00",
+            "price": 7.99
           }
         ],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "status": "ok",
+        "error": null
       }
     },
     "category": "Electrical",
@@ -2822,8 +2834,8 @@
             "price": 16.99
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       },
       "Breeze 200-Pc Assortment (Amazon)": {
         "url": "https://www.amazon.com/Breeze-Assortment-Automotive-assortment-contains/dp/B009SD0IZM",
@@ -3810,10 +3822,14 @@
           {
             "date": "2026-09-28T05:20:22.896672+00:00",
             "price": 10.28
+          },
+          {
+            "date": "2026-09-30T12:31:12.938499+00:00",
+            "price": 10.28
           }
         ],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "status": "ok",
+        "error": null
       },
       "Victor Plug & Go (Amazon)": {
         "url": "https://www.amazon.com/Victor-22-5-60204-8-Plug-Tire-Repair/dp/B00CRCQFPS",
@@ -3939,8 +3955,8 @@
             "price": 29.97
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       }
     },
     "category": "Tire & Recovery",
