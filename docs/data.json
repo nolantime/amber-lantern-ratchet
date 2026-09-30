@@ -421,10 +421,14 @@
           {
             "date": "2026-09-29T12:48:51.963343+00:00",
             "price": 36.0
+          },
+          {
+            "date": "2026-09-30T05:29:25.419137+00:00",
+            "price": 36.0
           }
         ],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "status": "ok",
+        "error": null
       }
     },
     "category": "Hand Tools",
@@ -890,10 +894,14 @@
           {
             "date": "2026-09-28T13:49:26.401091+00:00",
             "price": 24.95
+          },
+          {
+            "date": "2026-09-30T05:29:25.419137+00:00",
+            "price": 24.95
           }
         ],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "status": "ok",
+        "error": null
       }
     },
     "category": "Hand Tools",
@@ -1021,10 +1029,14 @@
           {
             "date": "2026-09-28T13:49:26.401091+00:00",
             "price": 18.0
+          },
+          {
+            "date": "2026-09-30T05:29:25.419137+00:00",
+            "price": 13.38
           }
         ],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "status": "ok",
+        "error": null
       }
     },
     "category": "Hand Tools",
@@ -1327,10 +1339,14 @@
           {
             "date": "2026-09-28T05:20:22.896672+00:00",
             "price": 21.97
+          },
+          {
+            "date": "2026-09-30T05:29:25.419137+00:00",
+            "price": 21.97
           }
         ],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "status": "ok",
+        "error": null
       }
     },
     "category": "Electrical",
@@ -1815,10 +1831,14 @@
           {
             "date": "2026-09-28T05:20:22.896672+00:00",
             "price": 25.99
+          },
+          {
+            "date": "2026-09-30T05:29:25.419137+00:00",
+            "price": 25.99
           }
         ],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "status": "ok",
+        "error": null
       },
       "280-Pc Assortment (Amazon)": {
         "url": "https://www.amazon.com/Insulated-Wire-Electrical-Connectors-Assortment/dp/B08Q37ZKM8",
@@ -2061,10 +2081,14 @@
           {
             "date": "2026-09-28T13:49:26.401091+00:00",
             "price": 7.99
+          },
+          {
+            "date": "2026-09-30T05:29:25.419137+00:00",
+            "price": 7.99
           }
         ],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "status": "ok",
+        "error": null
       }
     },
     "category": "Electrical",
@@ -2212,8 +2236,8 @@
             "price": 40.95
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       }
     },
     "category": "Electrical",
@@ -2615,8 +2639,8 @@
             "price": 69.95
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       }
     },
     "category": "Ignition",
@@ -2791,6 +2815,10 @@
           },
           {
             "date": "2026-09-29T22:13:10.957498+00:00",
+            "price": 16.99
+          },
+          {
+            "date": "2026-09-30T05:29:25.419137+00:00",
             "price": 16.99
           }
         ],
@@ -3905,10 +3933,14 @@
           {
             "date": "2026-09-29T05:41:26.566499+00:00",
             "price": 29.97
+          },
+          {
+            "date": "2026-09-30T05:29:25.419137+00:00",
+            "price": 29.97
           }
         ],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "status": "ok",
+        "error": null
       }
     },
     "category": "Tire & Recovery",
