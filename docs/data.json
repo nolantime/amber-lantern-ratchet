@@ -1377,8 +1377,8 @@
             "price": 21.97
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       }
     },
     "category": "Electrical",
@@ -3061,8 +3061,8 @@
             "price": 16.99
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       }
     },
     "category": "Fuel",
@@ -3811,8 +3811,8 @@
             "price": 29.99
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       }
     },
     "category": "Tire & Recovery",
@@ -3972,8 +3972,8 @@
             "price": 10.28
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       },
       "Victor Plug & Go (Amazon)": {
         "url": "https://www.amazon.com/Victor-22-5-60204-8-Plug-Tire-Repair/dp/B00CRCQFPS",
