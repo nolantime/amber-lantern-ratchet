@@ -1371,10 +1371,14 @@
           {
             "date": "2026-09-30T05:29:25.419137+00:00",
             "price": 21.97
+          },
+          {
+            "date": "2026-10-02T12:29:42.106499+00:00",
+            "price": 21.97
           }
         ],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "status": "ok",
+        "error": null
       }
     },
     "category": "Electrical",
@@ -1748,8 +1752,8 @@
             "price": 52.9
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       }
     },
     "category": "Electrical",
@@ -2020,8 +2024,8 @@
             "price": 9.99
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       },
       "140-Pc ATC/ATO/APR/ATS Kit (Amazon)": {
         "url": "https://www.amazon.com/140-Standard-Blade-Fuses-Assortment/dp/B0CHY5XJ43",
@@ -2155,8 +2159,8 @@
             "price": 7.99
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       }
     },
     "category": "Electrical",
@@ -2308,8 +2312,8 @@
             "price": 40.95
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       }
     },
     "category": "Electrical",
@@ -2442,8 +2446,8 @@
             "price": 43.64
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       },
       "3M Scotch 700 (Amazon)": {
         "url": "https://www.amazon.com/Scotch-Electrical-Tape-4-Inch-66-Foot/dp/B001ULCB1O",
@@ -2569,8 +2573,8 @@
             "price": 7.99
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       }
     },
     "category": "Electrical",
@@ -3050,6 +3054,10 @@
           },
           {
             "date": "2026-10-02T05:33:22.221618+00:00",
+            "price": 16.99
+          },
+          {
+            "date": "2026-10-02T12:29:42.106499+00:00",
             "price": 16.99
           }
         ],
@@ -3797,10 +3805,14 @@
           {
             "date": "2026-10-01T22:39:27.587258+00:00",
             "price": 29.99
+          },
+          {
+            "date": "2026-10-02T12:29:42.106499+00:00",
+            "price": 29.99
           }
         ],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "status": "ok",
+        "error": null
       }
     },
     "category": "Tire & Recovery",
@@ -3954,10 +3966,14 @@
           {
             "date": "2026-10-01T05:48:10.863093+00:00",
             "price": 7.97
+          },
+          {
+            "date": "2026-10-02T12:29:42.106499+00:00",
+            "price": 10.28
           }
         ],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "status": "ok",
+        "error": null
       },
       "Victor Plug & Go (Amazon)": {
         "url": "https://www.amazon.com/Victor-22-5-60204-8-Plug-Tire-Repair/dp/B00CRCQFPS",
