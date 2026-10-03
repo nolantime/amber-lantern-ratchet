@@ -131,8 +131,8 @@
             "price": 45.0
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       }
     },
     "category": "Hand Tools",
@@ -930,6 +930,10 @@
           {
             "date": "2026-10-03T05:15:02.575987+00:00",
             "price": 24.95
+          },
+          {
+            "date": "2026-10-03T11:36:46.492837+00:00",
+            "price": 24.95
           }
         ],
         "status": "ok",
@@ -1071,8 +1075,8 @@
             "price": 13.22
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       }
     },
     "category": "Hand Tools",
@@ -1768,8 +1772,8 @@
             "price": 52.9
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       }
     },
     "category": "Electrical",
@@ -2466,8 +2470,8 @@
             "price": 42.55
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       },
       "3M Scotch 700 (Amazon)": {
         "url": "https://www.amazon.com/Scotch-Electrical-Tape-4-Inch-66-Foot/dp/B001ULCB1O",
@@ -2759,8 +2763,8 @@
             "price": 69.95
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       }
     },
     "category": "Ignition",
@@ -2948,10 +2952,14 @@
           {
             "date": "2026-10-01T13:08:30.154729+00:00",
             "price": 16.99
+          },
+          {
+            "date": "2026-10-03T11:36:46.492837+00:00",
+            "price": 16.99
           }
         ],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "status": "ok",
+        "error": null
       },
       "Breeze 200-Pc Assortment (Amazon)": {
         "url": "https://www.amazon.com/Breeze-Assortment-Automotive-assortment-contains/dp/B009SD0IZM",
@@ -3839,8 +3847,8 @@
             "price": 29.99
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       }
     },
     "category": "Tire & Recovery",
@@ -4004,8 +4012,8 @@
             "price": 10.28
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       },
       "Victor Plug & Go (Amazon)": {
         "url": "https://www.amazon.com/Victor-22-5-60204-8-Plug-Tire-Repair/dp/B00CRCQFPS",
@@ -4133,10 +4141,14 @@
           {
             "date": "2026-10-01T22:39:27.587258+00:00",
             "price": 29.97
+          },
+          {
+            "date": "2026-10-03T11:36:46.492837+00:00",
+            "price": 29.97
           }
         ],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "status": "ok",
+        "error": null
       }
     },
     "category": "Tire & Recovery",
