@@ -781,8 +781,8 @@
             "price": 22.68
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       }
     },
     "category": "Hand Tools",
@@ -1911,10 +1911,14 @@
           {
             "date": "2026-09-30T12:31:12.938499+00:00",
             "price": 25.99
+          },
+          {
+            "date": "2026-10-03T21:12:01.805554+00:00",
+            "price": 25.99
           }
         ],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "status": "ok",
+        "error": null
       },
       "280-Pc Assortment (Amazon)": {
         "url": "https://www.amazon.com/Insulated-Wire-Electrical-Connectors-Assortment/dp/B08Q37ZKM8",
@@ -3095,10 +3099,14 @@
           {
             "date": "2026-10-02T12:29:42.106499+00:00",
             "price": 16.99
+          },
+          {
+            "date": "2026-10-03T21:12:01.805554+00:00",
+            "price": 16.99
           }
         ],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "status": "ok",
+        "error": null
       }
     },
     "category": "Fuel",
@@ -3533,8 +3541,8 @@
             "price": 26.98
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       },
       "Gorilla Tape Single Roll (Amazon)": {
         "url": "https://www.amazon.com/Gorilla-Tape-Black-Duct-1-88/dp/B01LYZS688",
@@ -3853,10 +3861,14 @@
           {
             "date": "2026-10-03T05:15:02.575987+00:00",
             "price": 29.99
+          },
+          {
+            "date": "2026-10-03T21:12:01.805554+00:00",
+            "price": 29.99
           }
         ],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "status": "ok",
+        "error": null
       }
     },
     "category": "Tire & Recovery",
@@ -4159,8 +4171,8 @@
             "price": 29.97
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       }
     },
     "category": "Tire & Recovery",
