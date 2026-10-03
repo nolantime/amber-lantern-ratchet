@@ -775,10 +775,14 @@
           {
             "date": "2026-09-30T22:13:20.384185+00:00",
             "price": 24.99
+          },
+          {
+            "date": "2026-10-03T16:15:31.977540+00:00",
+            "price": 22.68
           }
         ],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "status": "ok",
+        "error": null
       }
     },
     "category": "Hand Tools",
@@ -936,8 +940,8 @@
             "price": 24.95
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       }
     },
     "category": "Hand Tools",
@@ -2958,8 +2962,8 @@
             "price": 16.99
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       },
       "Breeze 200-Pc Assortment (Amazon)": {
         "url": "https://www.amazon.com/Breeze-Assortment-Automotive-assortment-contains/dp/B009SD0IZM",
@@ -3523,10 +3527,14 @@
           {
             "date": "2026-09-30T22:13:20.384185+00:00",
             "price": 26.98
+          },
+          {
+            "date": "2026-10-03T16:15:31.977540+00:00",
+            "price": 26.98
           }
         ],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "status": "ok",
+        "error": null
       },
       "Gorilla Tape Single Roll (Amazon)": {
         "url": "https://www.amazon.com/Gorilla-Tape-Black-Duct-1-88/dp/B01LYZS688",
@@ -4144,6 +4152,10 @@
           },
           {
             "date": "2026-10-03T11:36:46.492837+00:00",
+            "price": 29.97
+          },
+          {
+            "date": "2026-10-03T16:15:31.977540+00:00",
             "price": 29.97
           }
         ],
