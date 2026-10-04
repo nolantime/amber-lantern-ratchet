@@ -129,10 +129,14 @@
           {
             "date": "2026-10-03T05:15:02.575987+00:00",
             "price": 45.0
+          },
+          {
+            "date": "2026-10-04T05:49:48.376137+00:00",
+            "price": 45.0
           }
         ],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "status": "ok",
+        "error": null
       }
     },
     "category": "Hand Tools",
@@ -437,10 +441,14 @@
           {
             "date": "2026-09-30T22:13:20.384185+00:00",
             "price": 36.0
+          },
+          {
+            "date": "2026-10-04T05:49:48.376137+00:00",
+            "price": 36.0
           }
         ],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "status": "ok",
+        "error": null
       }
     },
     "category": "Hand Tools",
@@ -1915,6 +1923,10 @@
           {
             "date": "2026-10-03T21:12:01.805554+00:00",
             "price": 25.99
+          },
+          {
+            "date": "2026-10-04T05:49:48.376137+00:00",
+            "price": 25.99
           }
         ],
         "status": "ok",
@@ -2964,10 +2976,14 @@
           {
             "date": "2026-10-03T11:36:46.492837+00:00",
             "price": 16.99
+          },
+          {
+            "date": "2026-10-04T05:49:48.376137+00:00",
+            "price": 16.99
           }
         ],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "status": "ok",
+        "error": null
       },
       "Breeze 200-Pc Assortment (Amazon)": {
         "url": "https://www.amazon.com/Breeze-Assortment-Automotive-assortment-contains/dp/B009SD0IZM",
@@ -3105,8 +3121,8 @@
             "price": 16.99
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       }
     },
     "category": "Fuel",
@@ -3867,8 +3883,8 @@
             "price": 29.99
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       }
     },
     "category": "Tire & Recovery",
