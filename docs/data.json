@@ -163,8 +163,8 @@
             "price": 45.0
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       }
     },
     "category": "Hand Tools",
@@ -311,6 +311,10 @@
           },
           {
             "date": "2026-10-07T05:55:30.158000+00:00",
+            "price": 12.09
+          },
+          {
+            "date": "2026-10-07T13:18:32.199986+00:00",
             "price": 12.09
           }
         ],
@@ -515,8 +519,8 @@
             "price": 36.0
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       }
     },
     "category": "Hand Tools",
@@ -712,8 +716,8 @@
             "price": 15.99
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       }
     },
     "category": "Hand Tools",
@@ -901,8 +905,8 @@
             "price": 22.61
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       }
     },
     "category": "Hand Tools",
@@ -1084,8 +1088,8 @@
             "price": 22.95
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       }
     },
     "category": "Hand Tools",
@@ -1243,8 +1247,8 @@
             "price": 7.9
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       }
     },
     "category": "Hand Tools",
@@ -1437,8 +1441,8 @@
             "price": 15.7
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       }
     },
     "category": "Electrical",
@@ -1609,8 +1613,8 @@
             "price": 21.97
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       }
     },
     "category": "Electrical",
@@ -1770,8 +1774,8 @@
             "price": 9.99
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       },
       "Sopoby 1200-Pc Kit (Amazon)": {
         "url": "https://www.amazon.com/Electrical-Connectors-Sopoby-Insulated-Terminals/dp/B01GAESOWA",
@@ -1909,8 +1913,8 @@
             "price": 25.99
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       }
     },
     "category": "Electrical",
@@ -2064,8 +2068,8 @@
             "price": 52.9
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       }
     },
     "category": "Electrical",
@@ -2229,8 +2233,8 @@
             "price": 25.99
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       },
       "280-Pc Assortment (Amazon)": {
         "url": "https://www.amazon.com/Insulated-Wire-Electrical-Connectors-Assortment/dp/B08Q37ZKM8",
@@ -2388,8 +2392,8 @@
             "price": 9.99
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       },
       "140-Pc ATC/ATO/APR/ATS Kit (Amazon)": {
         "url": "https://www.amazon.com/140-Standard-Blade-Fuses-Assortment/dp/B0CHY5XJ43",
@@ -2547,8 +2551,8 @@
             "price": 7.99
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       }
     },
     "category": "Electrical",
@@ -2724,8 +2728,8 @@
             "price": 39.95
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       }
     },
     "category": "Electrical",
@@ -2884,6 +2888,10 @@
           {
             "date": "2026-10-07T05:55:30.158000+00:00",
             "price": 42.91
+          },
+          {
+            "date": "2026-10-07T13:18:32.199986+00:00",
+            "price": 42.54
           }
         ],
         "status": "ok",
@@ -3033,8 +3041,8 @@
             "price": 7.94
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       }
     },
     "category": "Electrical",
@@ -3219,8 +3227,8 @@
             "price": 69.95
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       }
     },
     "category": "Ignition",
@@ -3436,6 +3444,10 @@
           {
             "date": "2026-10-07T05:55:30.158000+00:00",
             "price": 16.99
+          },
+          {
+            "date": "2026-10-07T13:18:32.199986+00:00",
+            "price": 16.99
           }
         ],
         "status": "ok",
@@ -3605,8 +3617,8 @@
             "price": 16.99
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       }
     },
     "category": "Fuel",
@@ -3789,8 +3801,8 @@
             "price": 9.99
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       },
       "Cable Matters 200-Pc Assorted (Amazon)": {
         "url": "https://www.amazon.com/Cable-Matters-Assorted-Self-Locking-12-Inch/dp/B00L2LGMO4",
@@ -3937,6 +3949,10 @@
           },
           {
             "date": "2026-10-07T05:55:30.158000+00:00",
+            "price": 7.99
+          },
+          {
+            "date": "2026-10-07T13:18:32.199986+00:00",
             "price": 7.99
           }
         ],
@@ -4111,6 +4127,10 @@
           {
             "date": "2026-10-07T05:55:30.158000+00:00",
             "price": 21.56
+          },
+          {
+            "date": "2026-10-07T13:18:32.199986+00:00",
+            "price": 21.56
           }
         ],
         "status": "ok",
@@ -4268,8 +4288,8 @@
             "price": 74.93
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       }
     },
     "category": "Consumables",
@@ -4487,8 +4507,8 @@
             "price": 29.99
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       }
     },
     "category": "Tire & Recovery",
@@ -4672,8 +4692,8 @@
             "price": 10.72
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       },
       "Victor Plug & Go (Amazon)": {
         "url": "https://www.amazon.com/Victor-22-5-60204-8-Plug-Tire-Repair/dp/B00CRCQFPS",
@@ -4831,8 +4851,8 @@
             "price": 29.97
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       }
     },
     "category": "Tire & Recovery",
