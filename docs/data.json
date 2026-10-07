@@ -318,8 +318,8 @@
             "price": 12.09
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       }
     },
     "category": "Hand Tools",
@@ -714,10 +714,14 @@
           {
             "date": "2026-10-07T05:55:30.158000+00:00",
             "price": 15.99
+          },
+          {
+            "date": "2026-10-07T23:03:46.917120+00:00",
+            "price": 15.99
           }
         ],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "status": "ok",
+        "error": null
       }
     },
     "category": "Hand Tools",
@@ -1611,10 +1615,14 @@
           {
             "date": "2026-10-07T05:55:30.158000+00:00",
             "price": 21.97
+          },
+          {
+            "date": "2026-10-07T23:03:46.917120+00:00",
+            "price": 21.97
           }
         ],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "status": "ok",
+        "error": null
       }
     },
     "category": "Electrical",
@@ -1911,10 +1919,14 @@
           {
             "date": "2026-10-07T05:55:30.158000+00:00",
             "price": 25.99
+          },
+          {
+            "date": "2026-10-07T23:03:46.917120+00:00",
+            "price": 25.99
           }
         ],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "status": "ok",
+        "error": null
       }
     },
     "category": "Electrical",
@@ -2066,10 +2078,14 @@
           {
             "date": "2026-10-07T05:55:30.158000+00:00",
             "price": 52.9
+          },
+          {
+            "date": "2026-10-07T23:03:46.917120+00:00",
+            "price": 52.9
           }
         ],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "status": "ok",
+        "error": null
       }
     },
     "category": "Electrical",
@@ -2726,10 +2742,14 @@
           {
             "date": "2026-10-07T05:55:30.158000+00:00",
             "price": 39.95
+          },
+          {
+            "date": "2026-10-07T23:03:46.917120+00:00",
+            "price": 39.95
           }
         ],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "status": "ok",
+        "error": null
       }
     },
     "category": "Electrical",
@@ -2894,8 +2914,8 @@
             "price": 42.54
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       },
       "3M Scotch 700 (Amazon)": {
         "url": "https://www.amazon.com/Scotch-Electrical-Tape-4-Inch-66-Foot/dp/B001ULCB1O",
@@ -3450,8 +3470,8 @@
             "price": 16.99
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       },
       "Breeze 200-Pc Assortment (Amazon)": {
         "url": "https://www.amazon.com/Breeze-Assortment-Automotive-assortment-contains/dp/B009SD0IZM",
@@ -3956,8 +3976,8 @@
             "price": 7.99
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       }
     },
     "category": "Consumables",
@@ -4133,8 +4153,8 @@
             "price": 21.56
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       },
       "Gorilla Tape Single Roll (Amazon)": {
         "url": "https://www.amazon.com/Gorilla-Tape-Black-Duct-1-88/dp/B01LYZS688",
@@ -4849,10 +4869,14 @@
           {
             "date": "2026-10-07T05:55:30.158000+00:00",
             "price": 29.97
+          },
+          {
+            "date": "2026-10-07T23:03:46.917120+00:00",
+            "price": 29.97
           }
         ],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "status": "ok",
+        "error": null
       }
     },
     "category": "Tire & Recovery",
