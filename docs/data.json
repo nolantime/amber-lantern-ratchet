@@ -539,8 +539,8 @@
             "price": 36.0
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       }
     },
     "category": "Hand Tools",
@@ -1293,10 +1293,14 @@
           {
             "date": "2026-10-08T13:24:43.863359+00:00",
             "price": 18.0
+          },
+          {
+            "date": "2026-10-09T06:05:19.811894+00:00",
+            "price": 18.0
           }
         ],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "status": "ok",
+        "error": null
       }
     },
     "category": "Hand Tools",
@@ -1983,10 +1987,14 @@
           {
             "date": "2026-10-08T05:59:29.928109+00:00",
             "price": 25.99
+          },
+          {
+            "date": "2026-10-09T06:05:19.811894+00:00",
+            "price": 25.99
           }
         ],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "status": "ok",
+        "error": null
       }
     },
     "category": "Electrical",
@@ -2482,10 +2490,14 @@
           {
             "date": "2026-10-08T13:24:43.863359+00:00",
             "price": 9.99
+          },
+          {
+            "date": "2026-10-09T06:05:19.811894+00:00",
+            "price": 9.99
           }
         ],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "status": "ok",
+        "error": null
       },
       "140-Pc ATC/ATO/APR/ATS Kit (Amazon)": {
         "url": "https://www.amazon.com/140-Standard-Blade-Fuses-Assortment/dp/B0CHY5XJ43",
@@ -3154,6 +3166,10 @@
           },
           {
             "date": "2026-10-08T23:19:10.222302+00:00",
+            "price": 7.94
+          },
+          {
+            "date": "2026-10-09T06:05:19.811894+00:00",
             "price": 7.94
           }
         ],
@@ -4285,8 +4301,8 @@
             "price": 26.98
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       },
       "Gorilla Tape Single Roll (Amazon)": {
         "url": "https://www.amazon.com/Gorilla-Tape-Black-Duct-1-88/dp/B01LYZS688",
@@ -4442,10 +4458,14 @@
           {
             "date": "2026-10-08T05:59:29.928109+00:00",
             "price": 74.93
+          },
+          {
+            "date": "2026-10-09T06:05:19.811894+00:00",
+            "price": 74.93
           }
         ],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "status": "ok",
+        "error": null
       }
     },
     "category": "Consumables",
