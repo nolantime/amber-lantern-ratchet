@@ -334,8 +334,8 @@
             "price": 12.09
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       }
     },
     "category": "Hand Tools",
@@ -1130,10 +1130,14 @@
           {
             "date": "2026-10-08T05:59:29.928109+00:00",
             "price": 22.95
+          },
+          {
+            "date": "2026-10-09T22:36:12.606764+00:00",
+            "price": 22.95
           }
         ],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "status": "ok",
+        "error": null
       }
     },
     "category": "Hand Tools",
@@ -1499,10 +1503,14 @@
           {
             "date": "2026-10-08T05:59:29.928109+00:00",
             "price": 15.7
+          },
+          {
+            "date": "2026-10-09T22:36:12.606764+00:00",
+            "price": 15.7
           }
         ],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "status": "ok",
+        "error": null
       }
     },
     "category": "Electrical",
@@ -1685,8 +1693,8 @@
             "price": 21.97
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       }
     },
     "category": "Electrical",
@@ -2502,10 +2510,14 @@
           {
             "date": "2026-10-09T06:05:19.811894+00:00",
             "price": 9.99
+          },
+          {
+            "date": "2026-10-09T22:36:12.606764+00:00",
+            "price": 9.99
           }
         ],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "status": "ok",
+        "error": null
       },
       "140-Pc ATC/ATO/APR/ATS Kit (Amazon)": {
         "url": "https://www.amazon.com/140-Standard-Blade-Fuses-Assortment/dp/B0CHY5XJ43",
@@ -2856,8 +2868,8 @@
             "price": 39.95
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       }
     },
     "category": "Electrical",
@@ -3024,10 +3036,14 @@
           {
             "date": "2026-10-08T05:59:29.928109+00:00",
             "price": 41.99
+          },
+          {
+            "date": "2026-10-09T22:36:12.606764+00:00",
+            "price": 42.9
           }
         ],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "status": "ok",
+        "error": null
       },
       "3M Scotch 700 (Amazon)": {
         "url": "https://www.amazon.com/Scotch-Electrical-Tape-4-Inch-66-Foot/dp/B001ULCB1O",
@@ -3781,8 +3797,8 @@
             "price": 16.99
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       }
     },
     "category": "Fuel",
@@ -4130,10 +4146,14 @@
           {
             "date": "2026-10-08T13:24:43.863359+00:00",
             "price": 9.99
+          },
+          {
+            "date": "2026-10-09T22:36:12.606764+00:00",
+            "price": 9.99
           }
         ],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "status": "ok",
+        "error": null
       }
     },
     "category": "Consumables",
@@ -4478,10 +4498,14 @@
           {
             "date": "2026-10-09T06:05:19.811894+00:00",
             "price": 74.93
+          },
+          {
+            "date": "2026-10-09T22:36:12.606764+00:00",
+            "price": 75.59
           }
         ],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "status": "ok",
+        "error": null
       }
     },
     "category": "Consumables",
@@ -4900,8 +4924,8 @@
             "price": 7.97
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       },
       "Victor Plug & Go (Amazon)": {
         "url": "https://www.amazon.com/Victor-22-5-60204-8-Plug-Tire-Repair/dp/B00CRCQFPS",
