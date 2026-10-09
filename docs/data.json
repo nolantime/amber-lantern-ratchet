@@ -328,10 +328,14 @@
           {
             "date": "2026-10-08T13:24:43.863359+00:00",
             "price": 12.09
+          },
+          {
+            "date": "2026-10-09T13:12:38.020738+00:00",
+            "price": 12.09
           }
         ],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "status": "ok",
+        "error": null
       }
     },
     "category": "Hand Tools",
@@ -1299,8 +1303,8 @@
             "price": 18.0
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       }
     },
     "category": "Hand Tools",
@@ -1675,10 +1679,14 @@
           {
             "date": "2026-10-08T05:59:29.928109+00:00",
             "price": 21.97
+          },
+          {
+            "date": "2026-10-09T13:12:38.020738+00:00",
+            "price": 21.97
           }
         ],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "status": "ok",
+        "error": null
       }
     },
     "category": "Electrical",
@@ -1993,8 +2001,8 @@
             "price": 25.99
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       }
     },
     "category": "Electrical",
@@ -2496,8 +2504,8 @@
             "price": 9.99
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       },
       "140-Pc ATC/ATO/APR/ATS Kit (Amazon)": {
         "url": "https://www.amazon.com/140-Standard-Blade-Fuses-Assortment/dp/B0CHY5XJ43",
@@ -2842,10 +2850,14 @@
           {
             "date": "2026-10-08T05:59:29.928109+00:00",
             "price": 39.95
+          },
+          {
+            "date": "2026-10-09T13:12:38.020738+00:00",
+            "price": 39.95
           }
         ],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "status": "ok",
+        "error": null
       }
     },
     "category": "Electrical",
@@ -3173,8 +3185,8 @@
             "price": 7.94
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       }
     },
     "category": "Electrical",
@@ -3763,10 +3775,14 @@
           {
             "date": "2026-10-08T05:59:29.928109+00:00",
             "price": 16.99
+          },
+          {
+            "date": "2026-10-09T13:12:38.020738+00:00",
+            "price": 16.99
           }
         ],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "status": "ok",
+        "error": null
       }
     },
     "category": "Fuel",
@@ -4464,8 +4480,8 @@
             "price": 74.93
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       }
     },
     "category": "Consumables",
@@ -4878,10 +4894,14 @@
           {
             "date": "2026-10-08T13:24:43.863359+00:00",
             "price": 7.97
+          },
+          {
+            "date": "2026-10-09T13:12:38.020738+00:00",
+            "price": 7.97
           }
         ],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "status": "ok",
+        "error": null
       },
       "Victor Plug & Go (Amazon)": {
         "url": "https://www.amazon.com/Victor-22-5-60204-8-Plug-Tire-Repair/dp/B00CRCQFPS",
