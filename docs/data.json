@@ -3763,10 +3763,14 @@
           {
             "date": "2026-10-14T11:47:58.315359+00:00",
             "price": 7.94
+          },
+          {
+            "date": "2026-10-14T21:39:02.622536+00:00",
+            "price": 7.94
           }
         ],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "status": "ok",
+        "error": null
       }
     },
     "category": "Electrical",
@@ -4457,8 +4461,8 @@
             "price": 16.99
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       }
     },
     "category": "Fuel",
@@ -5284,8 +5288,8 @@
             "price": 74.93
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       }
     },
     "category": "Consumables",
