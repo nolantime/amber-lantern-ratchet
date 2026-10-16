@@ -205,6 +205,10 @@
           {
             "date": "2026-10-16T16:36:00.270622+00:00",
             "price": 45.0
+          },
+          {
+            "date": "2026-10-16T21:04:26.530001+00:00",
+            "price": 45.0
           }
         ],
         "status": "ok",
@@ -418,8 +422,8 @@
             "price": 12.09
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       }
     },
     "category": "Hand Tools",
@@ -3536,8 +3540,8 @@
             "price": 39.95
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       }
     },
     "category": "Electrical",
@@ -5319,10 +5323,14 @@
           {
             "date": "2026-10-15T11:24:21.066115+00:00",
             "price": 26.98
+          },
+          {
+            "date": "2026-10-16T21:04:26.530001+00:00",
+            "price": 26.98
           }
         ],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "status": "ok",
+        "error": null
       },
       "Gorilla Tape Single Roll (Amazon)": {
         "url": "https://www.amazon.com/Gorilla-Tape-Black-Duct-1-88/dp/B01LYZS688",
