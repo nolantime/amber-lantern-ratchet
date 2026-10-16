@@ -2457,8 +2457,8 @@
             "price": 25.99
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       }
     },
     "category": "Electrical",
@@ -3299,8 +3299,8 @@
             "price": 7.99
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       }
     },
     "category": "Electrical",
@@ -3736,10 +3736,14 @@
           {
             "date": "2026-10-15T11:24:21.066115+00:00",
             "price": 43.99
+          },
+          {
+            "date": "2026-10-16T11:18:41.740412+00:00",
+            "price": 43.99
           }
         ],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "status": "ok",
+        "error": null
       },
       "3M Scotch 700 (Amazon)": {
         "url": "https://www.amazon.com/Scotch-Electrical-Tape-4-Inch-66-Foot/dp/B001ULCB1O",
@@ -6233,10 +6237,14 @@
           {
             "date": "2026-10-15T21:20:28.661194+00:00",
             "price": 29.97
+          },
+          {
+            "date": "2026-10-16T11:18:41.740412+00:00",
+            "price": 29.97
           }
         ],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "status": "ok",
+        "error": null
       }
     },
     "category": "Tire & Recovery",
