@@ -201,10 +201,14 @@
           {
             "date": "2026-10-15T11:24:21.066115+00:00",
             "price": 45.0
+          },
+          {
+            "date": "2026-10-16T16:36:00.270622+00:00",
+            "price": 45.0
           }
         ],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "status": "ok",
+        "error": null
       }
     },
     "category": "Hand Tools",
@@ -408,10 +412,14 @@
           {
             "date": "2026-10-15T11:24:21.066115+00:00",
             "price": 12.09
+          },
+          {
+            "date": "2026-10-16T16:36:00.270622+00:00",
+            "price": 12.09
           }
         ],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "status": "ok",
+        "error": null
       }
     },
     "category": "Hand Tools",
@@ -3522,10 +3530,14 @@
           {
             "date": "2026-10-15T11:24:21.066115+00:00",
             "price": 39.95
+          },
+          {
+            "date": "2026-10-16T16:36:00.270622+00:00",
+            "price": 39.95
           }
         ],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "status": "ok",
+        "error": null
       }
     },
     "category": "Electrical",
@@ -3742,8 +3754,8 @@
             "price": 43.99
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       },
       "3M Scotch 700 (Amazon)": {
         "url": "https://www.amazon.com/Scotch-Electrical-Tape-4-Inch-66-Foot/dp/B001ULCB1O",
@@ -6243,8 +6255,8 @@
             "price": 29.97
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       }
     },
     "category": "Tire & Recovery",
