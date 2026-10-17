@@ -209,6 +209,10 @@
           {
             "date": "2026-10-16T21:04:26.530001+00:00",
             "price": 45.0
+          },
+          {
+            "date": "2026-10-17T04:21:35.693035+00:00",
+            "price": 45.0
           }
         ],
         "status": "ok",
@@ -2268,10 +2272,14 @@
           {
             "date": "2026-10-15T11:24:21.066115+00:00",
             "price": 9.99
+          },
+          {
+            "date": "2026-10-17T04:21:35.693035+00:00",
+            "price": 9.99
           }
         ],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "status": "ok",
+        "error": null
       },
       "Sopoby 1200-Pc Kit (Amazon)": {
         "url": "https://www.amazon.com/Electrical-Connectors-Sopoby-Insulated-Terminals/dp/B01GAESOWA",
@@ -5102,10 +5110,14 @@
           {
             "date": "2026-10-15T11:24:21.066115+00:00",
             "price": 9.99
+          },
+          {
+            "date": "2026-10-17T04:21:35.693035+00:00",
+            "price": 9.99
           }
         ],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "status": "ok",
+        "error": null
       }
     },
     "category": "Consumables",
@@ -5326,6 +5338,10 @@
           },
           {
             "date": "2026-10-16T21:04:26.530001+00:00",
+            "price": 26.98
+          },
+          {
+            "date": "2026-10-17T04:21:35.693035+00:00",
             "price": 26.98
           }
         ],
@@ -6046,10 +6062,14 @@
           {
             "date": "2026-10-15T16:57:41.971740+00:00",
             "price": 7.97
+          },
+          {
+            "date": "2026-10-17T04:21:35.693035+00:00",
+            "price": 7.97
           }
         ],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "status": "ok",
+        "error": null
       },
       "Victor Plug & Go (Amazon)": {
         "url": "https://www.amazon.com/Victor-22-5-60204-8-Plug-Tire-Repair/dp/B00CRCQFPS",
