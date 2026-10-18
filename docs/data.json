@@ -221,10 +221,14 @@
           {
             "date": "2026-10-17T15:30:42.643558+00:00",
             "price": 45.0
+          },
+          {
+            "date": "2026-10-18T04:27:31.972064+00:00",
+            "price": 45.0
           }
         ],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "status": "ok",
+        "error": null
       }
     },
     "category": "Hand Tools",
@@ -942,6 +946,10 @@
           {
             "date": "2026-10-17T20:34:17.550830+00:00",
             "price": 15.99
+          },
+          {
+            "date": "2026-10-18T04:27:31.972064+00:00",
+            "price": 15.99
           }
         ],
         "status": "ok",
@@ -1420,8 +1428,8 @@
             "price": 22.95
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       }
     },
     "category": "Hand Tools",
@@ -2328,10 +2336,14 @@
           {
             "date": "2026-10-17T10:39:19.216785+00:00",
             "price": 9.99
+          },
+          {
+            "date": "2026-10-18T04:27:31.972064+00:00",
+            "price": 9.99
           }
         ],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "status": "ok",
+        "error": null
       },
       "Sopoby 1200-Pc Kit (Amazon)": {
         "url": "https://www.amazon.com/Electrical-Connectors-Sopoby-Insulated-Terminals/dp/B01GAESOWA",
@@ -2738,10 +2750,14 @@
           {
             "date": "2026-10-17T10:39:19.216785+00:00",
             "price": 52.9
+          },
+          {
+            "date": "2026-10-18T04:27:31.972064+00:00",
+            "price": 52.9
           }
         ],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "status": "ok",
+        "error": null
       }
     },
     "category": "Electrical",
@@ -3174,10 +3190,14 @@
           {
             "date": "2026-10-17T10:39:19.216785+00:00",
             "price": 9.99
+          },
+          {
+            "date": "2026-10-18T04:27:31.972064+00:00",
+            "price": 9.99
           }
         ],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "status": "ok",
+        "error": null
       },
       "140-Pc ATC/ATO/APR/ATS Kit (Amazon)": {
         "url": "https://www.amazon.com/140-Standard-Blade-Fuses-Assortment/dp/B0CHY5XJ43",
@@ -4047,10 +4067,14 @@
           {
             "date": "2026-10-17T10:39:19.216785+00:00",
             "price": 7.94
+          },
+          {
+            "date": "2026-10-18T04:27:31.972064+00:00",
+            "price": 7.94
           }
         ],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "status": "ok",
+        "error": null
       }
     },
     "category": "Electrical",
@@ -4555,6 +4579,10 @@
           },
           {
             "date": "2026-10-17T20:34:17.550830+00:00",
+            "price": 16.99
+          },
+          {
+            "date": "2026-10-18T04:27:31.972064+00:00",
             "price": 16.99
           }
         ],
@@ -5222,10 +5250,14 @@
           {
             "date": "2026-10-17T10:39:19.216785+00:00",
             "price": 9.99
+          },
+          {
+            "date": "2026-10-18T04:27:31.972064+00:00",
+            "price": 9.99
           }
         ],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "status": "ok",
+        "error": null
       }
     },
     "category": "Consumables",
@@ -6419,8 +6451,8 @@
             "price": 29.97
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       }
     },
     "category": "Tire & Recovery",
