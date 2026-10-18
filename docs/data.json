@@ -705,10 +705,14 @@
           {
             "date": "2026-10-18T11:00:09.755506+00:00",
             "price": 36.0
+          },
+          {
+            "date": "2026-10-18T20:38:41.198057+00:00",
+            "price": 36.0
           }
         ],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "status": "ok",
+        "error": null
       }
     },
     "category": "Hand Tools",
@@ -966,10 +970,14 @@
           {
             "date": "2026-10-18T11:00:09.755506+00:00",
             "price": 15.99
+          },
+          {
+            "date": "2026-10-18T20:38:41.198057+00:00",
+            "price": 15.99
           }
         ],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "status": "ok",
+        "error": null
       }
     },
     "category": "Hand Tools",
@@ -2165,8 +2173,8 @@
             "price": 21.97
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       }
     },
     "category": "Electrical",
@@ -3465,10 +3473,14 @@
           {
             "date": "2026-10-18T11:00:09.755506+00:00",
             "price": 7.99
+          },
+          {
+            "date": "2026-10-18T20:38:41.198057+00:00",
+            "price": 7.99
           }
         ],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "status": "ok",
+        "error": null
       }
     },
     "category": "Electrical",
@@ -4383,8 +4395,8 @@
             "price": 69.95
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       }
     },
     "category": "Ignition",
@@ -5804,8 +5816,8 @@
             "price": 74.93
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       }
     },
     "category": "Consumables",
