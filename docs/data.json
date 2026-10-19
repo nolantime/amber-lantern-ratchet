@@ -229,10 +229,14 @@
           {
             "date": "2026-10-18T11:00:09.755506+00:00",
             "price": 45.0
+          },
+          {
+            "date": "2026-10-19T04:36:23.452112+00:00",
+            "price": 45.0
           }
         ],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "status": "ok",
+        "error": null
       }
     },
     "category": "Hand Tools",
@@ -448,10 +452,14 @@
           {
             "date": "2026-10-18T11:00:09.755506+00:00",
             "price": 12.09
+          },
+          {
+            "date": "2026-10-19T04:36:23.452112+00:00",
+            "price": 12.09
           }
         ],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "status": "ok",
+        "error": null
       }
     },
     "category": "Hand Tools",
@@ -711,8 +719,8 @@
             "price": 36.0
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       }
     },
     "category": "Hand Tools",
@@ -976,8 +984,8 @@
             "price": 15.99
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       }
     },
     "category": "Hand Tools",
@@ -2171,10 +2179,14 @@
           {
             "date": "2026-10-18T15:49:48.410131+00:00",
             "price": 21.97
+          },
+          {
+            "date": "2026-10-19T04:36:23.452112+00:00",
+            "price": 21.97
           }
         ],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "status": "ok",
+        "error": null
       }
     },
     "category": "Electrical",
@@ -3023,10 +3035,14 @@
           {
             "date": "2026-10-18T11:00:09.755506+00:00",
             "price": 25.99
+          },
+          {
+            "date": "2026-10-19T04:36:23.452112+00:00",
+            "price": 25.99
           }
         ],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "status": "ok",
+        "error": null
       },
       "280-Pc Assortment (Amazon)": {
         "url": "https://www.amazon.com/Insulated-Wire-Electrical-Connectors-Assortment/dp/B08Q37ZKM8",
@@ -3476,6 +3492,10 @@
           },
           {
             "date": "2026-10-18T20:38:41.198057+00:00",
+            "price": 7.99
+          },
+          {
+            "date": "2026-10-19T04:36:23.452112+00:00",
             "price": 7.99
           }
         ],
@@ -3940,10 +3960,14 @@
           {
             "date": "2026-10-18T11:00:09.755506+00:00",
             "price": 43.81
+          },
+          {
+            "date": "2026-10-19T04:36:23.452112+00:00",
+            "price": 43.46
           }
         ],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "status": "ok",
+        "error": null
       },
       "3M Scotch 700 (Amazon)": {
         "url": "https://www.amazon.com/Scotch-Electrical-Tape-4-Inch-66-Foot/dp/B001ULCB1O",
