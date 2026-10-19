@@ -235,8 +235,8 @@
             "price": 45.0
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       }
     },
     "category": "Hand Tools",
@@ -455,6 +455,10 @@
           },
           {
             "date": "2026-10-19T04:36:23.452112+00:00",
+            "price": 12.09
+          },
+          {
+            "date": "2026-10-19T13:07:20.949324+00:00",
             "price": 12.09
           }
         ],
@@ -2185,8 +2189,8 @@
             "price": 21.97
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       }
     },
     "category": "Electrical",
@@ -2603,10 +2607,14 @@
           {
             "date": "2026-10-18T11:00:09.755506+00:00",
             "price": 25.99
+          },
+          {
+            "date": "2026-10-19T13:07:20.949324+00:00",
+            "price": 25.99
           }
         ],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "status": "ok",
+        "error": null
       }
     },
     "category": "Electrical",
@@ -3041,8 +3049,8 @@
             "price": 25.99
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       },
       "280-Pc Assortment (Amazon)": {
         "url": "https://www.amazon.com/Insulated-Wire-Electrical-Connectors-Assortment/dp/B08Q37ZKM8",
@@ -3270,10 +3278,14 @@
           {
             "date": "2026-10-18T11:00:09.755506+00:00",
             "price": 9.99
+          },
+          {
+            "date": "2026-10-19T13:07:20.949324+00:00",
+            "price": 9.49
           }
         ],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "status": "ok",
+        "error": null
       },
       "140-Pc ATC/ATO/APR/ATS Kit (Amazon)": {
         "url": "https://www.amazon.com/140-Standard-Blade-Fuses-Assortment/dp/B0CHY5XJ43",
@@ -3499,8 +3511,8 @@
             "price": 7.99
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       }
     },
     "category": "Electrical",
@@ -3734,10 +3746,14 @@
           {
             "date": "2026-10-18T11:00:09.755506+00:00",
             "price": 39.95
+          },
+          {
+            "date": "2026-10-19T13:07:20.949324+00:00",
+            "price": 39.95
           }
         ],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "status": "ok",
+        "error": null
       }
     },
     "category": "Electrical",
@@ -3964,6 +3980,10 @@
           {
             "date": "2026-10-19T04:36:23.452112+00:00",
             "price": 43.46
+          },
+          {
+            "date": "2026-10-19T13:07:20.949324+00:00",
+            "price": 43.99
           }
         ],
         "status": "ok",
@@ -4175,10 +4195,14 @@
           {
             "date": "2026-10-18T11:00:09.755506+00:00",
             "price": 7.94
+          },
+          {
+            "date": "2026-10-19T13:07:20.949324+00:00",
+            "price": 7.95
           }
         ],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "status": "ok",
+        "error": null
       }
     },
     "category": "Electrical",
