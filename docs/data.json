@@ -1042,6 +1042,10 @@
           {
             "date": "2026-10-21T17:09:14.950436+00:00",
             "price": 15.99
+          },
+          {
+            "date": "2026-10-21T21:40:14.614168+00:00",
+            "price": 15.99
           }
         ],
         "status": "ok",
@@ -1550,6 +1554,10 @@
           {
             "date": "2026-10-21T17:09:14.950436+00:00",
             "price": 22.95
+          },
+          {
+            "date": "2026-10-21T21:40:14.614168+00:00",
+            "price": 22.95
           }
         ],
         "status": "ok",
@@ -1795,8 +1803,8 @@
             "price": 18.0
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       }
     },
     "category": "Hand Tools",
@@ -2299,10 +2307,14 @@
           {
             "date": "2026-10-21T11:44:26.289018+00:00",
             "price": 21.97
+          },
+          {
+            "date": "2026-10-21T21:40:14.614168+00:00",
+            "price": 21.97
           }
         ],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "status": "ok",
+        "error": null
       }
     },
     "category": "Electrical",
@@ -4397,8 +4409,8 @@
             "price": 7.97
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       }
     },
     "category": "Electrical",
@@ -4928,10 +4940,14 @@
           {
             "date": "2026-10-21T11:44:26.289018+00:00",
             "price": 16.99
+          },
+          {
+            "date": "2026-10-21T21:40:14.614168+00:00",
+            "price": 16.99
           }
         ],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "status": "ok",
+        "error": null
       },
       "Breeze 200-Pc Assortment (Amazon)": {
         "url": "https://www.amazon.com/Breeze-Assortment-Automotive-assortment-contains/dp/B009SD0IZM",
@@ -5173,8 +5189,8 @@
             "price": 16.99
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       }
     },
     "category": "Fuel",
@@ -6688,8 +6704,8 @@
             "price": 7.97
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       },
       "Victor Plug & Go (Amazon)": {
         "url": "https://www.amazon.com/Victor-22-5-60204-8-Plug-Tire-Repair/dp/B00CRCQFPS",
@@ -6931,8 +6947,8 @@
             "price": 29.97
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       }
     },
     "category": "Tire & Recovery",
