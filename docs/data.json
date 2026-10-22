@@ -1058,10 +1058,14 @@
           {
             "date": "2026-10-22T11:51:15.456876+00:00",
             "price": 15.99
+          },
+          {
+            "date": "2026-10-22T21:33:12.528442+00:00",
+            "price": 15.99
           }
         ],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "status": "ok",
+        "error": null
       }
     },
     "category": "Hand Tools",
@@ -2580,10 +2584,14 @@
           {
             "date": "2026-10-22T11:51:15.456876+00:00",
             "price": 9.99
+          },
+          {
+            "date": "2026-10-22T21:33:12.528442+00:00",
+            "price": 9.99
           }
         ],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "status": "ok",
+        "error": null
       },
       "Sopoby 1200-Pc Kit (Amazon)": {
         "url": "https://www.amazon.com/Electrical-Connectors-Sopoby-Insulated-Terminals/dp/B01GAESOWA",
@@ -3514,10 +3522,14 @@
           {
             "date": "2026-10-22T11:51:15.456876+00:00",
             "price": 9.49
+          },
+          {
+            "date": "2026-10-22T21:33:12.528442+00:00",
+            "price": 9.49
           }
         ],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "status": "ok",
+        "error": null
       },
       "140-Pc ATC/ATO/APR/ATS Kit (Amazon)": {
         "url": "https://www.amazon.com/140-Standard-Blade-Fuses-Assortment/dp/B0CHY5XJ43",
@@ -5523,10 +5535,14 @@
           {
             "date": "2026-10-22T11:51:15.456876+00:00",
             "price": 9.99
+          },
+          {
+            "date": "2026-10-22T21:33:12.528442+00:00",
+            "price": 9.99
           }
         ],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "status": "ok",
+        "error": null
       },
       "Cable Matters 200-Pc Assorted (Amazon)": {
         "url": "https://www.amazon.com/Cable-Matters-Assorted-Self-Locking-12-Inch/dp/B00L2LGMO4",
@@ -6254,10 +6270,14 @@
           {
             "date": "2026-10-22T11:51:15.456876+00:00",
             "price": 75.51
+          },
+          {
+            "date": "2026-10-22T21:33:12.528442+00:00",
+            "price": 81.31
           }
         ],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "status": "ok",
+        "error": null
       }
     },
     "category": "Consumables",
