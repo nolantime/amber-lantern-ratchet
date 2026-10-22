@@ -1048,8 +1048,8 @@
             "price": 15.99
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       }
     },
     "category": "Hand Tools",
@@ -1560,8 +1560,8 @@
             "price": 22.95
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       }
     },
     "category": "Hand Tools",
@@ -1801,10 +1801,14 @@
           {
             "date": "2026-10-21T17:09:14.950436+00:00",
             "price": 18.0
+          },
+          {
+            "date": "2026-10-22T04:39:44.968697+00:00",
+            "price": 18.0
           }
         ],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "status": "ok",
+        "error": null
       }
     },
     "category": "Hand Tools",
@@ -2313,8 +2317,8 @@
             "price": 21.97
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       }
     },
     "category": "Electrical",
@@ -3215,10 +3219,14 @@
           {
             "date": "2026-10-21T11:44:26.289018+00:00",
             "price": 25.99
+          },
+          {
+            "date": "2026-10-22T04:39:44.968697+00:00",
+            "price": 25.99
           }
         ],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "status": "ok",
+        "error": null
       },
       "280-Pc Assortment (Amazon)": {
         "url": "https://www.amazon.com/Insulated-Wire-Electrical-Connectors-Assortment/dp/B08Q37ZKM8",
@@ -4946,8 +4954,8 @@
             "price": 16.99
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       },
       "Breeze 200-Pc Assortment (Amazon)": {
         "url": "https://www.amazon.com/Breeze-Assortment-Automotive-assortment-contains/dp/B009SD0IZM",
@@ -5658,10 +5666,14 @@
           {
             "date": "2026-10-21T11:44:26.289018+00:00",
             "price": 9.99
+          },
+          {
+            "date": "2026-10-22T04:39:44.968697+00:00",
+            "price": 9.99
           }
         ],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "status": "ok",
+        "error": null
       }
     },
     "category": "Consumables",
@@ -6142,10 +6154,14 @@
           {
             "date": "2026-10-21T11:44:26.289018+00:00",
             "price": 82.88
+          },
+          {
+            "date": "2026-10-22T04:39:44.968697+00:00",
+            "price": 85.54
           }
         ],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "status": "ok",
+        "error": null
       }
     },
     "category": "Consumables",
@@ -6429,10 +6445,14 @@
           {
             "date": "2026-10-21T11:44:26.289018+00:00",
             "price": 29.99
+          },
+          {
+            "date": "2026-10-22T04:39:44.968697+00:00",
+            "price": 29.99
           }
         ],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "status": "ok",
+        "error": null
       }
     },
     "category": "Tire & Recovery",
@@ -6702,10 +6722,14 @@
           {
             "date": "2026-10-21T17:09:14.950436+00:00",
             "price": 7.97
+          },
+          {
+            "date": "2026-10-22T04:39:44.968697+00:00",
+            "price": 7.97
           }
         ],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "status": "ok",
+        "error": null
       },
       "Victor Plug & Go (Amazon)": {
         "url": "https://www.amazon.com/Victor-22-5-60204-8-Plug-Tire-Repair/dp/B00CRCQFPS",
@@ -6945,10 +6969,14 @@
           {
             "date": "2026-10-21T17:09:14.950436+00:00",
             "price": 29.97
+          },
+          {
+            "date": "2026-10-22T04:39:44.968697+00:00",
+            "price": 29.97
           }
         ],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "status": "ok",
+        "error": null
       }
     },
     "category": "Tire & Recovery",
