@@ -257,10 +257,14 @@
           {
             "date": "2026-10-25T11:21:37.151918+00:00",
             "price": 45.0
+          },
+          {
+            "date": "2026-10-25T20:48:11.966322+00:00",
+            "price": 45.0
           }
         ],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "status": "ok",
+        "error": null
       }
     },
     "category": "Hand Tools",
@@ -2746,8 +2750,8 @@
             "price": 9.59
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       },
       "Sopoby 1200-Pc Kit (Amazon)": {
         "url": "https://www.amazon.com/Electrical-Connectors-Sopoby-Insulated-Terminals/dp/B01GAESOWA",
@@ -7553,10 +7557,14 @@
           {
             "date": "2026-10-25T11:21:37.151918+00:00",
             "price": 29.97
+          },
+          {
+            "date": "2026-10-25T20:48:11.966322+00:00",
+            "price": 29.97
           }
         ],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "status": "ok",
+        "error": null
       }
     },
     "category": "Tire & Recovery",
