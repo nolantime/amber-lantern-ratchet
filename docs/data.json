@@ -261,10 +261,14 @@
           {
             "date": "2026-10-25T20:48:11.966322+00:00",
             "price": 45.0
+          },
+          {
+            "date": "2026-10-26T12:55:57.735295+00:00",
+            "price": 45.0
           }
         ],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "status": "ok",
+        "error": null
       }
     },
     "category": "Hand Tools",
@@ -3750,10 +3754,14 @@
           {
             "date": "2026-10-25T11:21:37.151918+00:00",
             "price": 9.49
+          },
+          {
+            "date": "2026-10-26T12:55:57.735295+00:00",
+            "price": 8.99
           }
         ],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "status": "ok",
+        "error": null
       },
       "140-Pc ATC/ATO/APR/ATS Kit (Amazon)": {
         "url": "https://www.amazon.com/140-Standard-Blade-Fuses-Assortment/dp/B0CHY5XJ43",
@@ -4001,10 +4009,14 @@
           {
             "date": "2026-10-25T11:21:37.151918+00:00",
             "price": 7.99
+          },
+          {
+            "date": "2026-10-26T12:55:57.735295+00:00",
+            "price": 7.99
           }
         ],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "status": "ok",
+        "error": null
       }
     },
     "category": "Electrical",
@@ -4278,10 +4290,14 @@
           {
             "date": "2026-10-25T11:21:37.151918+00:00",
             "price": 39.95
+          },
+          {
+            "date": "2026-10-26T12:55:57.735295+00:00",
+            "price": 39.95
           }
         ],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "status": "ok",
+        "error": null
       }
     },
     "category": "Electrical",
@@ -4536,10 +4552,14 @@
           {
             "date": "2026-10-25T11:21:37.151918+00:00",
             "price": 49.73
+          },
+          {
+            "date": "2026-10-26T12:55:57.735295+00:00",
+            "price": 49.95
           }
         ],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "status": "ok",
+        "error": null
       },
       "3M Scotch 700 (Amazon)": {
         "url": "https://www.amazon.com/Scotch-Electrical-Tape-4-Inch-66-Foot/dp/B001ULCB1O",
@@ -5049,10 +5069,14 @@
           {
             "date": "2026-10-24T15:54:43.642756+00:00",
             "price": 69.94
+          },
+          {
+            "date": "2026-10-26T12:55:57.735295+00:00",
+            "price": 69.95
           }
         ],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "status": "ok",
+        "error": null
       }
     },
     "category": "Ignition",
@@ -6411,10 +6435,14 @@
           {
             "date": "2026-10-25T11:21:37.151918+00:00",
             "price": 27.98
+          },
+          {
+            "date": "2026-10-26T12:55:57.735295+00:00",
+            "price": 27.98
           }
         ],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "status": "ok",
+        "error": null
       },
       "Gorilla Tape Single Roll (Amazon)": {
         "url": "https://www.amazon.com/Gorilla-Tape-Black-Duct-1-88/dp/B01LYZS688",
@@ -6999,8 +7027,8 @@
             "price": 29.99
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       }
     },
     "category": "Tire & Recovery",
@@ -7300,8 +7328,8 @@
             "price": 5.99
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       },
       "Victor Plug & Go (Amazon)": {
         "url": "https://www.amazon.com/Victor-22-5-60204-8-Plug-Tire-Repair/dp/B00CRCQFPS",
@@ -7575,8 +7603,8 @@
             "price": 29.97
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       }
     },
     "category": "Tire & Recovery",
