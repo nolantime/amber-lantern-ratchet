@@ -265,6 +265,10 @@
           {
             "date": "2026-10-26T12:55:57.735295+00:00",
             "price": 45.0
+          },
+          {
+            "date": "2026-10-26T22:38:08.193097+00:00",
+            "price": 45.0
           }
         ],
         "status": "ok",
@@ -2991,10 +2995,14 @@
           {
             "date": "2026-10-25T11:21:37.151918+00:00",
             "price": 25.99
+          },
+          {
+            "date": "2026-10-26T22:38:08.193097+00:00",
+            "price": 25.99
           }
         ],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "status": "ok",
+        "error": null
       }
     },
     "category": "Electrical",
@@ -3760,8 +3768,8 @@
             "price": 8.99
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       },
       "140-Pc ATC/ATO/APR/ATS Kit (Amazon)": {
         "url": "https://www.amazon.com/140-Standard-Blade-Fuses-Assortment/dp/B0CHY5XJ43",
@@ -4015,8 +4023,8 @@
             "price": 7.99
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       }
     },
     "category": "Electrical",
@@ -4296,8 +4304,8 @@
             "price": 39.95
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       }
     },
     "category": "Electrical",
@@ -4556,6 +4564,10 @@
           {
             "date": "2026-10-26T12:55:57.735295+00:00",
             "price": 49.95
+          },
+          {
+            "date": "2026-10-26T22:38:08.193097+00:00",
+            "price": 49.97
           }
         ],
         "status": "ok",
@@ -5075,8 +5087,8 @@
             "price": 69.95
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       }
     },
     "category": "Ignition",
@@ -6441,8 +6453,8 @@
             "price": 27.98
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       },
       "Gorilla Tape Single Roll (Amazon)": {
         "url": "https://www.amazon.com/Gorilla-Tape-Black-Duct-1-88/dp/B01LYZS688",
