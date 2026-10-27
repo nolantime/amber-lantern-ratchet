@@ -1987,8 +1987,8 @@
             "price": 18.0
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       }
     },
     "category": "Hand Tools",
@@ -2535,10 +2535,14 @@
           {
             "date": "2026-10-27T04:59:33.234328+00:00",
             "price": 21.97
+          },
+          {
+            "date": "2026-10-27T17:58:28.376646+00:00",
+            "price": 21.97
           }
         ],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "status": "ok",
+        "error": null
       }
     },
     "category": "Electrical",
@@ -3039,10 +3043,14 @@
           {
             "date": "2026-10-27T04:59:33.234328+00:00",
             "price": 25.99
+          },
+          {
+            "date": "2026-10-27T17:58:28.376646+00:00",
+            "price": 25.99
           }
         ],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "status": "ok",
+        "error": null
       }
     },
     "category": "Electrical",
@@ -3292,8 +3300,8 @@
             "price": 52.9
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       }
     },
     "category": "Electrical",
@@ -3557,8 +3565,8 @@
             "price": 25.99
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       },
       "280-Pc Assortment (Amazon)": {
         "url": "https://www.amazon.com/Insulated-Wire-Electrical-Connectors-Assortment/dp/B08Q37ZKM8",
@@ -3822,10 +3830,14 @@
           {
             "date": "2026-10-26T12:55:57.735295+00:00",
             "price": 8.99
+          },
+          {
+            "date": "2026-10-27T17:58:28.376646+00:00",
+            "price": 8.99
           }
         ],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "status": "ok",
+        "error": null
       },
       "140-Pc ATC/ATO/APR/ATS Kit (Amazon)": {
         "url": "https://www.amazon.com/140-Standard-Blade-Fuses-Assortment/dp/B0CHY5XJ43",
@@ -4636,10 +4648,14 @@
           {
             "date": "2026-10-27T04:59:33.234328+00:00",
             "price": 49.62
+          },
+          {
+            "date": "2026-10-27T17:58:28.376646+00:00",
+            "price": 47.07
           }
         ],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "status": "ok",
+        "error": null
       },
       "3M Scotch 700 (Amazon)": {
         "url": "https://www.amazon.com/Scotch-Electrical-Tape-4-Inch-66-Foot/dp/B001ULCB1O",
@@ -6820,8 +6836,8 @@
             "price": 82.88
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       }
     },
     "category": "Consumables",
@@ -7727,8 +7743,8 @@
             "price": 29.97
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       }
     },
     "category": "Tire & Recovery",
