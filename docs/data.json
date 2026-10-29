@@ -3,9 +3,14 @@
     "options": {
       "ICON G2 (Harbor Freight)": {
         "url": "https://www.harborfreight.com/g2-38-in-drive-10-in-standard-ratchet-with-comfort-grip-70452.html",
-        "history": [],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "history": [
+          {
+            "date": "2026-10-29T05:43:26.511482+00:00",
+            "price": 49.99
+          }
+        ],
+        "status": "ok",
+        "error": null
       },
       "TEKTON SRH11108 (Amazon)": {
         "url": "https://www.amazon.com/TEKTON-8-Inch-Quick-Release-Ratchet-SRH11108/dp/B07GH9Q9S7",
@@ -558,8 +563,8 @@
             "price": 12.09
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       }
     },
     "category": "Hand Tools",
@@ -1172,8 +1177,8 @@
             "price": 15.99
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       }
     },
     "category": "Hand Tools",
@@ -1748,8 +1753,8 @@
             "price": 28.94
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       }
     },
     "category": "Hand Tools",
@@ -2035,8 +2040,8 @@
             "price": 18.0
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       }
     },
     "category": "Hand Tools",
@@ -3121,8 +3126,8 @@
             "price": 25.99
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       }
     },
     "category": "Electrical",
@@ -3380,8 +3385,8 @@
             "price": 52.9
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       }
     },
     "category": "Electrical",
@@ -4488,8 +4493,8 @@
             "price": 39.95
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       }
     },
     "category": "Electrical",
@@ -5301,10 +5306,14 @@
           {
             "date": "2026-10-28T05:36:57.402152+00:00",
             "price": 69.95
+          },
+          {
+            "date": "2026-10-29T05:43:26.511482+00:00",
+            "price": 69.95
           }
         ],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "status": "ok",
+        "error": null
       }
     },
     "category": "Ignition",
@@ -5875,10 +5884,14 @@
           {
             "date": "2026-10-28T05:36:57.402152+00:00",
             "price": 16.99
+          },
+          {
+            "date": "2026-10-29T05:43:26.511482+00:00",
+            "price": 16.99
           }
         ],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "status": "ok",
+        "error": null
       }
     },
     "category": "Fuel",
