@@ -561,10 +561,14 @@
           {
             "date": "2026-10-28T22:32:06.055652+00:00",
             "price": 12.09
+          },
+          {
+            "date": "2026-10-29T22:43:13.106612+00:00",
+            "price": 12.09
           }
         ],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "status": "ok",
+        "error": null
       }
     },
     "category": "Hand Tools",
@@ -3130,8 +3134,8 @@
             "price": 25.99
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       }
     },
     "category": "Electrical",
@@ -3660,10 +3664,14 @@
           {
             "date": "2026-10-28T12:48:23.760309+00:00",
             "price": 25.99
+          },
+          {
+            "date": "2026-10-29T22:43:13.106612+00:00",
+            "price": 25.99
           }
         ],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "status": "ok",
+        "error": null
       },
       "280-Pc Assortment (Amazon)": {
         "url": "https://www.amazon.com/Insulated-Wire-Electrical-Connectors-Assortment/dp/B08Q37ZKM8",
@@ -3938,6 +3946,10 @@
           },
           {
             "date": "2026-10-29T12:56:05.600893+00:00",
+            "price": 8.99
+          },
+          {
+            "date": "2026-10-29T22:43:13.106612+00:00",
             "price": 8.99
           }
         ],
@@ -4783,8 +4795,8 @@
             "price": 43.97
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       },
       "3M Scotch 700 (Amazon)": {
         "url": "https://www.amazon.com/Scotch-Electrical-Tape-4-Inch-66-Foot/dp/B001ULCB1O",
@@ -5328,8 +5340,8 @@
             "price": 69.95
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       }
     },
     "category": "Ignition",
@@ -5908,6 +5920,10 @@
           {
             "date": "2026-10-29T12:56:05.600893+00:00",
             "price": 16.99
+          },
+          {
+            "date": "2026-10-29T22:43:13.106612+00:00",
+            "price": 16.99
           }
         ],
         "status": "ok",
@@ -6194,8 +6210,8 @@
             "price": 9.99
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       },
       "Cable Matters 200-Pc Assorted (Amazon)": {
         "url": "https://www.amazon.com/Cable-Matters-Assorted-Self-Locking-12-Inch/dp/B00L2LGMO4",
@@ -7357,6 +7373,10 @@
           },
           {
             "date": "2026-10-29T12:56:05.600893+00:00",
+            "price": 29.99
+          },
+          {
+            "date": "2026-10-29T22:43:13.106612+00:00",
             "price": 29.99
           }
         ],
