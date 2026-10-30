@@ -577,6 +577,10 @@
           {
             "date": "2026-10-30T12:49:30.554921+00:00",
             "price": 12.09
+          },
+          {
+            "date": "2026-10-30T22:15:50.175375+00:00",
+            "price": 12.09
           }
         ],
         "status": "ok",
@@ -876,8 +880,8 @@
             "price": 36.0
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       }
     },
     "category": "Hand Tools",
@@ -1205,8 +1209,8 @@
             "price": 15.99
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       }
     },
     "category": "Hand Tools",
@@ -2648,10 +2652,14 @@
           {
             "date": "2026-10-28T05:36:57.402152+00:00",
             "price": 21.97
+          },
+          {
+            "date": "2026-10-30T22:15:50.175375+00:00",
+            "price": 21.97
           }
         ],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "status": "ok",
+        "error": null
       }
     },
     "category": "Electrical",
@@ -2919,8 +2927,8 @@
             "price": 9.59
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       },
       "Sopoby 1200-Pc Kit (Amazon)": {
         "url": "https://www.amazon.com/Electrical-Connectors-Sopoby-Insulated-Terminals/dp/B01GAESOWA",
@@ -3184,10 +3192,14 @@
           {
             "date": "2026-10-30T05:42:31.582754+00:00",
             "price": 25.99
+          },
+          {
+            "date": "2026-10-30T22:15:50.175375+00:00",
+            "price": 25.99
           }
         ],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "status": "ok",
+        "error": null
       }
     },
     "category": "Electrical",
@@ -4292,8 +4304,8 @@
             "price": 7.99
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       }
     },
     "category": "Electrical",
@@ -6304,10 +6316,14 @@
           {
             "date": "2026-10-29T12:56:05.600893+00:00",
             "price": 9.99
+          },
+          {
+            "date": "2026-10-30T22:15:50.175375+00:00",
+            "price": 9.99
           }
         ],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "status": "ok",
+        "error": null
       },
       "Cable Matters 200-Pc Assorted (Amazon)": {
         "url": "https://www.amazon.com/Cable-Matters-Assorted-Self-Locking-12-Inch/dp/B00L2LGMO4",
@@ -6577,8 +6593,8 @@
             "price": 9.99
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       }
     },
     "category": "Consumables",
@@ -7161,8 +7177,8 @@
             "price": 82.88
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       }
     },
     "category": "Consumables",
@@ -7498,10 +7514,14 @@
           {
             "date": "2026-10-30T05:42:31.582754+00:00",
             "price": 29.99
+          },
+          {
+            "date": "2026-10-30T22:15:50.175375+00:00",
+            "price": 29.99
           }
         ],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "status": "ok",
+        "error": null
       }
     },
     "category": "Tire & Recovery",
