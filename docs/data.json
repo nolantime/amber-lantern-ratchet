@@ -1873,8 +1873,8 @@
             "price": 28.94
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       }
     },
     "category": "Hand Tools",
@@ -2182,10 +2182,14 @@
           {
             "date": "2026-11-01T21:58:58.654756+00:00",
             "price": 18.99
+          },
+          {
+            "date": "2026-11-02T15:43:36.297473+00:00",
+            "price": 18.0
           }
         ],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "status": "ok",
+        "error": null
       }
     },
     "category": "Hand Tools",
@@ -2780,10 +2784,14 @@
           {
             "date": "2026-11-01T13:17:02.212904+00:00",
             "price": 21.97
+          },
+          {
+            "date": "2026-11-02T15:43:36.297473+00:00",
+            "price": 21.97
           }
         ],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "status": "ok",
+        "error": null
       }
     },
     "category": "Electrical",
@@ -3069,10 +3077,14 @@
           {
             "date": "2026-11-01T21:58:58.654756+00:00",
             "price": 9.59
+          },
+          {
+            "date": "2026-11-02T15:43:36.297473+00:00",
+            "price": 9.59
           }
         ],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "status": "ok",
+        "error": null
       },
       "Sopoby 1200-Pc Kit (Amazon)": {
         "url": "https://www.amazon.com/Electrical-Connectors-Sopoby-Insulated-Terminals/dp/B01GAESOWA",
@@ -4520,8 +4532,8 @@
             "price": 7.99
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       }
     },
     "category": "Electrical",
@@ -5129,10 +5141,14 @@
           {
             "date": "2026-11-01T13:17:02.212904+00:00",
             "price": 44.0
+          },
+          {
+            "date": "2026-11-02T15:43:36.297473+00:00",
+            "price": 44.0
           }
         ],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "status": "ok",
+        "error": null
       },
       "3M Scotch 700 (Amazon)": {
         "url": "https://www.amazon.com/Scotch-Electrical-Tape-4-Inch-66-Foot/dp/B001ULCB1O",
@@ -5404,10 +5420,14 @@
           {
             "date": "2026-11-01T13:17:02.212904+00:00",
             "price": 7.99
+          },
+          {
+            "date": "2026-11-02T15:43:36.297473+00:00",
+            "price": 7.99
           }
         ],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "status": "ok",
+        "error": null
       }
     },
     "category": "Electrical",
@@ -7230,8 +7250,8 @@
             "price": 23.92
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       },
       "Gorilla Tape Single Roll (Amazon)": {
         "url": "https://www.amazon.com/Gorilla-Tape-Black-Duct-1-88/dp/B01LYZS688",
