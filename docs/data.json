@@ -1899,10 +1899,14 @@
           {
             "date": "2026-11-04T06:12:51.363096+00:00",
             "price": 28.94
+          },
+          {
+            "date": "2026-11-04T23:38:37.042753+00:00",
+            "price": 28.94
           }
         ],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "status": "ok",
+        "error": null
       }
     },
     "category": "Hand Tools",
@@ -2526,8 +2530,8 @@
             "price": 16.11
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       }
     },
     "category": "Electrical",
@@ -3434,8 +3438,8 @@
             "price": 25.99
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       }
     },
     "category": "Electrical",
@@ -3721,8 +3725,8 @@
             "price": 52.9
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       }
     },
     "category": "Electrical",
@@ -4337,8 +4341,8 @@
             "price": 9.99
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       },
       "140-Pc ATC/ATO/APR/ATS Kit (Amazon)": {
         "url": "https://www.amazon.com/140-Standard-Blade-Fuses-Assortment/dp/B0CHY5XJ43",
@@ -5268,6 +5272,10 @@
           },
           {
             "date": "2026-11-04T14:28:31.747198+00:00",
+            "price": 43.66
+          },
+          {
+            "date": "2026-11-04T23:38:37.042753+00:00",
             "price": 43.66
           }
         ],
@@ -6812,10 +6820,14 @@
           {
             "date": "2026-11-04T06:12:51.363096+00:00",
             "price": 9.99
+          },
+          {
+            "date": "2026-11-04T23:38:37.042753+00:00",
+            "price": 9.99
           }
         ],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "status": "ok",
+        "error": null
       },
       "Cable Matters 200-Pc Assorted (Amazon)": {
         "url": "https://www.amazon.com/Cable-Matters-Assorted-Self-Locking-12-Inch/dp/B00L2LGMO4",
@@ -8112,8 +8124,8 @@
             "price": 29.98
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       }
     },
     "category": "Tire & Recovery",
@@ -8748,8 +8760,8 @@
             "price": 29.97
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       }
     },
     "category": "Tire & Recovery",
