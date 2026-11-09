@@ -13,8 +13,8 @@
             "price": 49.99
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       },
       "TEKTON SRH11108 (Amazon)": {
         "url": "https://www.amazon.com/TEKTON-8-Inch-Quick-Release-Ratchet-SRH11108/dp/B07GH9Q9S7",
@@ -338,6 +338,10 @@
           {
             "date": "2026-11-09T06:19:27.207995+00:00",
             "price": 45.0
+          },
+          {
+            "date": "2026-11-09T22:17:52.133674+00:00",
+            "price": 45.0
           }
         ],
         "status": "ok",
@@ -361,8 +365,8 @@
             "price": 39.99
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       },
       "GEARWRENCH 81250 3in Locking (Amazon)": {
         "url": "https://www.amazon.com/GearWrench-81250-8-Inch-Locking-Extension/dp/B003DA5Q08",
@@ -692,8 +696,8 @@
             "price": 12.09
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       }
     },
     "category": "Hand Tools",
@@ -713,8 +717,8 @@
             "price": 39.99
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       },
       "GEARWRENCH 84927N 3-Pc Set (Home Depot)": {
         "url": "https://www.homedepot.com/p/GEARWRENCH-3-8-in-Drive-Locking-Impact-Extension-Set-3-in-6-in-and-12-in-3-Piece-84927N/313787418",
@@ -740,8 +744,8 @@
             "price": 34.99
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       },
       "TEKTON SHD91104 12-Pc (Amazon)": {
         "url": "https://www.amazon.com/TEKTON-Drive-12-Point-Socket-12-Piece/dp/B07RVCTNYT",
@@ -1047,8 +1051,8 @@
             "price": 36.0
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       }
     },
     "category": "Hand Tools",
@@ -1068,8 +1072,8 @@
             "price": 134.99
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       },
       "GEARWRENCH 81924 14-Pc (Home Depot)": {
         "url": "https://www.homedepot.com/p/GEARWRENCH-6-Point-SAE-Combination-Wrench-Set-14-Piece-81924/313626268",
@@ -1433,8 +1437,8 @@
             "price": 15.99
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       }
     },
     "category": "Hand Tools",
@@ -1472,8 +1476,8 @@
             "price": 27.99
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       },
       "Klein Tools 80027 (Amazon)": {
         "url": "https://www.amazon.com/Screwdriver-Multi-bit-Klein-Tools-80027/dp/B0912BW9HP",
@@ -1775,8 +1779,8 @@
             "price": 22.71
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       }
     },
     "category": "Hand Tools",
@@ -1796,8 +1800,8 @@
             "price": 21.99
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       },
       "Channellock 3017 8in Long Nose (Amazon)": {
         "url": "https://www.amazon.com/Channellock-3017-Long-Plier-8-Inch/dp/B000189FGQ",
@@ -2135,8 +2139,8 @@
             "price": 24.95
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       }
     },
     "category": "Hand Tools",
@@ -2486,8 +2490,8 @@
             "price": 19.44
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       }
     },
     "category": "Hand Tools",
@@ -2534,8 +2538,8 @@
             "price": 4.99
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       },
       "Innova 3410 Test Light (Amazon)": {
         "url": "https://www.amazon.com/INNOVA-3410-Light-Circuit-Tester/dp/B0014DINF6",
@@ -2829,8 +2833,8 @@
             "price": 16.11
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       }
     },
     "category": "Electrical",
@@ -2859,8 +2863,8 @@
             "price": 19.99
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       },
       "Klein Tools 1019 Klein Kurve (Amazon)": {
         "url": "https://www.amazon.com/Klein-Tools-1019-Connectors-Terminals/dp/B07GFYBW4V",
@@ -3182,8 +3186,8 @@
             "price": 21.0
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       }
     },
     "category": "Electrical",
@@ -3512,6 +3516,10 @@
           },
           {
             "date": "2026-11-09T06:19:27.207995+00:00",
+            "price": 9.99
+          },
+          {
+            "date": "2026-11-09T22:17:52.133674+00:00",
             "price": 9.99
           }
         ],
@@ -3842,8 +3850,8 @@
             "price": 25.99
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       }
     },
     "category": "Electrical",
@@ -4158,6 +4166,10 @@
           },
           {
             "date": "2026-11-09T06:19:27.207995+00:00",
+            "price": 52.9
+          },
+          {
+            "date": "2026-11-09T22:17:52.133674+00:00",
             "price": 52.9
           }
         ],
@@ -4499,6 +4511,10 @@
           },
           {
             "date": "2026-11-09T06:19:27.207995+00:00",
+            "price": 25.99
+          },
+          {
+            "date": "2026-11-09T22:17:52.133674+00:00",
             "price": 25.99
           }
         ],
@@ -4845,8 +4861,8 @@
             "price": 9.99
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       },
       "140-Pc ATC/ATO/APR/ATS Kit (Amazon)": {
         "url": "https://www.amazon.com/140-Standard-Blade-Fuses-Assortment/dp/B0CHY5XJ43",
@@ -5184,8 +5200,8 @@
             "price": 7.99
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       }
     },
     "category": "Electrical",
@@ -5533,8 +5549,8 @@
             "price": 39.95
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       }
     },
     "category": "Electrical",
@@ -5891,8 +5907,8 @@
             "price": 43.66
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       },
       "3M Scotch 700 (Amazon)": {
         "url": "https://www.amazon.com/Scotch-Electrical-Tape-4-Inch-66-Foot/dp/B001ULCB1O",
@@ -6214,8 +6230,8 @@
             "price": 7.99
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       }
     },
     "category": "Electrical",
@@ -6560,8 +6576,8 @@
             "price": 69.95
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       }
     },
     "category": "Ignition",
@@ -6929,6 +6945,10 @@
           {
             "date": "2026-11-09T06:19:27.207995+00:00",
             "price": 16.99
+          },
+          {
+            "date": "2026-11-09T22:17:52.133674+00:00",
+            "price": 16.99
           }
         ],
         "status": "ok",
@@ -7262,8 +7282,8 @@
             "price": 16.99
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       }
     },
     "category": "Fuel",
@@ -7602,8 +7622,8 @@
             "price": 9.99
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       },
       "Cable Matters 200-Pc Assorted (Amazon)": {
         "url": "https://www.amazon.com/Cable-Matters-Assorted-Self-Locking-12-Inch/dp/B00L2LGMO4",
@@ -7925,8 +7945,8 @@
             "price": 8.49
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       }
     },
     "category": "Consumables",
@@ -8282,8 +8302,8 @@
             "price": 27.98
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       },
       "Gorilla Tape Single Roll (Amazon)": {
         "url": "https://www.amazon.com/Gorilla-Tape-Black-Duct-1-88/dp/B01LYZS688",
@@ -8629,8 +8649,8 @@
             "price": 82.88
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       }
     },
     "category": "Consumables",
@@ -8686,8 +8706,8 @@
             "price": 34.99
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       },
       "BIG RED T90603B Torin 6-Ton (Amazon)": {
         "url": "https://www.amazon.com/Torin-Hydraulic-Bottle-Jack-Capacity/dp/B000CO86EG",
@@ -9041,8 +9061,8 @@
             "price": 29.31
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       }
     },
     "category": "Tire & Recovery",
@@ -9062,8 +9082,8 @@
             "price": 17.99
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       }
     },
     "category": "Tire & Recovery",
@@ -9403,8 +9423,8 @@
             "price": 5.99
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       },
       "Victor Plug & Go (Amazon)": {
         "url": "https://www.amazon.com/Victor-22-5-60204-8-Plug-Tire-Repair/dp/B00CRCQFPS",
@@ -9746,8 +9766,8 @@
             "price": 29.97
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       }
     },
     "category": "Tire & Recovery",
@@ -9785,8 +9805,8 @@
             "price": 24.99
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       }
     },
     "category": "Emergency",
