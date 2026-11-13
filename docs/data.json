@@ -2183,8 +2183,8 @@
             "price": 24.95
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       }
     },
     "category": "Hand Tools",
@@ -5675,10 +5675,14 @@
           {
             "date": "2026-11-12T00:38:52.693161+00:00",
             "price": 39.95
+          },
+          {
+            "date": "2026-11-13T06:38:41.108295+00:00",
+            "price": 39.95
           }
         ],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "status": "ok",
+        "error": null
       }
     },
     "category": "Electrical",
