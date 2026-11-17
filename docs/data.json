@@ -368,8 +368,8 @@
             "price": 45.0
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       }
     },
     "category": "Hand Tools",
@@ -1127,8 +1127,8 @@
             "price": 36.0
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       }
     },
     "category": "Hand Tools",
@@ -3777,10 +3777,14 @@
           {
             "date": "2026-11-16T06:22:25.518823+00:00",
             "price": 9.99
+          },
+          {
+            "date": "2026-11-17T07:51:15.726634+00:00",
+            "price": 8.59
           }
         ],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "status": "ok",
+        "error": null
       },
       "Sopoby 1200-Pc Kit (Amazon)": {
         "url": "https://www.amazon.com/Electrical-Connectors-Sopoby-Insulated-Terminals/dp/B01GAESOWA",
@@ -4844,10 +4848,14 @@
           {
             "date": "2026-11-16T06:22:25.518823+00:00",
             "price": 25.99
+          },
+          {
+            "date": "2026-11-17T07:51:15.726634+00:00",
+            "price": 25.99
           }
         ],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "status": "ok",
+        "error": null
       },
       "280-Pc Assortment (Amazon)": {
         "url": "https://www.amazon.com/Insulated-Wire-Electrical-Connectors-Assortment/dp/B08Q37ZKM8",
@@ -7477,10 +7485,14 @@
           {
             "date": "2026-11-16T06:22:25.518823+00:00",
             "price": 16.99
+          },
+          {
+            "date": "2026-11-17T07:51:15.726634+00:00",
+            "price": 16.99
           }
         ],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "status": "ok",
+        "error": null
       },
       "Breeze 200-Pc Assortment (Amazon)": {
         "url": "https://www.amazon.com/Breeze-Assortment-Automotive-assortment-contains/dp/B009SD0IZM",
@@ -8561,8 +8573,8 @@
             "price": 9.99
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       }
     },
     "category": "Consumables",
@@ -9743,10 +9755,14 @@
           {
             "date": "2026-11-16T06:22:25.518823+00:00",
             "price": 29.31
+          },
+          {
+            "date": "2026-11-17T07:51:15.726634+00:00",
+            "price": 29.31
           }
         ],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "status": "ok",
+        "error": null
       }
     },
     "category": "Tire & Recovery",
@@ -10496,10 +10512,14 @@
           {
             "date": "2026-11-16T06:22:25.518823+00:00",
             "price": 29.97
+          },
+          {
+            "date": "2026-11-17T07:51:15.726634+00:00",
+            "price": 29.97
           }
         ],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "status": "ok",
+        "error": null
       }
     },
     "category": "Tire & Recovery",
