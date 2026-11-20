@@ -1929,10 +1929,14 @@
           {
             "date": "2026-11-19T07:22:32.449598+00:00",
             "price": 22.71
+          },
+          {
+            "date": "2026-11-20T07:08:34.132017+00:00",
+            "price": 22.71
           }
         ],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "status": "ok",
+        "error": null
       }
     },
     "category": "Hand Tools",
@@ -4912,10 +4916,14 @@
           {
             "date": "2026-11-19T07:22:32.449598+00:00",
             "price": 25.99
+          },
+          {
+            "date": "2026-11-20T07:08:34.132017+00:00",
+            "price": 25.99
           }
         ],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "status": "ok",
+        "error": null
       },
       "280-Pc Assortment (Amazon)": {
         "url": "https://www.amazon.com/Insulated-Wire-Electrical-Connectors-Assortment/dp/B08Q37ZKM8",
@@ -7581,10 +7589,14 @@
           {
             "date": "2026-11-19T07:22:32.449598+00:00",
             "price": 16.99
+          },
+          {
+            "date": "2026-11-20T07:08:34.132017+00:00",
+            "price": 16.99
           }
         ],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "status": "ok",
+        "error": null
       },
       "Breeze 200-Pc Assortment (Amazon)": {
         "url": "https://www.amazon.com/Breeze-Assortment-Automotive-assortment-contains/dp/B009SD0IZM",
@@ -7950,8 +7962,8 @@
             "price": 16.99
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       }
     },
     "category": "Fuel",
