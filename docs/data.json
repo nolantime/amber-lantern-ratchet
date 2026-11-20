@@ -1935,8 +1935,8 @@
             "price": 22.71
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       }
     },
     "category": "Hand Tools",
@@ -4188,10 +4188,14 @@
           {
             "date": "2026-11-19T07:22:32.449598+00:00",
             "price": 25.99
+          },
+          {
+            "date": "2026-11-20T20:09:52.294055+00:00",
+            "price": 25.99
           }
         ],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "status": "ok",
+        "error": null
       }
     },
     "category": "Electrical",
@@ -4922,8 +4926,8 @@
             "price": 25.99
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       },
       "280-Pc Assortment (Amazon)": {
         "url": "https://www.amazon.com/Insulated-Wire-Electrical-Connectors-Assortment/dp/B08Q37ZKM8",
@@ -5295,10 +5299,14 @@
           {
             "date": "2026-11-19T07:22:32.449598+00:00",
             "price": 9.99
+          },
+          {
+            "date": "2026-11-20T20:09:52.294055+00:00",
+            "price": 9.49
           }
         ],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "status": "ok",
+        "error": null
       },
       "140-Pc ATC/ATO/APR/ATS Kit (Amazon)": {
         "url": "https://www.amazon.com/140-Standard-Blade-Fuses-Assortment/dp/B0CHY5XJ43",
@@ -6055,10 +6063,14 @@
           {
             "date": "2026-11-19T07:22:32.449598+00:00",
             "price": 39.95
+          },
+          {
+            "date": "2026-11-20T20:09:52.294055+00:00",
+            "price": 39.95
           }
         ],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "status": "ok",
+        "error": null
       }
     },
     "category": "Electrical",
@@ -6804,10 +6816,14 @@
           {
             "date": "2026-11-19T07:22:32.449598+00:00",
             "price": 6.98
+          },
+          {
+            "date": "2026-11-20T20:09:52.294055+00:00",
+            "price": 7.73
           }
         ],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "status": "ok",
+        "error": null
       }
     },
     "category": "Electrical",
@@ -7595,8 +7611,8 @@
             "price": 16.99
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       },
       "Breeze 200-Pc Assortment (Amazon)": {
         "url": "https://www.amazon.com/Breeze-Assortment-Automotive-assortment-contains/dp/B009SD0IZM",
