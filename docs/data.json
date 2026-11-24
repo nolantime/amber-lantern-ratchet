@@ -1157,10 +1157,14 @@
           {
             "date": "2026-11-22T19:33:33.905500+00:00",
             "price": 36.0
+          },
+          {
+            "date": "2026-11-24T22:22:34.378090+00:00",
+            "price": 36.0
           }
         ],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "status": "ok",
+        "error": null
       }
     },
     "category": "Hand Tools",
@@ -3137,8 +3141,8 @@
             "price": 16.11
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       }
     },
     "category": "Electrical",
@@ -5022,8 +5026,8 @@
             "price": 25.99
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       },
       "280-Pc Assortment (Amazon)": {
         "url": "https://www.amazon.com/Insulated-Wire-Electrical-Connectors-Assortment/dp/B08Q37ZKM8",
@@ -7749,10 +7753,14 @@
           {
             "date": "2026-11-22T19:33:33.905500+00:00",
             "price": 16.99
+          },
+          {
+            "date": "2026-11-24T22:22:34.378090+00:00",
+            "price": 16.99
           }
         ],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "status": "ok",
+        "error": null
       },
       "Breeze 200-Pc Assortment (Amazon)": {
         "url": "https://www.amazon.com/Breeze-Assortment-Automotive-assortment-contains/dp/B009SD0IZM",
@@ -8871,10 +8879,14 @@
           {
             "date": "2026-11-22T19:33:33.905500+00:00",
             "price": 9.99
+          },
+          {
+            "date": "2026-11-24T22:22:34.378090+00:00",
+            "price": 9.99
           }
         ],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "status": "ok",
+        "error": null
       }
     },
     "category": "Consumables",
@@ -10868,10 +10880,14 @@
           {
             "date": "2026-11-22T19:33:33.905500+00:00",
             "price": 29.97
+          },
+          {
+            "date": "2026-11-24T22:22:34.378090+00:00",
+            "price": 29.97
           }
         ],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "status": "ok",
+        "error": null
       }
     },
     "category": "Tire & Recovery",
