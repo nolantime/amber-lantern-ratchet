@@ -2363,8 +2363,8 @@
             "price": 22.95
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       }
     },
     "category": "Hand Tools",
@@ -3131,10 +3131,14 @@
           {
             "date": "2026-11-22T19:33:33.905500+00:00",
             "price": 16.11
+          },
+          {
+            "date": "2026-11-24T09:49:40.541156+00:00",
+            "price": 16.11
           }
         ],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "status": "ok",
+        "error": null
       }
     },
     "category": "Electrical",
@@ -4262,8 +4266,8 @@
             "price": 25.99
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       }
     },
     "category": "Electrical",
@@ -5011,6 +5015,10 @@
           },
           {
             "date": "2026-11-23T23:50:19.085887+00:00",
+            "price": 25.99
+          },
+          {
+            "date": "2026-11-24T09:49:40.541156+00:00",
             "price": 25.99
           }
         ],
@@ -8490,8 +8498,8 @@
             "price": 9.99
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       },
       "Cable Matters 200-Pc Assorted (Amazon)": {
         "url": "https://www.amazon.com/Cable-Matters-Assorted-Self-Locking-12-Inch/dp/B00L2LGMO4",
