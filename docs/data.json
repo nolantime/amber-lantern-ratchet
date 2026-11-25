@@ -378,10 +378,14 @@
           {
             "date": "2026-11-22T19:33:33.905500+00:00",
             "price": 45.0
+          },
+          {
+            "date": "2026-11-25T21:38:24.694630+00:00",
+            "price": 45.0
           }
         ],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "status": "ok",
+        "error": null
       }
     },
     "category": "Hand Tools",
@@ -758,10 +762,14 @@
           {
             "date": "2026-11-22T19:33:33.905500+00:00",
             "price": 12.09
+          },
+          {
+            "date": "2026-11-25T21:38:24.694630+00:00",
+            "price": 12.09
           }
         ],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "status": "ok",
+        "error": null
       }
     },
     "category": "Hand Tools",
@@ -5024,10 +5032,14 @@
           {
             "date": "2026-11-24T09:49:40.541156+00:00",
             "price": 25.99
+          },
+          {
+            "date": "2026-11-25T21:38:24.694630+00:00",
+            "price": 25.99
           }
         ],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "status": "ok",
+        "error": null
       },
       "280-Pc Assortment (Amazon)": {
         "url": "https://www.amazon.com/Insulated-Wire-Electrical-Connectors-Assortment/dp/B08Q37ZKM8",
@@ -6591,8 +6603,8 @@
             "price": 41.99
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       },
       "3M Scotch 700 (Amazon)": {
         "url": "https://www.amazon.com/Scotch-Electrical-Tape-4-Inch-66-Foot/dp/B001ULCB1O",
@@ -10109,8 +10121,8 @@
             "price": 29.31
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       }
     },
     "category": "Tire & Recovery",
@@ -10509,10 +10521,14 @@
           {
             "date": "2026-11-22T19:33:33.905500+00:00",
             "price": 11.48
+          },
+          {
+            "date": "2026-11-25T21:38:24.694630+00:00",
+            "price": 10.79
           }
         ],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "status": "ok",
+        "error": null
       },
       "Victor Plug & Go (Amazon)": {
         "url": "https://www.amazon.com/Victor-22-5-60204-8-Plug-Tire-Repair/dp/B00CRCQFPS",
@@ -10898,8 +10914,8 @@
             "price": 29.97
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       }
     },
     "category": "Tire & Recovery",
