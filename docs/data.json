@@ -2379,8 +2379,8 @@
             "price": 22.95
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       }
     },
     "category": "Hand Tools",
@@ -4286,8 +4286,8 @@
             "price": 25.99
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       }
     },
     "category": "Electrical",
@@ -5048,6 +5048,10 @@
           {
             "date": "2026-11-26T08:10:46.257474+00:00",
             "price": 25.99
+          },
+          {
+            "date": "2026-11-26T21:28:01.106488+00:00",
+            "price": 25.99
           }
         ],
         "status": "ok",
@@ -5431,10 +5435,14 @@
           {
             "date": "2026-11-22T19:33:33.905500+00:00",
             "price": 9.49
+          },
+          {
+            "date": "2026-11-26T21:28:01.106488+00:00",
+            "price": 9.99
           }
         ],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "status": "ok",
+        "error": null
       },
       "140-Pc ATC/ATO/APR/ATS Kit (Amazon)": {
         "url": "https://www.amazon.com/140-Standard-Blade-Fuses-Assortment/dp/B0CHY5XJ43",
@@ -6221,8 +6229,8 @@
             "price": 39.95
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       }
     },
     "category": "Electrical",
@@ -6617,10 +6625,14 @@
           {
             "date": "2026-11-25T08:26:24.333713+00:00",
             "price": 41.99
+          },
+          {
+            "date": "2026-11-26T21:28:01.106488+00:00",
+            "price": 41.99
           }
         ],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "status": "ok",
+        "error": null
       },
       "3M Scotch 700 (Amazon)": {
         "url": "https://www.amazon.com/Scotch-Electrical-Tape-4-Inch-66-Foot/dp/B001ULCB1O",
@@ -7789,10 +7801,14 @@
           {
             "date": "2026-11-24T22:22:34.378090+00:00",
             "price": 16.99
+          },
+          {
+            "date": "2026-11-26T21:28:01.106488+00:00",
+            "price": 16.99
           }
         ],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "status": "ok",
+        "error": null
       },
       "Breeze 200-Pc Assortment (Amazon)": {
         "url": "https://www.amazon.com/Breeze-Assortment-Automotive-assortment-contains/dp/B009SD0IZM",
@@ -8915,10 +8931,14 @@
           {
             "date": "2026-11-24T22:22:34.378090+00:00",
             "price": 9.99
+          },
+          {
+            "date": "2026-11-26T21:28:01.106488+00:00",
+            "price": 7.99
           }
         ],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "status": "ok",
+        "error": null
       }
     },
     "category": "Consumables",
@@ -9306,8 +9326,8 @@
             "price": 30.98
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       },
       "Gorilla Tape Single Roll (Amazon)": {
         "url": "https://www.amazon.com/Gorilla-Tape-Black-Duct-1-88/dp/B01LYZS688",
@@ -9685,8 +9705,8 @@
             "price": 77.48
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       }
     },
     "category": "Consumables",
