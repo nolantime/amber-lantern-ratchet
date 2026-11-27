@@ -5052,6 +5052,10 @@
           {
             "date": "2026-11-26T21:28:01.106488+00:00",
             "price": 25.99
+          },
+          {
+            "date": "2026-11-27T08:21:57.021186+00:00",
+            "price": 25.99
           }
         ],
         "status": "ok",
@@ -5438,6 +5442,10 @@
           },
           {
             "date": "2026-11-26T21:28:01.106488+00:00",
+            "price": 9.99
+          },
+          {
+            "date": "2026-11-27T08:21:57.021186+00:00",
             "price": 9.99
           }
         ],
@@ -6631,8 +6639,8 @@
             "price": 41.99
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       },
       "3M Scotch 700 (Amazon)": {
         "url": "https://www.amazon.com/Scotch-Electrical-Tape-4-Inch-66-Foot/dp/B001ULCB1O",
@@ -7807,8 +7815,8 @@
             "price": 16.99
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       },
       "Breeze 200-Pc Assortment (Amazon)": {
         "url": "https://www.amazon.com/Breeze-Assortment-Automotive-assortment-contains/dp/B009SD0IZM",
@@ -8552,10 +8560,14 @@
           {
             "date": "2026-11-23T23:50:19.085887+00:00",
             "price": 9.99
+          },
+          {
+            "date": "2026-11-27T08:21:57.021186+00:00",
+            "price": 9.99
           }
         ],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "status": "ok",
+        "error": null
       },
       "Cable Matters 200-Pc Assorted (Amazon)": {
         "url": "https://www.amazon.com/Cable-Matters-Assorted-Self-Locking-12-Inch/dp/B00L2LGMO4",
@@ -8937,8 +8949,8 @@
             "price": 7.99
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       }
     },
     "category": "Consumables",
@@ -10569,10 +10581,14 @@
           {
             "date": "2026-11-25T21:38:24.694630+00:00",
             "price": 10.79
+          },
+          {
+            "date": "2026-11-27T08:21:57.021186+00:00",
+            "price": 5.69
           }
         ],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "status": "ok",
+        "error": null
       },
       "Victor Plug & Go (Amazon)": {
         "url": "https://www.amazon.com/Victor-22-5-60204-8-Plug-Tire-Repair/dp/B00CRCQFPS",
@@ -10956,10 +10972,14 @@
           {
             "date": "2026-11-25T08:26:24.333713+00:00",
             "price": 29.97
+          },
+          {
+            "date": "2026-11-27T08:21:57.021186+00:00",
+            "price": 29.97
           }
         ],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "status": "ok",
+        "error": null
       }
     },
     "category": "Tire & Recovery",
