@@ -1583,10 +1583,14 @@
           {
             "date": "2026-11-22T19:33:33.905500+00:00",
             "price": 15.99
+          },
+          {
+            "date": "2026-11-28T07:42:43.292769+00:00",
+            "price": 15.99
           }
         ],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "status": "ok",
+        "error": null
       }
     },
     "category": "Hand Tools",
@@ -5056,10 +5060,14 @@
           {
             "date": "2026-11-27T08:21:57.021186+00:00",
             "price": 25.99
+          },
+          {
+            "date": "2026-11-28T07:42:43.292769+00:00",
+            "price": 25.99
           }
         ],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "status": "ok",
+        "error": null
       },
       "280-Pc Assortment (Amazon)": {
         "url": "https://www.amazon.com/Insulated-Wire-Electrical-Connectors-Assortment/dp/B08Q37ZKM8",
@@ -5836,8 +5844,8 @@
             "price": 6.39
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       }
     },
     "category": "Electrical",
@@ -6239,10 +6247,14 @@
           {
             "date": "2026-11-26T08:10:46.257474+00:00",
             "price": 39.95
+          },
+          {
+            "date": "2026-11-28T07:42:43.292769+00:00",
+            "price": 39.95
           }
         ],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "status": "ok",
+        "error": null
       }
     },
     "category": "Electrical",
@@ -6647,8 +6659,8 @@
             "price": 41.99
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       },
       "3M Scotch 700 (Amazon)": {
         "url": "https://www.amazon.com/Scotch-Electrical-Tape-4-Inch-66-Foot/dp/B001ULCB1O",
@@ -8578,8 +8590,8 @@
             "price": 9.99
           }
         ],
-        "status": "ok",
-        "error": null
+        "status": "not_found",
+        "error": "Could not locate a price on the page."
       },
       "Cable Matters 200-Pc Assorted (Amazon)": {
         "url": "https://www.amazon.com/Cable-Matters-Assorted-Self-Locking-12-Inch/dp/B00L2LGMO4",
@@ -9348,10 +9360,14 @@
           {
             "date": "2026-11-26T08:10:46.257474+00:00",
             "price": 30.98
+          },
+          {
+            "date": "2026-11-28T07:42:43.292769+00:00",
+            "price": 30.32
           }
         ],
-        "status": "not_found",
-        "error": "Could not locate a price on the page."
+        "status": "ok",
+        "error": null
       },
       "Gorilla Tape Single Roll (Amazon)": {
         "url": "https://www.amazon.com/Gorilla-Tape-Black-Duct-1-88/dp/B01LYZS688",
